@@ -1,5 +1,5 @@
 {
-  "prepared_utc": "2026-11-02T06:35:38.859013+00:00",
+  "prepared_utc": "2026-11-02T06:41:53.577579+00:00",
   "scope": "Curated teacher review snapshot; excludes .git and this manifest itself.",
   "full_reproduction_claim": false,
   "new_robot_training_or_simulation": false,
@@ -7,8 +7,8 @@
   "credential_literal_scan_hits": [],
   "credential_scan_is_not_a_security_proof": true,
   "historical_workstation_paths_in_immutable_provenance_retained": true,
-  "file_count": 205,
-  "payload_bytes": 19325404,
+  "file_count": 206,
+  "payload_bytes": 19326387,
   "files": [
     {
       "file": ".gitattributes",
@@ -394,6 +394,11 @@
       "file": "docs/teacher_report_current/report_review.json",
       "bytes": 11719,
       "sha256": "765742cbb944720dc4046c910d59afcb47fa1a3f055f4a75db23e69b71659115"
+    },
+    {
+      "file": "docs/teacher_report_current/root_final_review.json",
+      "bytes": 983,
+      "sha256": "625228309eae48561a43777b471a62043f2e67668daf9389a86a915f24ee23df"
     },
     {
       "file": "docs/当前结论与下一步.md",
