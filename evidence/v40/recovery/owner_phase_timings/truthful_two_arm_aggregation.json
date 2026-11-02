@@ -1,0 +1,11 @@
+{
+  "phase": "truthful_two_arm_aggregation",
+  "command": [
+    "F:\\robot\\envs\\robot\\Scripts\\python.exe",
+    "-u",
+    "F:\\robot\\rsi_group_meeting\\v40\\recovery_code\\aggregate_recovered_trainings_v40.py"
+  ],
+  "return_code": 0,
+  "external_command_wall_seconds": 255.18721549999827,
+  "definition": "Spawn through childexit; contains internal timers. Do not add contained timers."
+}

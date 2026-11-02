@@ -1,0 +1,20 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+HFDFRS+SimSun                        CID TrueType      Identity-H       yes yes yes     55  0
+EAFRXE+TimesNewRomanPSMT             CID TrueType      Identity-H       yes yes yes     57  0
+ZIUTCX+SimHei                        CID TrueType      Identity-H       yes yes yes     59  0
+AMNCVY+TimesNewRomanPS-BoldMT        CID TrueType      Identity-H       yes yes yes     64  0
+AAMSRM+CMMI12                        Type 1C           Builtin          yes yes yes     83  0
+MAOIFI+CMR12                         Type 1C           Builtin          yes yes yes     84  0
+SNAGAV+CMSY10                        Type 1C           Builtin          yes yes yes     85  0
+SNQAHH+MSBM10                        Type 1C           Builtin          yes yes yes     86  0
+GKTOHJ+CMR10                         Type 1C           Builtin          yes yes yes     99  0
+WKHNCD+CMMI10                        Type 1C           Builtin          yes yes yes    106  0
+BMQQDV+DejaVuSans                    Type 3            Custom           yes yes no     111  0
+SDOOUA+CMSY7                         Type 1C           Builtin          yes yes yes    167  0
+DRCHOE+CMR8                          Type 1C           Builtin          yes yes yes    171  0
+SZOEOW+Consolas                      CID TrueType      Identity-H       yes yes yes    175  0
+JZAQXD+CMEX10                        Type 1C           Builtin          yes yes yes    177  0
+NVORCO+CMMI8                         Type 1C           Builtin          yes yes yes    178  0
+KTTYPN+CMSY8                         Type 1C           Builtin          yes yes yes    179  0
+AWTHJU+TimesNewRomanPS-ItalicMT      CID TrueType      Identity-H       yes yes yes    213  0

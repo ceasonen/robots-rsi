@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-10-29T10:11:07.846507+00:00",
+  "analysis_source_sha256": "0280af3676e07f63a38ba96a6c0c01d72de1436cf416adee3bee0bea2cb3b0d5",
+  "secondary_postoutcome_diagnosis": true,
+  "no_new_tests_or_optimization": true,
+  "opportunity": {
+    "400": {
+      "conditions": 90,
+      "parent_failures": 84,
+      "parent_fail_any_child_success": 1,
+      "oracle_including_parent_successes": 7,
+      "best_fixed_child_posthoc_successes": 6.0,
+      "candidate_disagreement_conditions": 4
+    },
+    "520": {
+      "conditions": 90,
+      "parent_failures": 83,
+      "parent_fail_any_child_success": 0,
+      "oracle_including_parent_successes": 7,
+      "best_fixed_child_posthoc_successes": 7.0,
+      "candidate_disagreement_conditions": 4
+    },
+    "900": {
+      "conditions": 90,
+      "parent_failures": 83,
+      "parent_fail_any_child_success": 0,
+      "oracle_including_parent_successes": 7,
+      "best_fixed_child_posthoc_successes": 7.0,
+      "candidate_disagreement_conditions": 4
+    }
+  },
+  "interim_exposure": {
+    "tasks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "episodes": 441,
+    "labels_seen_before_final_analysis": true,
+    "method_changed_after_interim": false,
+    "collector_stopped_by_observed_results": false
+  },
+  "historical_interruption": {
+    "scope": "Explicit interruption overhead supplement; separate from completed registered episode ledger and masked test-access comparisons",
+    "recorded_interrupted_physics_controls": 78,
+    "reexecuted_controls_due_to_same_trial_restart": 78,
+    "extra_independent_outcomes": 0,
+    "do_not_double_count_the_two_78_values": true,
+    "full_trial_after_restart_already_in_completed_bank": true,
+    "interrupted_policy_wall_time_seconds": null,
+    "wall_time_unmeasured_not_zero": true,
+    "interruption_cause": "Unknown; last saved prefix preceded OS reboot",
+    "receipt_sha256": "6d24d33ce1fa21f34900a3817235a04691cf1867cea430ce3b3bff87f26b178b"
+  },
+  "cost_interpretation": {
+    "episode_wall_sum_hours": 25.871930253777816,
+    "whole_study_total_physical_episodes": 2397,
+    "whole_registered_controls_excluding_unmeasured_old_settling": 918340,
+    "unknown_end_to_end_seconds": null,
+    "actual_collected_episodes_avoided": 0
+  },
+  "baseline_audit": {
+    "type": "static source and configuration review; no new robot runs",
+    "checkpoint_scope": "local DMPEL source90 config declares LIBERO90; membership not independently reconstructed",
+    "sensors": "raw128 RGB, joint7 and gripper2; no180 rotation",
+    "controller": "seven dimensional relative OSC; use_delta true for task actions",
+    "reset": "shared10 settling actions gripper -1, differs from author five zero actions; known limitation",
+    "task_instruction": "task perturbation uses BDDL language",
+    "conclusion": "Low Long capability observed; no causal diagnosis or published benchmark reproduction established"
+  },
+  "claims": {
+    "learned_recursive_effect": false,
+    "independent_new_conditions_20_to29_completed": false,
+    "full_source90_completed": false,
+    "RSS_ready": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-11-01T17:10:36.111939+00:00",
+  "owner_observed_sequence_wall_seconds": 8475.557901600001,
+  "registration_sha256": "b5b7403e5dd7654cb73f221815043ce46145bf37b4e4f17bb08fd252066525d1",
+  "definition": "Measured inside main before imports/initial verification through completion of all four child commands. Contains command/verification/status intervals. Excludes owner Python startup and final receipt writes; not a complete whole-project timer. Do not add contained phase/internal timers.",
+  "all_four_commands_returned_zero": true,
+  "root_outcome_review_still_required": true,
+  "work_demonstrated": false
+}

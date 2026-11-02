@@ -1,0 +1,385 @@
+{
+  "written_utc": "2026-11-02T06:19:13.283039+00:00",
+  "scope": "Inherited closed historical evidence plus complete v40 raw/cost/media/root verdict. No active loss/result monitoring; no new scientific run.",
+  "lineage": {
+    "base_tex": "F:\\robot\\rsi_group_meeting\\v41\\teacher_report\\main.tex",
+    "base_tex_sha256": "208928a9e87ca22a01eaba3b977aaf5b74eddd40754eed572a6777e5493eb6e1",
+    "base_manifest_sha256": "7c71b0b5b95ddbfffdbf5074085a51e434fd1d2ca7fb693769e7125fc9851550"
+  },
+  "sources": [
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v7\\gain_conditioning\\analysis\\gain_evaluation.json",
+      "sha256": "3c05e4d778db741969a031c688dd8164842687e34126df29a7d4974005ad4829"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v7\\gain_conditioning\\active_replay\\summary.json",
+      "sha256": "feab1dfbfad49349ff58d35228526f65acbb5a20d085327c50a5f95414375573"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v9\\learned_artifacts\\opportunity_diagnostics.json",
+      "sha256": "8f693bab56d69ca48775dc72652497022a762568a6f50dfb24b970f5a0d0c7ab"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v22\\fresh_transfer\\analysis\\full_evaluation.json",
+      "sha256": "0280af3676e07f63a38ba96a6c0c01d72de1436cf416adee3bee0bea2cb3b0d5"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v22\\fresh_transfer\\registration.json",
+      "sha256": "6f970bd6c19e2222e9ac9644e797213ba3c586c216e72f3c9f775671b8a78ecf"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v31\\handoff_factorial_dev\\analysis\\diagnostic_readout.json",
+      "sha256": "27fa693bcd58a66f896cb5e12a2e70ef7f9eede0ad63fe8f4001c52bad289c26"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v32\\repair_learning_dev\\analysis\\repair_readout.json",
+      "sha256": "020d85976115daa2ae7a27e2f4cfb2888b569420f4f565e6f8c3496adf345d9c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v35\\root_completed_review\\review.json",
+      "sha256": "825cab31873d88667754c69390c0b93c5f4f4145d93298bee5f6ace82763e49d"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v35\\root_completed_review\\cost_increment.json",
+      "sha256": "8616754cbe225dfc5bd7df29260057f316fa4621164f86a2e9239882c3bd1199"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v35\\old_Long_goal_scope_review\\readout.json",
+      "sha256": "17fca9fd5f871e5648098ae42bdda7755e8d0d0bf2e5ebef0a56abafb445b822"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v35\\offline_selected_target_readout_revision2\\readout.json",
+      "sha256": "b3e5e096234305dcad7d68260109412dc5586fcc6b6dfd4ee05e237c8aa6e9f6"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v35\\root_visual_review\\visual_review.json",
+      "sha256": "44bca78c7d04cec29b4dcbf6c29c036baa71f6d3e7de40856a3917ca8506d624"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v36\\root_completed_review_recovered_analysis\\review.json",
+      "sha256": "ef125789a25fc99303dd84feb0cdc13499f3946d887e0684dc8c70781a740836"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v36\\root_completed_review_recovered_analysis\\cost_increment.json",
+      "sha256": "422d566ba73e2ac48188bb64bbbd8e8f86138e5244b40767f732416dcfc63bff"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v36\\head_uniform_parameterization\\offline_fit\\summary.json",
+      "sha256": "c63ef26e745ca0ed70f13c1a0f1e37d0679236d5f30ae5cdfb28605bfe58df60"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v30\\research_agent\\primary_source_manifest.json",
+      "sha256": "dd9832bc14b1f88f1823db0d3e92fe46b564751c5512682636e77c6f3a0cc79c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v30\\research_agent\\strongest_comparators_and_missing_evidence.txt",
+      "sha256": "64f7f1682d16c00c02fd8c710df19ac27e10fe57ad589cc4f7a022317e895df9"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v30\\research_agent\\cupid_code_audit\\adaptation_boundaries.txt",
+      "sha256": "13fcc983bd1c3f730c440499b4eea8e34bd7fba3950747aca9e6d27141cf1cbb"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v30\\research_agent\\cupid_code_audit\\retrain_startpoint_followup.txt",
+      "sha256": "359ee65d70c2f4a244d0a58af1b65a9c6c564f84100b2ae9ef9b7b3892696ca9"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v30\\local_audit\\learning_signal_and_failure_progress.json",
+      "sha256": "af336f6c7f3dc2d91403d511d5446ee93aad67c5e77e7b9ef3f8f306a0e6746f"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\train_dmpel_onpolicy_source_v7.py",
+      "sha256": "5e9880ffedd47200c346b5c9a37048437b9cce47c2824c9d2d3be21ebe39aaae"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\gain_conditioning_models_v7.py",
+      "sha256": "290ec7b0189b793f1ffee188b635a849531f199e840c402c237eb04264269eaf"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\gain_conditioning_models_v5.py",
+      "sha256": "755ecd8c71b7520ce9c9254a59488a780d34038e5e857439b766083b66d819b6"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\dmpel_onpolicy_objective_v7.py",
+      "sha256": "9ff2a7be99983e0b14c319e16eb1c03e50c2bbe2d57d30e468c322a876d8b1e8"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\registration.json",
+      "sha256": "b5b7403e5dd7654cb73f221815043ce46145bf37b4e4f17bb08fd252066525d1"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\parallel_preparation_review\\root_review.json",
+      "sha256": "02c348c9b242adba0ccadb36c937bf56855d228effea29c36faa2750a6452669"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\parallel_preparation_review\\parallel_exposure_20261101\\final_inventory_receipt_revision2.json",
+      "sha256": "d53014374c7fd62d44b848b2bf01329b930bbaf5b3436c9ec0d7e22d8ae0850f"
+    },
+    {
+      "path": "F:\\robot\\scripts\\dmpel_actor_worker_v7.py",
+      "sha256": "9c3b3fe7307000fab48f5d008e39386053f88a2835e30add3e07157345d4a2ab"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\analysis\\head_readout.json",
+      "sha256": "8ae4ba087e09e7dba0cc55da5f099cc73537d4519c8b3174bc0a299b968cf712"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\offline_fit\\summary.json",
+      "sha256": "232ec18fb32ddcbcf63224a8e1adcdd19b2331c8431003c82d8168e39ca119b4"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\owner_complete.json",
+      "sha256": "9c3c50c49676334cb60e06105ddfb36cf53588bee7f43ddca1b29cecd2d45e04"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\root_completed_review\\review.json",
+      "sha256": "817ab17079a11c72be574280645576f939cf64ec4560ce2baa067315618289fd"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v38\\root_completed_review\\cost_increment.json",
+      "sha256": "ac09371d24d5d65a94d99f9d2e5d0ae7f4010db2c47eb6500f38c1f811d1adb9"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v38_closed_verdict_paper_20261102\\verdict_and_evidence.json",
+      "sha256": "34cf82c4426e8aaa8112d4d519d291cb90aa99ad20456d93fa3c5973409934b4"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\state_coverage_study_v40.py",
+      "sha256": "de6c2d499cea85f543416e42eef757b96d69dfb7eac9111266beed62e6901bed"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\state_coverage_runtime_v40.py",
+      "sha256": "2b5f657f0c431f7936c76b7de36d005e3e349d4c38cbdc14d2e22c9c379af1b0"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\train_state_coverage_v40.py",
+      "sha256": "5b057f08ee8487f5e7f27becdd7d4222733f88d650c0a3a93e61fd5de675f84e"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\worker_state_coverage_v40.py",
+      "sha256": "975b3b082e138e06183b9f5a580aece84187da64381891b358e2d517f488132c"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\evaluate_state_coverage_v40.py",
+      "sha256": "bd49a8f480b58633087ec30ef2d42882581ee9d8560f231fc7ae221394c41caf"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\audit_state_coverage_exposure_v40.py",
+      "sha256": "e7582531dea84dc056769cad3b5909fb5a4f609e4e93a2b996569cbea23ba95f"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\analyze_state_coverage_v40.py",
+      "sha256": "6d779436acafd7ca6e57fbfc0402e2693cb1c4b25feffc56f74aca239f4a5821"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\prepared_sources\\run_state_coverage_sequence_v40.py",
+      "sha256": "c46f5594a15432f949f91c8ca828a6a2d00f2afffaa5ab4baaa70490ba44bdb4"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\peer_review\\final_static_review_receipt.json",
+      "sha256": "8d5f25b7da057b5376abc331b007ba24891402b39eccf56b54db9d432cda2e8d"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\peer_review\\reviewed_sources_sha256.json",
+      "sha256": "f7b8683c40e886110c5b1b277899871f5df03a14f4d92fc7b7c7fc862139f749"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\peer_review\\analyzer_cpu_stub_receipt.json",
+      "sha256": "5732db320abc95de4562bc484f5e29c2e71a67dcfe8dc25b87acf997f017ff33"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\peer_review\\loss_gradient_cpu_receipt.json",
+      "sha256": "d795a3ebbaaf2e7f8fc0e209beb1ef6885971dd0699923d58c23a0f8721f7b64"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_preparation_20261102\\root\\unregistered_membership_revision2.json",
+      "sha256": "9265e71cdb0e1813c0753783b099f4d297d3c8e443bf40ac9cf8031933aa4466"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_preparation_20261102\\root\\unregistered_future_conditions_candidate.json",
+      "sha256": "1124c5ec68698e8fd17d6af9d2ff6bfe8957a014321883dc03f5ba4a8dcc498a"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_preparation_20261102\\exposure\\exposure_review_receipt.json",
+      "sha256": "23b760a01bb15074d0bbf136090757d6d1ff9a3a63d105f5d2252dbe6e4589ef"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_preparation_20261102\\exposure\\sixteen_condition_readout.json",
+      "sha256": "605d1fc98c7192927432b6b9e84859c8d8eb4ac6340d747528a4aed651fa91e7"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\registration.json",
+      "sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\analysis_frozen_before_outcomes.json",
+      "sha256": "83e0dd91bf75091276582231381460c9592f063142e6d63964133b64774c42fc"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\state_coverage_study_v40.py",
+      "sha256": "de6c2d499cea85f543416e42eef757b96d69dfb7eac9111266beed62e6901bed"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\state_coverage_runtime_v40.py",
+      "sha256": "2b5f657f0c431f7936c76b7de36d005e3e349d4c38cbdc14d2e22c9c379af1b0"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\train_state_coverage_v40.py",
+      "sha256": "5b057f08ee8487f5e7f27becdd7d4222733f88d650c0a3a93e61fd5de675f84e"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\worker_state_coverage_v40.py",
+      "sha256": "975b3b082e138e06183b9f5a580aece84187da64381891b358e2d517f488132c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\evaluate_state_coverage_v40.py",
+      "sha256": "bd49a8f480b58633087ec30ef2d42882581ee9d8560f231fc7ae221394c41caf"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\audit_state_coverage_exposure_v40.py",
+      "sha256": "e7582531dea84dc056769cad3b5909fb5a4f609e4e93a2b996569cbea23ba95f"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\analyze_state_coverage_v40.py",
+      "sha256": "6d779436acafd7ca6e57fbfc0402e2693cb1c4b25feffc56f74aca239f4a5821"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\code\\run_state_coverage_sequence_v40.py",
+      "sha256": "c46f5594a15432f949f91c8ca828a6a2d00f2afffaa5ab4baaa70490ba44bdb4"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\coverage_control_v40\\research_final_review\\review_receipt.json",
+      "sha256": "2ba695b730ccaad6157d15793261531bfd38141f16011f297cf9cd7b6369cc3e"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v41\\teacher_report\\main.tex",
+      "sha256": "208928a9e87ca22a01eaba3b977aaf5b74eddd40754eed572a6777e5493eb6e1"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v41\\teacher_report\\refs.bib",
+      "sha256": "4f60486da8b6694c0a5aaec991e5f33bc6d0a52881e7d133a90d32372f529c33"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\cache_repair_teachers_v32.py",
+      "sha256": "2f78b12775550a46ac100b6394efdd970a9c5f894689b868acbc76e57ea50232"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v32\\repair_learning_dev\\cache_complete.json",
+      "sha256": "b83843c0c3038b9ad7f6564a39a53e4980cf6bbdd935dffc3fe010e3975d4903"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\analysis\\coverage_readout.json",
+      "sha256": "bef50a379701601bf1d87b556617bf717beb135a6f389140c93d9db35c70b55f"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\recovery_namespace_guard_20261102\\recovery_addendum_frozen_before_remaining_arm.json",
+      "sha256": "776012ec5c66c8052265f9c6ab054cd7b9010bb59b25569bb62f826af220690c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\recovery_namespace_guard_20261102\\owner_complete.json",
+      "sha256": "4d4a68b6edb678fd6bdb7273acf94a857126d065b4892eea09d0a5d93e2ee71e"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\review.json",
+      "sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\cost_increment.json",
+      "sha256": "a10496a5760025f2881cdc40e06a20729be35ddbafeecbda3202ae383b746355"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\supplementary_audit.json",
+      "sha256": "0212eeaf8a984fd11f77acc99076564a787abf4eb4fb72f2e6455d6a5997a7c3"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\artifact_hashes.json",
+      "sha256": "b484c82686343d82c3622849386ddc055a4a532fe026590bc569b6e4f2cb734c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\manifest.json",
+      "sha256": "8af725b7161c2dbc4c90eb9d84693a0b637ee2fc1f6d1c599d0ce70d892897b1"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\root_manual_visual_review.json",
+      "sha256": "0c40348ec80a0121de48962ed97498095cb94ed92ef98460f190abd4bb122c90"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\verdict.json",
+      "sha256": "22439333cf7d1763ba35f730e31af34fb1bcc79c4216f43bbde36279bd1524f9"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\合并判断.txt",
+      "sha256": "fb64a5ca457e8c38b93e0600bfa40583129e62d3fbfbae9ac3b45c4c7319a079"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_parallel_novelty_constraints_20261102\\evidence_manifest.json",
+      "sha256": "66643e80948dc2f6e7eb7e1881c1003ab0be0cdce8f6581e42104118ddc4bd77"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_parallel_preparation_root_review_20261102\\candidate_counterargument\\一页强反方.txt",
+      "sha256": "2d53be14431086f30f72ce01db52273b5d26ae331070239157d476754d784d96"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\paper_verdict\\verdict_and_evidence.json",
+      "sha256": "ee46be2aff84fa17bebe6e49685d0f34b39362900a2c23a552cdb5c5206aca8b"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\research_verdict\\verdict.json",
+      "sha256": "1ccc1bb9971d51ef1acd3a4faf33ac2edb9bf6f15ca2567f169f77cfd69cb3df"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block01.png",
+      "sha256": "49a2b9a8b19ba4d875fc935989ab21863eb2a9e5df6adf8a41e65ec5e0c7ab6c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block02.png",
+      "sha256": "2e8ede13578c16b888e0d2dc8c984304535241e397987d1bab5879cdc614b358"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block03.png",
+      "sha256": "2f8ff9a356d26ba29c3dbbfa4ad838591f397117964021f383e2bac4bec64ab0"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block04.png",
+      "sha256": "be1c3fcaeae9912ad09bff4649c563a7e838ba4567451b2a7b88046caccf2e8e"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block05.png",
+      "sha256": "e40adb2d3cacbd0f60c6ddcf257f896869a3e269b1567a6e6494d61a05d376bb"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block06.png",
+      "sha256": "71038503d1bfed431d7acf56a1f77b840ba3e096184a19e90ab07cc9c1d0e7bb"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block07.png",
+      "sha256": "f808833b0c8060f9f9f0aa7c9875e6a794945a534565b3fe7f6b5c25e1caa28f"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block08.png",
+      "sha256": "ee87127adb4609e3cc0302021d4bcd76caad18729ab81ad82cc959f27c60a90b"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block09.png",
+      "sha256": "23b752b30ea5e12467bddc06838e5dd59fcef6dfa87bd698b789df2c22a0906c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block10.png",
+      "sha256": "4d5511500b40980918d31d1c9beeb417be1cc8c2e007d3ba53acab357b70b33c"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block11.png",
+      "sha256": "8a9e630787d0a7cac9b65b42ab9eb878c09577c61eb9d1bd5cbbaa8eb72b9d89"
+    },
+    {
+      "path": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block12.png",
+      "sha256": "3a317e8e20ade88378a0ef48292cb10b4ee67988b39286b1d538e64bb60bc385"
+    }
+  ],
+  "source_hash_verification_wall_seconds": 0.31732679999549873,
+  "source_hash_verification_process_CPU_seconds": 0.1875,
+  "measurement_scope": "Only this source-hash and snapshot serialization script, not human work or full document preparation.",
+  "primary_bibliography_entries": 9,
+  "network_or_model_or_simulator_calls": 0,
+  "whole_project_or_human_wall_seconds": null
+}

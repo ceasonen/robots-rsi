@@ -1,0 +1,115 @@
+{
+  "reviewed_utc": "2026-11-01T21:09:27.805541+00:00",
+  "stage": "BOTH_FIXED_TRAININGS_CLOSED_EVALUATION_IN_PROGRESS_NOT_TASK_GAIN",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "recovery_addendum_sha256": "776012ec5c66c8052265f9c6ab054cd7b9010bb59b25569bb62f826af220690c",
+  "frozen_implementation_bindings_verified": 170,
+  "original_immutable_evidence_verified": 4041,
+  "coverage_canonical_files_verified": 4030,
+  "actual_training_runs": 2,
+  "optimizer_steps": 4000,
+  "loss_presentations": 128000,
+  "distribution_forwards": 256000,
+  "actual_parity_queries": 16,
+  "actor_checkpoint_sha256": {
+    "oldA_KL": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+    "coverage_KL": "b8dde40e338cdf628cd86135a3081bd751ed6bb46b0836127e9a4496a73b615d"
+  },
+  "original_owner_remains_failed": true,
+  "global_single_attempt_training_elapsed_seconds": null,
+  "external_failed_original_command_seconds": 3183.9016432999997,
+  "external_remaining_training_command_seconds": 2679.8558042000004,
+  "external_CPU_aggregation_command_seconds": 255.18721549999827,
+  "external_timing_scopes": "Separate command intervals; internal/loop timers are nested and must not be added again. Wholeproject/human unknown.",
+  "whole_project_or_human_elapsed_seconds": null,
+  "pre_evaluation_exposure_refresh": {
+    "files_checked": 7206,
+    "new_metadata_files": 1480,
+    "conflicts": 0,
+    "CPU_seconds_already_inside_evaluation_external_interval": 16.35753079999995
+  },
+  "actual_python_processes": [
+    {
+      "ProcessId": 32336,
+      "ParentProcessId": 5744,
+      "ExecutablePath": "F:\\robot\\envs\\robot\\Scripts\\python.exe",
+      "CreationDate": "2026-11-02T04:03:03.6491800+08:00",
+      "CommandLine": "\"F:\\robot\\envs\\robot\\Scripts\\python.exe\" -B -u F:\\robot\\rsi_group_meeting\\v40\\recovery_code\\run_namespace_recovery_sequence_v40.py"
+    },
+    {
+      "ProcessId": 6528,
+      "ParentProcessId": 32336,
+      "ExecutablePath": "F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe",
+      "CreationDate": "2026-11-02T04:03:03.7866160+08:00",
+      "CommandLine": "\"F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe\"  -B -u F:\\robot\\rsi_group_meeting\\v40\\recovery_code\\run_namespace_recovery_sequence_v40.py"
+    },
+    {
+      "ProcessId": 16660,
+      "ParentProcessId": 6528,
+      "ExecutablePath": "F:\\robot\\envs\\xvla\\Scripts\\python.exe",
+      "CreationDate": "2026-11-02T04:52:14.0744450+08:00",
+      "CommandLine": "F:\\robot\\envs\\xvla\\Scripts\\python.exe -u F:\\robot\\rsi_group_meeting\\v40\\code\\evaluate_state_coverage_v40.py"
+    },
+    {
+      "ProcessId": 26712,
+      "ParentProcessId": 16660,
+      "ExecutablePath": "F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe",
+      "CreationDate": "2026-11-02T04:52:14.1969650+08:00",
+      "CommandLine": "\"F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe\" -u F:\\robot\\rsi_group_meeting\\v40\\code\\evaluate_state_coverage_v40.py"
+    },
+    {
+      "ProcessId": 21648,
+      "ParentProcessId": 26712,
+      "ExecutablePath": "F:\\robot\\envs\\dmpel\\Scripts\\python.exe",
+      "CreationDate": "2026-11-02T04:52:34.1663960+08:00",
+      "CommandLine": "F:\\robot\\envs\\dmpel\\Scripts\\python.exe -u F:\\robot\\rsi_group_meeting\\v40\\code\\worker_state_coverage_v40.py"
+    },
+    {
+      "ProcessId": 10548,
+      "ParentProcessId": 21648,
+      "ExecutablePath": "F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe",
+      "CreationDate": "2026-11-02T04:52:34.2235240+08:00",
+      "CommandLine": "\"F:\\robot\\.runtime\\python\\cpython-3.11-windows-x86_64-none\\python.exe\" -u F:\\robot\\rsi_group_meeting\\v40\\code\\worker_state_coverage_v40.py"
+    }
+  ],
+  "locks": {
+    "robotics_gpu": {
+      "pid": 26712,
+      "acquired_utc": "2026-11-01T20:52:17.778236+00:00",
+      "name": "robotics_gpu"
+    },
+    "state_coverage_v40": {
+      "pid": 26712,
+      "acquired_utc": "2026-11-01T20:52:17.781228+00:00",
+      "name": "state_coverage_v40"
+    },
+    "state_coverage_sequence_owner_v40": {
+      "pid": 6528,
+      "acquired_utc": "2026-11-01T20:03:04.099689+00:00",
+      "name": "state_coverage_sequence_owner_v40"
+    }
+  },
+  "progress_counts_only": {
+    "updated_utc": "2026-11-01T21:09:21.759403+00:00",
+    "stage": "evaluating",
+    "work_demonstrated": false,
+    "completed": 19,
+    "expected": 48,
+    "current": "libero_90_task86_original_init20_noise20265510__oldA_KL",
+    "worker_pid": 10548
+  },
+  "logs": {
+    "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\recovery_namespace_guard_20261102\\owner_bootstrap_stderr.log": {
+      "bytes": 0,
+      "traceback": false
+    },
+    "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\recovery_namespace_guard_20261102\\logs\\fixed48_evaluation.log": {
+      "bytes": 2128,
+      "traceback": false
+    }
+  },
+  "partial_task_outcomes_read": false,
+  "partial_training_losses_selected_or_used": false,
+  "new_model_encoder_gradient_reset_physics_calls": 0,
+  "CPU_observed_seconds": 9.337922399998206
+}

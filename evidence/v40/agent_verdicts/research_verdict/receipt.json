@@ -1,0 +1,8 @@
+{
+  "verdict_sha256": "1ccc1bb9971d51ef1acd3a4faf33ac2edb9bf6f15ca2567f169f77cfd69cb3df",
+  "plain_text_sha256": "8ebd1acadfda73d760b6fbc5e415b23ae153728a867cb7c1ff13bb57e9fd6293",
+  "input_files": 11,
+  "observed_seconds_including_main_artifact_write": 0.022749399999156594,
+  "new_model_or_scientific_execution": false,
+  "unknown_human_seconds": null
+}

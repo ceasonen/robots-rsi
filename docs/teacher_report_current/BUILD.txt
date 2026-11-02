@@ -1,0 +1,22 @@
+Local reproducible build. No installation or network.
+
+G:/latex/texlive/2024/bin/windows/xelatex.exe -interaction=nonstopmode -halt-on-error main.tex
+G:/latex/texlive/2024/bin/windows/bibtex.exe main
+G:/latex/texlive/2024/bin/windows/xelatex.exe -interaction=nonstopmode -halt-on-error main.tex
+G:/latex/texlive/2024/bin/windows/xelatex.exe -interaction=nonstopmode -halt-on-error main.tex
+pdftoppm -r 100 -png main.pdf qa/page
+pdffonts main.pdf
+
+Editable sources: main.tex, refs.bib, images/parent_Long90.pdf.
+Final display name: 机器人自改进研究_完整对照结果与方向判断_20261102.pdf
+main.pdf is the identical build output, not an additional report version.
+
+This detailed teacher-facing report preserves historical methods and negative results,
+adds complete independently reviewed v40 outcomes and all relevant costs, and records
+the root-merged rejection of the current two recipes with the unregistered prefix gate.
+The 24 proposed trials and unspecified query budget are not completed work or execution authorization.
+
+Evidence: evidence_manifest.json and evidence_snapshot.json.
+QA: report_review.json, qa/page-*.png, qa/extracted_pages.json, fonts.txt.
+All real scientific sources and delivered v41 files are read-only for this authoring task.
+No experiment, simulation, model, upload, packaging or F-drive write is part of this build.

@@ -1,0 +1,63 @@
+{
+  "frozen_training_source_sha256": "5b057f08ee8487f5e7f27becdd7d4222733f88d650c0a3a93e61fd5de675f84e",
+  "unchanged_chunks": {
+    "module_preamble": {
+      "original_sha256": "24275dbc66664dd0f12d577976002e350b2f3d41926fab77ef6a4ed9d9fc10e4",
+      "recovery_sha256": "24275dbc66664dd0f12d577976002e350b2f3d41926fab77ef6a4ed9d9fc10e4",
+      "AST_exact": true
+    },
+    "main_scientific_preamble": {
+      "original_sha256": "86c7d867a180a27c4ce7d932fd0e5dad122cff6fb7e05c16e3132352fc3abdf0",
+      "recovery_sha256": "86c7d867a180a27c4ce7d932fd0e5dad122cff6fb7e05c16e3132352fc3abdf0",
+      "AST_exact": true
+    },
+    "with_initialization_preamble": {
+      "original_sha256": "7c948827cfbd38468fbfe15eba8ceda26b7038e64e5c62286fda8d89161f6f60",
+      "recovery_sha256": "7c948827cfbd38468fbfe15eba8ceda26b7038e64e5c62286fda8d89161f6f60",
+      "AST_exact": true
+    },
+    "try_scientific_preamble_and_helpers": {
+      "original_sha256": "67bb70755106fc863df75ab932acafe28f0546bd33ba80b745e5c9902eed445a",
+      "recovery_sha256": "67bb70755106fc863df75ab932acafe28f0546bd33ba80b745e5c9902eed445a",
+      "AST_exact": true
+    },
+    "per_arm_body": {
+      "original_sha256": "b9bede856a9235b8525783918e15356a4d6be564fc860c93799fc6c977f109f9",
+      "recovery_sha256": "b9bede856a9235b8525783918e15356a4d6be564fc860c93799fc6c977f109f9",
+      "AST_exact": true
+    },
+    "exception_handlers": {
+      "original_sha256": "f09e443ca938d2b5779604999c44acae084d16dac39004a30e00d486e96fe637",
+      "recovery_sha256": "f09e443ca938d2b5779604999c44acae084d16dac39004a30e00d486e96fe637",
+      "AST_exact": true
+    },
+    "finally": {
+      "original_sha256": "2a92cddbe4a29049567ea6c9407dda845b5a1dead9bfe57f30bc623136199bfe",
+      "recovery_sha256": "2a92cddbe4a29049567ea6c9407dda845b5a1dead9bfe57f30bc623136199bfe",
+      "AST_exact": true
+    }
+  },
+  "per_arm_body_AST_sha256": "b9bede856a9235b8525783918e15356a4d6be564fc860c93799fc6c977f109f9",
+  "original_tail_AST_sha256": "c996870a8f18d069b425aaee4a9bcc7794498fe74c53082048d902df8103e0c4",
+  "recovery_tail_AST_sha256": "b2b757fc26f609b7b0a6bb511b61ed4204f9be3e178781ebaa2f6d7a1620e3a1",
+  "original_entry_guard_AST_sha256": "f186721a9aa03aacdba2afa9d07abfac365b8f592c8c6bcf6bf4dfe64d5fc869",
+  "recovery_module_AST_sha256": "1d3b7c054154d38527fc0a8444e53988e533ca6a9f532425ec397974eec86b20",
+  "exact_orchestration_changes": [
+    "entrypathguard",
+    "globalWremap_aftermoduleimports",
+    "prependlocalinitial_digest_fromauditedfirstarm",
+    "mainarmloop_iter_coverageonly_globalARMSunchanged",
+    "replacehardcodedtwoarmtailwithsinglearmclosure",
+    "removeoldautomaticmaincall"
+  ],
+  "new_initial_digest_assignment": "initial_digest=_RECOVERY_EXPECTED_INITIAL_DIGEST",
+  "original_cross_arm_tensor_equal_branch_executed": false,
+  "replacement_identity_evidence": "Originalelseassert matches fullnamedparameterdigest to firstarm; parent/newzerohead8queryparity unchanged.",
+  "declared_main_arm_schedule": [
+    "coverage_KL"
+  ],
+  "original_global_ARMS_for_preload": [
+    "oldA_KL",
+    "coverage_KL"
+  ]
+}

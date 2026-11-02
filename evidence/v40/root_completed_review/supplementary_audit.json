@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-11-01T22:15:31.920559+00:00",
+  "main_raw_review_sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14",
+  "all_v40_scientific_and_recovery_python_processes": [],
+  "all_actual_query_attempts": 18069,
+  "all_action_samples_completed": 18069,
+  "all_saved_sim_and_robot_states_finite_rows": {
+    "privileged_sim_states_for_replay_only": 18069,
+    "robot_states": 18069
+  },
+  "exposure_refresh_CPU_seconds_already_inside_evaluation_external_interval": 16.35753079999995,
+  "root_raw_review_external_CPU_seconds": 175.804900799998,
+  "root_raw_review_internal_CPU_seconds_already_inside_external": 174.99468980000165,
+  "CPU_observed_supplementary_seconds": 2.187537199999497,
+  "new_model_gradient_encoder_physics_calls": 0,
+  "whole_project_or_human_elapsed_seconds": null
+}

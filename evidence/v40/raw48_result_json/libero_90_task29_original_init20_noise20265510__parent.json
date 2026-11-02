@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T20:59:49.676481+00:00",
+  "episode": {
+    "key": "libero_90_task29_original_init20_noise20265510__parent",
+    "context": {
+      "context_id": "libero_90_task29_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 29,
+        "task_name": "KITCHEN_SCENE5_put_the_black_bowl_in_the_top_drawer_of_the_cabinet",
+        "perturbation": "original",
+        "language": "put the black bowl in the top drawer of the cabinet",
+        "bddl_language": "put the black bowl in the top drawer of the cabinet",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE5_put_the_black_bowl_in_the_top_drawer_of_the_cabinet.bddl",
+        "bddl_sha256": "94f386eefdfd61c22016d4507361ebba1f212b42183cd3687f610006a8dbaafb",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE5_put_the_black_bowl_in_the_top_drawer_of_the_cabinet.pruned_init",
+        "init_sha256": "da8170456196b03420367a59387d8ff55ccf5d7c20c619806b4d220fc6a4d624",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "old_A",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "parent"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "parent",
+    "actor": "parent",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "logical_parent_file_not_loaded_into_head_layout": true
+  },
+  "actor_file_sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 133,
+  "attempted_physics_steps": 133,
+  "policy_queries": 133,
+  "action_samples_completed": 133,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 10.540575600021839,
+  "wall_seconds": 30.595956099998148,
+  "paired_observation": {
+    "model_sha256": "979a87e96c4a561e8393021e24914869416425f1221025f6d0fdd1206121fcd7",
+    "full_state_sha256": "851a169002f971fe8500a6f5dc04050c47f1bd1a5828c0c6729827114872baab",
+    "measured_observation_sha256": "43cfcc442c8793da9d4d8c6a5230a3eb4897491e38ad221726aaf7b7760fc4c5",
+    "canonical_observation_sha256": "43cfcc442c8793da9d4d8c6a5230a3eb4897491e38ad221726aaf7b7760fc4c5",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T20:59:24.343354+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task29_original_init20_noise20265510__parent.npz",
+  "initial_sensors_sha256": "7827a00bdc1f9acfd7a8b8197ccdfcdf2944e8dfde41be9a64ada20aa9f1af65",
+  "events": "events\\libero_90_task29_original_init20_noise20265510__parent.jsonl",
+  "events_sha256": "fbbe696695b92d3d4b53c0aa8c597a712f23835413366c2b703949ca86b7bda2",
+  "video": "videos\\libero_90_task29_original_init20_noise20265510__parent.mp4",
+  "video_sha256": "a6c49a3ab596eaf54a3b47cdf641a02b2a7c301d92f9f1fa187860286eed2ff7",
+  "trace_sha256": "91ccc109c631b97cfa8bf7eab0d4b131553759402d41c92ca04eaf3021164d51",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

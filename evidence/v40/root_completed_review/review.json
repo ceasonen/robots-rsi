@@ -1,0 +1,1210 @@
+{
+  "reviewed_utc": "2026-11-01T22:15:14.386332+00:00",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "frozen_analysis_sha256": "bef50a379701601bf1d87b556617bf717beb135a6f389140c93d9db35c70b55f",
+  "recovery_addendum_sha256": "776012ec5c66c8052265f9c6ab054cd7b9010bb59b25569bb62f826af220690c",
+  "implementation_sha256": "05c15a803db48d5bf1b785a12a321f135bb51b03089e4e552dca8685d0ef99fc",
+  "actual_process_query": {
+    "query_succeeded": true,
+    "processes": []
+  },
+  "original_owner_successful": false,
+  "recovery_owner_four_phases_returned_zero": true,
+  "raw_rows": [
+    {
+      "key": "libero_90_task8_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task8_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 229,
+      "task_controls": 229,
+      "settling_controls": 10,
+      "policy_queries": 229,
+      "inference_seconds": 18.48700199997984,
+      "packet_io_seconds_included_in_wall": 10.765512899986788,
+      "episode_wall_seconds": 66.04055750000043,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "result_sha256": "7e9405269cfbe634956e302dd708d47b97c8ee641eb6bf0c0142ae5d4ee0db3c",
+      "video_sha256": "8531b6d350620a8e84415e1eb3caf451ae17a1681076bb4e1772849b0fe7d815"
+    },
+    {
+      "key": "libero_90_task8_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task8_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 233,
+      "task_controls": 233,
+      "settling_controls": 10,
+      "policy_queries": 233,
+      "inference_seconds": 17.740531199986435,
+      "packet_io_seconds_included_in_wall": 11.005695299983927,
+      "episode_wall_seconds": 46.68703070000265,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "result_sha256": "cc39083524b93ea08bd0923f222f8a9b4a53fc1944bc2517d45cae217fc33115",
+      "video_sha256": "5f5d8856e79dc03c4fd5311acf7c4a46682b0076bfe6d4974a69e6daeb7951fa"
+    },
+    {
+      "key": "libero_90_task8_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task8_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 248,
+      "task_controls": 248,
+      "settling_controls": 10,
+      "policy_queries": 248,
+      "inference_seconds": 18.954319999978907,
+      "packet_io_seconds_included_in_wall": 11.626952100006747,
+      "episode_wall_seconds": 48.75241839999944,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "result_sha256": "3024c31b56687431ba83ddb06d8a7e2cbe4d980da35216c9ec4ae8739276c208",
+      "video_sha256": "2d111f6645c4399e399b7950b5d04e5a6be4654e792e0ef3a1be20761fc5b43e"
+    },
+    {
+      "key": "libero_90_task13_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task13_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 152,
+      "task_controls": 152,
+      "settling_controls": 10,
+      "policy_queries": 152,
+      "inference_seconds": 13.529880099988077,
+      "packet_io_seconds_included_in_wall": 7.383107500038022,
+      "episode_wall_seconds": 38.36573390000194,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "20f52935e56f6527015d1d9125beb1a6807e91d57b4747d931f56934514a3ae2",
+      "video_sha256": "7e32bd3d288146e5b06afdec5fa082655cdcea88bbbae13304768c949fc28f55"
+    },
+    {
+      "key": "libero_90_task13_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task13_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": null,
+      "first_complete_task_control": null,
+      "task_controls": 520,
+      "settling_controls": 10,
+      "policy_queries": 520,
+      "inference_seconds": 48.343351400057145,
+      "packet_io_seconds_included_in_wall": 26.233622500043566,
+      "episode_wall_seconds": 115.33924399999887,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "result_sha256": "2e00cf0acc41f0c2cc9bdbaa18335fcd27a78d08a1c3015b9a867d883152d67c",
+      "video_sha256": "bf35c6210ed74cfb80db10bc902323dd8326a1183f95173db41e48b4c6790c71"
+    },
+    {
+      "key": "libero_90_task13_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task13_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 152,
+      "task_controls": 152,
+      "settling_controls": 10,
+      "policy_queries": 152,
+      "inference_seconds": 13.677555099984602,
+      "packet_io_seconds_included_in_wall": 7.394198299989512,
+      "episode_wall_seconds": 38.62523059999876,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "654b0bbc620a275e12ec7794d8dc9f6268c5ad024f6a06cfc140578b8389372c",
+      "video_sha256": "59c28e952a571ba16c49a52cad4db032f1b9f32c895a283e14e85cde3e99b7b9"
+    },
+    {
+      "key": "libero_90_task29_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task29_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 133,
+      "task_controls": 133,
+      "settling_controls": 10,
+      "policy_queries": 133,
+      "inference_seconds": 10.540575600021839,
+      "packet_io_seconds_included_in_wall": 6.3837891000111995,
+      "episode_wall_seconds": 30.595956099998148,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "6de73c1799f8ac0b843469314651a0c54243d535f57879d1fc3c331dcccfaceb",
+      "video_sha256": "a6c49a3ab596eaf54a3b47cdf641a02b2a7c301d92f9f1fa187860286eed2ff7"
+    },
+    {
+      "key": "libero_90_task29_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task29_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 148,
+      "task_controls": 148,
+      "settling_controls": 10,
+      "policy_queries": 148,
+      "inference_seconds": 13.226877399989462,
+      "packet_io_seconds_included_in_wall": 7.35758969996823,
+      "episode_wall_seconds": 35.21453619999738,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "de6cd8e8a22e76ac30d5d91b0d38a0447b8c4247cdf008cccd14fcdb6f85c985",
+      "video_sha256": "d62799ecac2fc9e891e85bfce8c3f14dee4072f5844cdcb8c9a1cd511ecf1c50"
+    },
+    {
+      "key": "libero_90_task29_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task29_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 150,
+      "task_controls": 150,
+      "settling_controls": 10,
+      "policy_queries": 150,
+      "inference_seconds": 12.527502099979756,
+      "packet_io_seconds_included_in_wall": 7.469802099978551,
+      "episode_wall_seconds": 33.88342339999872,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "1c045a661ddfdf2e17be241dbe3d69d862f1b50555dfa7e2a9e1ebd34a750a06",
+      "video_sha256": "e73b54e8e4ec17869ceebac6d4adca9693783b497429663ac0930584552413ec"
+    },
+    {
+      "key": "libero_90_task35_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task35_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 150,
+      "task_controls": 150,
+      "settling_controls": 10,
+      "policy_queries": 150,
+      "inference_seconds": 11.657112899996719,
+      "packet_io_seconds_included_in_wall": 7.360526099997514,
+      "episode_wall_seconds": 31.655384000001504,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "0f49002f78b501f8803f1422ec34ef456cdd398987762283bc95fbcd576d200c",
+      "video_sha256": "40afe6752477befd8a2853df48351bb4f84c40ee94ef2623144e150d394f5ad0"
+    },
+    {
+      "key": "libero_90_task35_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task35_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 141,
+      "task_controls": 141,
+      "settling_controls": 10,
+      "policy_queries": 141,
+      "inference_seconds": 10.927471399987553,
+      "packet_io_seconds_included_in_wall": 6.990720699981466,
+      "episode_wall_seconds": 30.422715799999423,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "a175d23c64a50be37a4caaebff7244d9e589a1d83bc5809b6e0baf30dcac5d81",
+      "video_sha256": "1c39347534bd72d881c7a27479ab5fe5c8e05172768d9316f70aa98e4b9a89bd"
+    },
+    {
+      "key": "libero_90_task35_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task35_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 131,
+      "task_controls": 131,
+      "settling_controls": 10,
+      "policy_queries": 131,
+      "inference_seconds": 9.898696899996139,
+      "packet_io_seconds_included_in_wall": 6.494983599994157,
+      "episode_wall_seconds": 27.93929609999759,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "550b4f2ffd36b1d9e64a4482bf71f42ae1ab79febcbd8c689b3d0f3b2c9c7813",
+      "video_sha256": "f4fbdd730626b6a219bfec1d6c733852d17a1f3cb405669e62f9cb72626cf846"
+    },
+    {
+      "key": "libero_90_task48_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task48_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 159,
+      "task_controls": 159,
+      "settling_controls": 10,
+      "policy_queries": 159,
+      "inference_seconds": 12.484158799972647,
+      "packet_io_seconds_included_in_wall": 7.774742199999309,
+      "episode_wall_seconds": 35.047098499999265,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "6e937db4bb80576e3f27deaa0e3ac0459b3598b7f0d211383c35addcf3b31562",
+      "video_sha256": "1865831f80c28e92d9e9e789c32344070db5ee3aa984b44d3304df00aa12686f"
+    },
+    {
+      "key": "libero_90_task48_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task48_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 152,
+      "task_controls": 152,
+      "settling_controls": 10,
+      "policy_queries": 152,
+      "inference_seconds": 12.518027099984465,
+      "packet_io_seconds_included_in_wall": 8.05346780002219,
+      "episode_wall_seconds": 34.83758569999918,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "5d4af31b3dff46d7ba508f381c3d8053cd259559f92540f6c9f60bf38cd3f744",
+      "video_sha256": "b908a9ced98c6a99a5defb2578eb52102c7bf1d7efd47e1b09c82a32c7074632"
+    },
+    {
+      "key": "libero_90_task48_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task48_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 163,
+      "task_controls": 163,
+      "settling_controls": 10,
+      "policy_queries": 163,
+      "inference_seconds": 13.95830610000121,
+      "packet_io_seconds_included_in_wall": 8.020305900012318,
+      "episode_wall_seconds": 36.52777810000043,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "459550bc0d86308974d00b02917345fb1134c0e35c56d14684162490a1027de5",
+      "video_sha256": "fd59ef2d8e1d2c2d388d2893922c177a4c5a4d7359d34be7b58eca866a70d361"
+    },
+    {
+      "key": "libero_90_task67_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task67_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 103,
+      "task_controls": 103,
+      "settling_controls": 10,
+      "policy_queries": 103,
+      "inference_seconds": 8.64546220000193,
+      "packet_io_seconds_included_in_wall": 5.083691100007854,
+      "episode_wall_seconds": 28.672449000001507,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "fb1ae2659ee688a80a59589e8312115d25a070638437c6437687cc6f89078351",
+      "video_sha256": "7603ca20ef1a20d8e6bac113689b0fb5d48ded81c63bae29c31b415d34966de6"
+    },
+    {
+      "key": "libero_90_task67_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task67_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": null,
+      "first_complete_task_control": null,
+      "task_controls": 520,
+      "settling_controls": 10,
+      "policy_queries": 520,
+      "inference_seconds": 46.408894099986355,
+      "packet_io_seconds_included_in_wall": 27.137425999961124,
+      "episode_wall_seconds": 114.27551880000101,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "result_sha256": "d01cec2706f594b819ff793abef53d616b9265353b316dbe26144a770b79b232",
+      "video_sha256": "470e7f5b48a6f303fb390f9b809bf4d7a9c127c614f99813c5b0d7b9fce02a13"
+    },
+    {
+      "key": "libero_90_task67_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task67_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": false,
+      "success900": null,
+      "first_complete_task_control": null,
+      "task_controls": 520,
+      "settling_controls": 10,
+      "policy_queries": 520,
+      "inference_seconds": 49.34343490004903,
+      "packet_io_seconds_included_in_wall": 31.266862100019353,
+      "episode_wall_seconds": 121.61612779999996,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "result_sha256": "b43a255645d8704db313fedb902ebacfbcd021adbcfed2cda7cb17805ee8c82a",
+      "video_sha256": "8dd99ffbd49b3024d90afe83758881b27ae28a14798f0d14024fc254da4df7f4"
+    },
+    {
+      "key": "libero_90_task86_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task86_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 160,
+      "task_controls": 160,
+      "settling_controls": 10,
+      "policy_queries": 160,
+      "inference_seconds": 15.419264199987083,
+      "packet_io_seconds_included_in_wall": 10.355218699998659,
+      "episode_wall_seconds": 39.68092400000023,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "64d3dfb9e13f7754b5399c71d2fe5a09e037a1bb629d0662c1ff1b5eab48c880",
+      "video_sha256": "4c28299a41ceba4a29bb9966fe07ec0ea0190da1c232e55caf639d3596ed46d3"
+    },
+    {
+      "key": "libero_90_task86_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task86_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 162,
+      "task_controls": 162,
+      "settling_controls": 10,
+      "policy_queries": 162,
+      "inference_seconds": 16.271987500022078,
+      "packet_io_seconds_included_in_wall": 10.828379700011283,
+      "episode_wall_seconds": 41.61092009999993,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "448119cd52b3d6e6ab0d0f44e8bb8e3804d8ede776a732aef53b9d5c1b53c440",
+      "video_sha256": "4cd9b1c2eef98e5c351ae62a2b3939c43225d6e9e1c9a8328e7dc2a50ea705c9"
+    },
+    {
+      "key": "libero_90_task86_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task86_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 172,
+      "task_controls": 172,
+      "settling_controls": 10,
+      "policy_queries": 172,
+      "inference_seconds": 19.410320599949046,
+      "packet_io_seconds_included_in_wall": 12.456736899999669,
+      "episode_wall_seconds": 45.5282492999977,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "5179497b0de160d6cab3e1ff31cbf580d7c2776a27b9a6dcbb5c75b6e5f70acb",
+      "video_sha256": "30e1561392bbab330ed9ff3e755415dee08fd9f2e53b1c8017e1db91cfc037a6"
+    },
+    {
+      "key": "libero_90_task87_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task87_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 165,
+      "task_controls": 165,
+      "settling_controls": 10,
+      "policy_queries": 165,
+      "inference_seconds": 15.85140610003873,
+      "packet_io_seconds_included_in_wall": 9.083137800000259,
+      "episode_wall_seconds": 37.659893699998065,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "69b89a26b6a23026d31d557ac87fdb542d92477d6ebffa130ade6a3697f29331",
+      "video_sha256": "7fa77923f49bd378ebf8e8f81d7a49d693d0b1dfd2b74259b5e0b4b18a2cdcdc"
+    },
+    {
+      "key": "libero_90_task87_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task87_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 158,
+      "task_controls": 158,
+      "settling_controls": 10,
+      "policy_queries": 158,
+      "inference_seconds": 13.776431999984197,
+      "packet_io_seconds_included_in_wall": 8.482965499977581,
+      "episode_wall_seconds": 34.67491479999808,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "306caec32b6721f7bfc20bcbe94427fb697af318258cee748b6de8e3113979e1",
+      "video_sha256": "0cdafd5ab0a482d478fb0bf1807bef6fa745ae04b18e96f09af32455f20b6cd6"
+    },
+    {
+      "key": "libero_90_task87_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task87_original_init20_noise20265510",
+      "partition": "old_A",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 165,
+      "task_controls": 165,
+      "settling_controls": 10,
+      "policy_queries": 165,
+      "inference_seconds": 15.648638999984541,
+      "packet_io_seconds_included_in_wall": 9.34404879997237,
+      "episode_wall_seconds": 38.30988679999791,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "3756cfa4db0fc122585872bd5dc18631046f84728392b8d1c4449cb7413febe9",
+      "video_sha256": "a628795fa917b40218cecc9efdc6d4662faa9f0b3f38eb8e56362bab0c2fa5df"
+    },
+    {
+      "key": "libero_90_task9_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task9_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 224,
+      "task_controls": 224,
+      "settling_controls": 10,
+      "policy_queries": 224,
+      "inference_seconds": 19.326359000046068,
+      "packet_io_seconds_included_in_wall": 11.80623219998597,
+      "episode_wall_seconds": 49.6378435000006,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "b1ff33001ca761e0b6ec57538075795061adfbd04e30d1b096e3ebe1dd2d773b",
+      "video_sha256": "4732c45ba387a2f023e1505b20d790f0e1a65a2ca599e0e66cc6463c56840ade"
+    },
+    {
+      "key": "libero_90_task9_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task9_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 159,
+      "task_controls": 159,
+      "settling_controls": 10,
+      "policy_queries": 159,
+      "inference_seconds": 13.312688600028196,
+      "packet_io_seconds_included_in_wall": 8.725421499977529,
+      "episode_wall_seconds": 36.43496690000029,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "85bc9669751e339e4ac37d3e8fe6b56d6aede7fd112abec29870855106582550",
+      "video_sha256": "aeda4ed5bcb31aea1fc8ebc77b968e3fb958d6be7974a09fb065c5da600ed479"
+    },
+    {
+      "key": "libero_90_task9_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task9_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 180,
+      "task_controls": 180,
+      "settling_controls": 10,
+      "policy_queries": 180,
+      "inference_seconds": 17.618298499994125,
+      "packet_io_seconds_included_in_wall": 9.997700999992958,
+      "episode_wall_seconds": 43.67189409999992,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "59690e2ef3d455c31682e1ccfb233bdf6a2704dd28d4871df8a2ff7670a21a89",
+      "video_sha256": "1de0e5464225e2618fb97fc30c747ba6e61cfe64218b723a089e96be32f6d274"
+    },
+    {
+      "key": "libero_90_task9_original_init21_noise20265510__parent",
+      "context_id": "libero_90_task9_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 218,
+      "task_controls": 218,
+      "settling_controls": 10,
+      "policy_queries": 218,
+      "inference_seconds": 17.77518559999953,
+      "packet_io_seconds_included_in_wall": 10.856670899986057,
+      "episode_wall_seconds": 45.33076559999972,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "be07b6cb569a2126ccc757a59eafde756b7442f8f37ad6aa8dbc58a807230ed3",
+      "video_sha256": "cac5b719694c11b7d5cbc879eb79d919e881ff83e9c92d9111337872a79cdbca"
+    },
+    {
+      "key": "libero_90_task9_original_init21_noise20265510__oldA_KL",
+      "context_id": "libero_90_task9_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 164,
+      "task_controls": 164,
+      "settling_controls": 10,
+      "policy_queries": 164,
+      "inference_seconds": 15.174790100001701,
+      "packet_io_seconds_included_in_wall": 9.232255900009477,
+      "episode_wall_seconds": 40.31483870000011,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "17abf8227a88b6e14480a01d91243ac15eff04e5d51636d8e772bff550444a77",
+      "video_sha256": "59bdf852572189d9f4d12fb3ee186f3425daf360b40d75ca4805de1862ea1479"
+    },
+    {
+      "key": "libero_90_task9_original_init21_noise20265510__coverage_KL",
+      "context_id": "libero_90_task9_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 166,
+      "task_controls": 166,
+      "settling_controls": 10,
+      "policy_queries": 166,
+      "inference_seconds": 14.641203600014705,
+      "packet_io_seconds_included_in_wall": 9.181586800008517,
+      "episode_wall_seconds": 39.47728980000102,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "8b6e5450d3c06f451726f3020de231f31b6e9c2453b6a1ab43be3c4f04c67d66",
+      "video_sha256": "30e7e5cc6d0b8f8929395eaa60faba87b6a71ec6a1c3280aee7f349f297a2fe9"
+    },
+    {
+      "key": "libero_90_task34_original_init20_noise20265510__parent",
+      "context_id": "libero_90_task34_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 132,
+      "task_controls": 132,
+      "settling_controls": 10,
+      "policy_queries": 132,
+      "inference_seconds": 11.682783499985817,
+      "packet_io_seconds_included_in_wall": 7.39466610000818,
+      "episode_wall_seconds": 33.11072279999644,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "432859cb21458ef2951b2e995a71c20ad46256328fa70eebce5362fbfe4775ad",
+      "video_sha256": "b4dc963b30ffb811773962fa51c3668fe04f3a4f1b75a023b5026ba9a1eade22"
+    },
+    {
+      "key": "libero_90_task34_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_90_task34_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "oldA_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 147,
+      "task_controls": 147,
+      "settling_controls": 10,
+      "policy_queries": 147,
+      "inference_seconds": 13.339983400001074,
+      "packet_io_seconds_included_in_wall": 8.11788100000922,
+      "episode_wall_seconds": 35.8293769999982,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "6bcb62be9faa06f77ba3bed3ef590830354e589f6bab66b9eaf643f43c31cc22",
+      "video_sha256": "caa55c87c6e22fec40b4897fc19fa173130918c18753643aec5cda1b8053cd19"
+    },
+    {
+      "key": "libero_90_task34_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_90_task34_original_init20_noise20265510",
+      "partition": "source_coverage",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 257,
+      "task_controls": 257,
+      "settling_controls": 10,
+      "policy_queries": 257,
+      "inference_seconds": 23.55534600000101,
+      "packet_io_seconds_included_in_wall": 14.03749710001648,
+      "episode_wall_seconds": 58.57802989999982,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "4e274b847eede77034dfc1b07bcefabd9832407fc26bd8ed5f674b61dfc26995",
+      "video_sha256": "10e8cfe63e032c936b06988f9f6884c02623bdce00e874d42f8545e35198fef6"
+    },
+    {
+      "key": "libero_90_task34_original_init21_noise20265510__parent",
+      "context_id": "libero_90_task34_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "parent",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 135,
+      "task_controls": 135,
+      "settling_controls": 10,
+      "policy_queries": 135,
+      "inference_seconds": 13.20921359998465,
+      "packet_io_seconds_included_in_wall": 7.706226899998001,
+      "episode_wall_seconds": 34.31586700000116,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "f1c386408f8a9fc214df7a075ebcc8e30e3affaf7e14f0e51a250c05c753ce22",
+      "video_sha256": "436c9a361616fa5d922eb70e0ce2521e19f52a68fd7e776615b2589360fc7469"
+    },
+    {
+      "key": "libero_90_task34_original_init21_noise20265510__oldA_KL",
+      "context_id": "libero_90_task34_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": null,
+      "first_complete_task_control": null,
+      "task_controls": 520,
+      "settling_controls": 10,
+      "policy_queries": 520,
+      "inference_seconds": 45.70145420000699,
+      "packet_io_seconds_included_in_wall": 27.284292899978027,
+      "episode_wall_seconds": 108.22225679999974,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "result_sha256": "83e0c4739fa5339aa25bb88fdb1afde2df8d33919529ae0a3dc1b77ae439f974",
+      "video_sha256": "3fcb099ee14791ba86f870effe2d8b3d12327082d9659b7db88995ba4ce217cb"
+    },
+    {
+      "key": "libero_90_task34_original_init21_noise20265510__coverage_KL",
+      "context_id": "libero_90_task34_original_init21_noise20265510",
+      "partition": "source_coverage",
+      "actor": "coverage_KL",
+      "success520": true,
+      "success900": null,
+      "first_complete_task_control": 161,
+      "task_controls": 161,
+      "settling_controls": 10,
+      "policy_queries": 161,
+      "inference_seconds": 15.00497969998105,
+      "packet_io_seconds_included_in_wall": 8.522518900033901,
+      "episode_wall_seconds": 38.80550620000213,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        true
+      ],
+      "result_sha256": "c285888c0af7e37c581a441a2ddbeb80996affdb4eedfc71fd85b67973326217",
+      "video_sha256": "e70810d2b1c6d9c822ab67216d0760f3975251c52c7ecb8ee2a244ba95bc6790"
+    },
+    {
+      "key": "libero_10_task0_original_init20_noise20265510__parent",
+      "context_id": "libero_10_task0_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "parent",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 83.24175570009902,
+      "packet_io_seconds_included_in_wall": 50.03000959999554,
+      "episode_wall_seconds": 197.14484319999974,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "result_sha256": "62e31909e1d6507c044525bc6659082b889675f0280cf4f8a5a29512856f524a",
+      "video_sha256": "815a627f342c73992a4e2c0f0151edaddfe6468d432bd66448cfcfac397106fc"
+    },
+    {
+      "key": "libero_10_task0_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_10_task0_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 82.4721198999614,
+      "packet_io_seconds_included_in_wall": 46.89173279998431,
+      "episode_wall_seconds": 191.58770310000182,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "6a01a2132199e4d8877126f107b560c0645070a0f9ed8a79f7a21512316a7bb2",
+      "video_sha256": "ab1469c6b976b63f7c4ca694e18dd21ea10eb0b9298d03f0abb22ff5f17e104e"
+    },
+    {
+      "key": "libero_10_task0_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_10_task0_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "coverage_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 81.57829380004114,
+      "packet_io_seconds_included_in_wall": 48.78057640003317,
+      "episode_wall_seconds": 192.62727639999866,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "9d5a03fc2d15b43a2709f54bc82fcc075b4509fa77ea556b2c0be9788d69c30b",
+      "video_sha256": "8f3f0777096519d918c0f52e223b92298fc1f0dacdbfb599e7084f94142b31e2"
+    },
+    {
+      "key": "libero_10_task0_original_init21_noise20265510__parent",
+      "context_id": "libero_10_task0_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "parent",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 81.36237449997861,
+      "packet_io_seconds_included_in_wall": 46.988326800012146,
+      "episode_wall_seconds": 189.17723520000072,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "result_sha256": "618f9423c844dfe9f6409f108b24cc62ca1422fef58da7eebc7f23160103d720",
+      "video_sha256": "3d31c1bbbac0c4f124b96e59e6aaa6dccb9c216adf4b0388e934d106aa594f01"
+    },
+    {
+      "key": "libero_10_task0_original_init21_noise20265510__oldA_KL",
+      "context_id": "libero_10_task0_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 88.219472400011,
+      "packet_io_seconds_included_in_wall": 52.87741169995934,
+      "episode_wall_seconds": 206.5841158000003,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "94a0891a058a2cabb340e3d3ad5d757423d88161b54e5d8569aa6cc5da93c7bd",
+      "video_sha256": "8cbbe2f6e8c17a476818d2cfa7007a14a8d050cd59462d7aa3a9de23073f0aee"
+    },
+    {
+      "key": "libero_10_task0_original_init21_noise20265510__coverage_KL",
+      "context_id": "libero_10_task0_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "coverage_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 85.16392880004423,
+      "packet_io_seconds_included_in_wall": 50.125353600047674,
+      "episode_wall_seconds": 200.01143380000212,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "22c7d5237e2849f2be657ba494b27a92d4d734bc6b84dd74c5bfeeb55195df15",
+      "video_sha256": "45ae60b154372cabaca982c389ef7cd2105a9a8428a4e32d1a558da235c5858a"
+    },
+    {
+      "key": "libero_10_task7_original_init20_noise20265510__parent",
+      "context_id": "libero_10_task7_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "parent",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 80.99853850002546,
+      "packet_io_seconds_included_in_wall": 49.869840600003954,
+      "episode_wall_seconds": 188.139905,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "result_sha256": "3509d13c1c78f89eac7dc55c646184cf44738c8ef0ceabd165e71e360c98891c",
+      "video_sha256": "f5f095fd308fcc6d25aaf1e0a09d7d5397e4c2c8e564bf27c8ef8e12492b57be"
+    },
+    {
+      "key": "libero_10_task7_original_init20_noise20265510__oldA_KL",
+      "context_id": "libero_10_task7_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 81.20308259995363,
+      "packet_io_seconds_included_in_wall": 49.54315139992832,
+      "episode_wall_seconds": 187.34548350000114,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "bb9bd478137e0a35d136b4346fa059c62486674f74485e9e421c48e2a4814428",
+      "video_sha256": "307d6363cced525fafad7cbbd314c17cde189d54611e5eb5b386851fd8aa5555"
+    },
+    {
+      "key": "libero_10_task7_original_init20_noise20265510__coverage_KL",
+      "context_id": "libero_10_task7_original_init20_noise20265510",
+      "partition": "Long",
+      "actor": "coverage_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 81.50525250002829,
+      "packet_io_seconds_included_in_wall": 48.64603200004058,
+      "episode_wall_seconds": 187.14857920000213,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "129230fac4a0b74e48a454e790ec3c96d41a1bb048a3ad7bfcdd1aaa57ce8209",
+      "video_sha256": "5ad053a11a96f45a52f56369a157f7b8fec07f380f93c26f10d10faf48149511"
+    },
+    {
+      "key": "libero_10_task7_original_init21_noise20265510__parent",
+      "context_id": "libero_10_task7_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "parent",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 84.10976289990867,
+      "packet_io_seconds_included_in_wall": 51.91751770001065,
+      "episode_wall_seconds": 193.8918721000009,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        false
+      ],
+      "result_sha256": "c9b8ca4ace3067ce74718ced5925bca9ad289ca03c782baf6607ce928228aaf3",
+      "video_sha256": "4b7f6e2e2b2e1bcb4b1dfa10cb1a85f499271673f531536a28b57e1e6d21b5c8"
+    },
+    {
+      "key": "libero_10_task7_original_init21_noise20265510__oldA_KL",
+      "context_id": "libero_10_task7_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "oldA_KL",
+      "success520": false,
+      "success900": true,
+      "first_complete_task_control": 720,
+      "task_controls": 720,
+      "settling_controls": 10,
+      "policy_queries": 720,
+      "inference_seconds": 65.46861939999508,
+      "packet_io_seconds_included_in_wall": 39.63490139996793,
+      "episode_wall_seconds": 152.59995310000158,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "result_sha256": "1970d54c49f9a36e22b2db2552bebe15b1285da6161eaa82b8c51920bf1c0fd7",
+      "video_sha256": "fccdfd6ef86ab9d581a2238bce90cff0320675b6578e00960b6bcca95c553527"
+    },
+    {
+      "key": "libero_10_task7_original_init21_noise20265510__coverage_KL",
+      "context_id": "libero_10_task7_original_init21_noise20265510",
+      "partition": "Long",
+      "actor": "coverage_KL",
+      "success520": false,
+      "success900": false,
+      "first_complete_task_control": null,
+      "task_controls": 900,
+      "settling_controls": 10,
+      "policy_queries": 900,
+      "inference_seconds": 83.53314220003449,
+      "packet_io_seconds_included_in_wall": 49.87044190012239,
+      "episode_wall_seconds": 191.70917049999844,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        true
+      ],
+      "result_sha256": "3379651eca272e74bf3edf182bb6c50acd3a0bf691cc0db882b36c86ce77e465",
+      "video_sha256": "b3577c90fa9d2636f3d16bb7bdacf5f657dc9c7841da13ac586f5cb36d49b45f"
+    }
+  ],
+  "summary": {
+    "old_A": {
+      "by520": {
+        "parent": 8,
+        "oldA_KL": 6,
+        "coverage_KL": 7
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 2
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      }
+    },
+    "source_coverage": {
+      "by520": {
+        "parent": 4,
+        "oldA_KL": 3,
+        "coverage_KL": 4
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "Long": {
+      "by520": {
+        "parent": 0,
+        "oldA_KL": 0,
+        "coverage_KL": 0
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "by900": {
+        "parent": 0,
+        "oldA_KL": 1,
+        "coverage_KL": 0
+      }
+    }
+  },
+  "all48_raw_success_initial_three_actor_inputs_event_query_action_hashes_checked": true,
+  "query_attempts_and_samples": 18069,
+  "file_hashes_checked": 50150,
+  "artifact_manifest_sha256": "b484c82686343d82c3622849386ddc055a4a532fe026590bc569b6e4f2cb734c",
+  "cost_increment_sha256": "a10496a5760025f2881cdc40e06a20729be35ddbafeecbda3202ae383b746355",
+  "root_visual_review_pending": true,
+  "work_demonstrated": false,
+  "CPU_observed_seconds": 174.99468980000165,
+  "new_model_gradient_simulator_calls": 0
+}

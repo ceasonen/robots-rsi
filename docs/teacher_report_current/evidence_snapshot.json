@@ -1,0 +1,479 @@
+{
+  "written_utc": "2026-11-02T06:19:13.283039+00:00",
+  "state": "ALL_REGISTERED_EXPERIMENTS_AND_ROOT_RAW_COST_VISUAL_VERDICT_CLOSED; NO_NEW_EXPERIMENT_REGISTERED",
+  "completed_result_source": "Frozen coverage_readout plus root independent review; no scientific analysis rerun.",
+  "v40_panels": {
+    "old_A": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 8,
+            "conditions": 8,
+            "success_rate": 1.0,
+            "context_ids": [
+              "libero_90_task13_original_init20_noise20265510",
+              "libero_90_task29_original_init20_noise20265510",
+              "libero_90_task35_original_init20_noise20265510",
+              "libero_90_task48_original_init20_noise20265510",
+              "libero_90_task67_original_init20_noise20265510",
+              "libero_90_task86_original_init20_noise20265510",
+              "libero_90_task87_original_init20_noise20265510",
+              "libero_90_task8_original_init20_noise20265510"
+            ],
+            "outcomes": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          "oldA_KL": {
+            "successes": 6,
+            "conditions": 8,
+            "success_rate": 0.75,
+            "context_ids": [
+              "libero_90_task13_original_init20_noise20265510",
+              "libero_90_task29_original_init20_noise20265510",
+              "libero_90_task35_original_init20_noise20265510",
+              "libero_90_task48_original_init20_noise20265510",
+              "libero_90_task67_original_init20_noise20265510",
+              "libero_90_task86_original_init20_noise20265510",
+              "libero_90_task87_original_init20_noise20265510",
+              "libero_90_task8_original_init20_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          "coverage_KL": {
+            "successes": 7,
+            "conditions": 8,
+            "success_rate": 0.875,
+            "context_ids": [
+              "libero_90_task13_original_init20_noise20265510",
+              "libero_90_task29_original_init20_noise20265510",
+              "libero_90_task35_original_init20_noise20265510",
+              "libero_90_task48_original_init20_noise20265510",
+              "libero_90_task67_original_init20_noise20265510",
+              "libero_90_task86_original_init20_noise20265510",
+              "libero_90_task87_original_init20_noise20265510",
+              "libero_90_task8_original_init20_noise20265510"
+            ],
+            "outcomes": [
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 8,
+            "repairs": 0,
+            "harms": 2,
+            "success_count_difference": -2,
+            "baseline_success_opportunities": 8,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.25,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 8,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 8,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.125,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 8,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 6,
+            "baseline_failure_opportunities": 2,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": 0.5,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      },
+      "by900_same_trajectories": null
+    },
+    "source_coverage": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 4,
+            "conditions": 4,
+            "success_rate": 1.0,
+            "context_ids": [
+              "libero_90_task34_original_init20_noise20265510",
+              "libero_90_task34_original_init21_noise20265510",
+              "libero_90_task9_original_init20_noise20265510",
+              "libero_90_task9_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          "oldA_KL": {
+            "successes": 3,
+            "conditions": 4,
+            "success_rate": 0.75,
+            "context_ids": [
+              "libero_90_task34_original_init20_noise20265510",
+              "libero_90_task34_original_init21_noise20265510",
+              "libero_90_task9_original_init20_noise20265510",
+              "libero_90_task9_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              true,
+              false,
+              true,
+              true
+            ]
+          },
+          "coverage_KL": {
+            "successes": 4,
+            "conditions": 4,
+            "success_rate": 1.0,
+            "context_ids": [
+              "libero_90_task34_original_init20_noise20265510",
+              "libero_90_task34_original_init21_noise20265510",
+              "libero_90_task9_original_init20_noise20265510",
+              "libero_90_task9_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              true,
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 4,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.25,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 4,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 3,
+            "baseline_failure_opportunities": 1,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": 1.0,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      },
+      "by900_same_trajectories": null
+    },
+    "Long": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "oldA_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "coverage_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          }
+        }
+      },
+      "by900_same_trajectories": {
+        "actors": {
+          "parent": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              false
+            ]
+          },
+          "oldA_KL": {
+            "successes": 1,
+            "conditions": 4,
+            "success_rate": 0.25,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              true
+            ]
+          },
+          "coverage_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0,
+            "context_ids": [
+              "libero_10_task0_original_init20_noise20265510",
+              "libero_10_task0_original_init21_noise20265510",
+              "libero_10_task7_original_init20_noise20265510",
+              "libero_10_task7_original_init21_noise20265510"
+            ],
+            "outcomes": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.25,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 1,
+            "baseline_failure_opportunities": 3,
+            "harm_rate_given_baseline_success": 1.0,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      }
+    }
+  },
+  "v40_costs": {
+    "previous_ledger_file": "F:\\robot\\rsi_group_meeting\\v38\\root_completed_review\\cost_increment.json",
+    "previous_ledger_sha256": "ac09371d24d5d65a94d99f9d2e5d0ae7f4010db2c47eb6500f38c1f811d1adb9",
+    "new_physical_trial_rows": 48,
+    "new_task_controls": 18069,
+    "new_settling_controls": 480,
+    "new_training_runs": 2,
+    "new_optimizer_steps": 4000,
+    "new_teacher_loss_presentations": 64000,
+    "new_retention_state_presentations": 64000,
+    "new_training_distribution_forwards": 256000,
+    "new_parity_queries_encodings_samples": 16,
+    "parity_controls": 0,
+    "new_offline_head_density_forwards": 0,
+    "new_teacher_acquisition_controls": 0,
+    "original_failed_training_command_external_seconds": 3183.9016432999997,
+    "recovery_phase_external_seconds": {
+      "fixed48_evaluation": 4080.8377943000014,
+      "frozen_analysis_once": 146.23261719999937,
+      "remaining_coverage_training": 2679.8558042000004,
+      "truthful_two_arm_aggregation": 255.18721549999827
+    },
+    "recovery_owner_observed_sequence_wall_seconds": 7184.6742042000005,
+    "evaluation_query_seconds": 1638.4458377000337,
+    "packet_IO_seconds_included_in_episode_wall": 982.391729500072,
+    "episode_wall_sum_not_whole_sequence": 3993.659802499995,
+    "cumulative_scoped_completed_trial_rows": 2537,
+    "cumulative_scoped_task_controls": 1004079,
+    "cumulative_scoped_settling_controls": 25370,
+    "known_HD_and_teacher_cache_replays_separate": 21,
+    "completed_new_development_episodes": 140,
+    "completed_new_training_runs": 6,
+    "whole_project_or_human_wall_seconds": null,
+    "accounting": "Original failed training command and recovery owner are disjoint intervals. Recovery owner contains its four phase timers; query/packetIO/episode/loop times are nested and not additive. Historical acquisition/B labels/cache/interruptions remain in previous ledgers; preparation/visual CPU separate, unknown human/global wall null."
+  },
+  "root_manual_visual": {
+    "actual_sheet_count": 12,
+    "frame_slots": 288,
+    "unique_source_positions": 192,
+    "full_CPU_decoded_frames": 18117,
+    "human_watched_all_video_frames": false,
+    "CPU_preparation_wall_seconds": 34.08712100000048
+  },
+  "next_gate_proposal": {
+    "question": "Can fixed students complete a joint-instruction suffix after an exactly replayed successful teacher prefix, versus their own prefix in the same contexts?",
+    "prior_equivalent_test_found": false,
+    "scope": "v31 teacher wrappers and v35 full-free-run/cross-context tests are not equivalent; not an exhaustive repository claim",
+    "contexts": "all four original home_learned teacher contexts, task0/7 init10 and both original execution seeds; selection fixed before new outcomes",
+    "actors": [
+      "parent",
+      "oldA_KL",
+      "coverage_KL"
+    ],
+    "paths": [
+      "own_prefix_full_free_run",
+      "forced_exact_teacher_prefix_then_joint_student"
+    ],
+    "proposal_trials": 24,
+    "absolute_task_horizon": 900,
+    "primary_absolute_task_horizon": 520,
+    "max_task_controls_including_forced_prefix": 21600,
+    "settling_controls": 240,
+    "additional_encoder_head_sample_parity_budget": null,
+    "budget_gate": "Must freeze exact real counts and RNG/history semantics before any start. Cached features do not make physical-prefix/query work free.",
+    "cut": "first true B control after original fixed60 home, identified only from immutable historical event/controller records",
+    "preconditions": [
+      "Exact canonical and step-by-step teacher action replay, public sensor/fullstate/robot/warning equality; no direct simstate-only shortcut",
+      "Original joint-language real history1..10 reconstructed and identity-checked; spatial features are language conditioned",
+      "Actor, horizon, suffix RNG and all proposal sampling/encoder/head/control costs fixed before results",
+      "All results/prefixes/costs retained; infrastructure censoring is not task failure"
+    ],
+    "mechanism_signal_gate": "At least two same-context primary520 repairs for teacher-prefix path versus own-prefix path, no reverse harm; descriptive only, no statistical or pure-state causal claim.",
+    "stop_gate": "If both candidates fail all fixed teacher-state suffixes by520, withdraw prefix-drift-as-main-current-explanation and current route/P necessity; no automatic knob/epoch extension. Unverifiable replay/history stops before execution.",
+    "parent_control": "If parent benefits as much, this supports common-prefix/state assistance, not an additional learned student repair.",
+    "not_innovation_or_robot_gain": true
+  },
+  "new_proposal_is_executed": false,
+  "new_proposal_query_budget": null,
+  "whole_project_wall_seconds": null,
+  "human_wall_seconds": null
+}

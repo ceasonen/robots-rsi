@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:10:49.072104+00:00",
+  "episode": {
+    "key": "libero_90_task86_original_init20_noise20265510__coverage_KL",
+    "context": {
+      "context_id": "libero_90_task86_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 86,
+        "task_name": "STUDY_SCENE4_pick_up_the_book_in_the_middle_and_place_it_on_the_cabinet_shelf",
+        "perturbation": "original",
+        "language": "pick up the book in the middle and place it on the cabinet shelf",
+        "bddl_language": "pick up the book in the middle and place it on the cabinet shelf",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/STUDY_SCENE4_pick_up_the_book_in_the_middle_and_place_it_on_the_cabinet_shelf.bddl",
+        "bddl_sha256": "93c6e983d005b6995e7faac6f897d7fb3a732246412530600e32b5b3c8a27f41",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/STUDY_SCENE4_pick_up_the_book_in_the_middle_and_place_it_on_the_cabinet_shelf.pruned_init",
+        "init_sha256": "22941c689398499fd5149d0aff29791a6cf8522886bef03691718be60d9d2d59",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "old_A",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "coverage_KL"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "coverage_KL",
+    "actor": "coverage_KL",
+    "sha256": "b8dde40e338cdf628cd86135a3081bd751ed6bb46b0836127e9a4496a73b615d",
+    "all_parameter_digest": "7281b8b74fb89e2b0c880396fe75f0003914596f9a4d9579bc9113a4c50aa769",
+    "logical_parent_file_not_loaded_into_head_layout": false
+  },
+  "actor_file_sha256": "b8dde40e338cdf628cd86135a3081bd751ed6bb46b0836127e9a4496a73b615d",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 172,
+  "attempted_physics_steps": 172,
+  "policy_queries": 172,
+  "action_samples_completed": 172,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 19.410320599949046,
+  "wall_seconds": 45.5282492999977,
+  "paired_observation": {
+    "model_sha256": "9fd060a0093c060391aaea52f57d53b4d568bfec08113eb79f299918c6a44bce",
+    "full_state_sha256": "e80b16da36ce9103b911389146660c0a26827aad76c53217908f77a366b0cf41",
+    "measured_observation_sha256": "02907ab998d961468bf89f979f66baf97cddf632b2b2a0aa9b4fdef2b3d57133",
+    "canonical_observation_sha256": "02907ab998d961468bf89f979f66baf97cddf632b2b2a0aa9b4fdef2b3d57133",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:08:45.228244+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task86_original_init20_noise20265510__coverage_KL.npz",
+  "initial_sensors_sha256": "d81e6e8e6f1d7b5100bdced97b75310067e42f6bdf933142285f746d7d1e90a0",
+  "events": "events\\libero_90_task86_original_init20_noise20265510__coverage_KL.jsonl",
+  "events_sha256": "90b7eba1c791845edfd45d63a9e8c5efd309a830108c838f4c45c625b6d0f0f7",
+  "video": "videos\\libero_90_task86_original_init20_noise20265510__coverage_KL.mp4",
+  "video_sha256": "30e1561392bbab330ed9ff3e755415dee08fd9f2e53b1c8017e1db91cfc037a6",
+  "trace_sha256": "6eac51930432aeeb7283abcbc06c9fe0acf5604865307aa5e83778a582bbd99e",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

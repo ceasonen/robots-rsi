@@ -1,0 +1,162 @@
+{
+  "written_utc": "2026-11-02T05:06:51.572222+00:00",
+  "decision": "REJECT_CURRENT_TWO_GLOBAL_HEAD_RECIPES; PIVOT_TO_ONE_BOUNDED_RECOVERABILITY_GATE; DO_NOT_SCALE",
+  "work_demonstrated": false,
+  "innovation_validated": false,
+  "RSI_validated": false,
+  "multiple_GPU_justified_now": false,
+  "registered_experiments_active": false,
+  "new_experiment_registered_or_started": false,
+  "raw_and_cost_and_all48_visual_review_closed": true,
+  "empirical_summary": {
+    "old_A": {
+      "by520": {
+        "parent": 8,
+        "oldA_KL": 6,
+        "coverage_KL": 7
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 2
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      }
+    },
+    "source_coverage": {
+      "by520": {
+        "parent": 4,
+        "oldA_KL": 3,
+        "coverage_KL": 4
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "Long": {
+      "by520": {
+        "parent": 0,
+        "oldA_KL": 0,
+        "coverage_KL": 0
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "by900": {
+        "parent": 0,
+        "oldA_KL": 1,
+        "coverage_KL": 0
+      }
+    }
+  },
+  "primary_repairs_vs_parent": {
+    "oldA_KL": 0,
+    "coverage_KL": 0
+  },
+  "primary_harms_vs_parent": {
+    "oldA_KL": 3,
+    "coverage_KL": 1
+  },
+  "late_Long900_success": {
+    "actor": "oldA_KL",
+    "task": 7,
+    "init": 21,
+    "first_complete_task_control": 720,
+    "not_primary520": true
+  },
+  "rejected_scope": "These two fixed objective/support/seed/2000step candidates, not the BC/global-head method class or all Long tasks.",
+  "agent_difference": "Paper initially preferred closed-loop recovery-label versus full-demo data comparison; research preferred prefix recoverability diagnosis. Root chooses prefix prerequisite first because arbitrary off-path recovery oracle is unverified. Paper accepts this prerequisite; original positions are retained.",
+  "next_gate_proposal": {
+    "question": "Can fixed students complete a joint-instruction suffix after an exactly replayed successful teacher prefix, versus their own prefix in the same contexts?",
+    "prior_equivalent_test_found": false,
+    "scope": "v31 teacher wrappers and v35 full-free-run/cross-context tests are not equivalent; not an exhaustive repository claim",
+    "contexts": "all four original home_learned teacher contexts, task0/7 init10 and both original execution seeds; selection fixed before new outcomes",
+    "actors": [
+      "parent",
+      "oldA_KL",
+      "coverage_KL"
+    ],
+    "paths": [
+      "own_prefix_full_free_run",
+      "forced_exact_teacher_prefix_then_joint_student"
+    ],
+    "proposal_trials": 24,
+    "absolute_task_horizon": 900,
+    "primary_absolute_task_horizon": 520,
+    "max_task_controls_including_forced_prefix": 21600,
+    "settling_controls": 240,
+    "additional_encoder_head_sample_parity_budget": null,
+    "budget_gate": "Must freeze exact real counts and RNG/history semantics before any start. Cached features do not make physical-prefix/query work free.",
+    "cut": "first true B control after original fixed60 home, identified only from immutable historical event/controller records",
+    "preconditions": [
+      "Exact canonical and step-by-step teacher action replay, public sensor/fullstate/robot/warning equality; no direct simstate-only shortcut",
+      "Original joint-language real history1..10 reconstructed and identity-checked; spatial features are language conditioned",
+      "Actor, horizon, suffix RNG and all proposal sampling/encoder/head/control costs fixed before results",
+      "All results/prefixes/costs retained; infrastructure censoring is not task failure"
+    ],
+    "mechanism_signal_gate": "At least two same-context primary520 repairs for teacher-prefix path versus own-prefix path, no reverse harm; descriptive only, no statistical or pure-state causal claim.",
+    "stop_gate": "If both candidates fail all fixed teacher-state suffixes by520, withdraw prefix-drift-as-main-current-explanation and current route/P necessity; no automatic knob/epoch extension. Unverifiable replay/history stops before execution.",
+    "parent_control": "If parent benefits as much, this supports common-prefix/state assistance, not an additional learned student repair.",
+    "not_innovation_or_robot_gain": true
+  },
+  "next_gate_is_not_robot_gain_or_novelty": true,
+  "innovation_gate": "Concrete feedback-learned decision about generating a new repair must outperform frozen/shuffled feedback and strong fixed BC/ordinary RL on future conditions with matched permissions/costs. No forward net advantage means withdraw mechanism; recursive claim needs R1/R2.",
+  "cost_ledger_file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\cost_increment.json",
+  "evidence": {
+    "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\analysis\\coverage_readout.json": "bef50a379701601bf1d87b556617bf717beb135a6f389140c93d9db35c70b55f",
+    "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\review.json": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14",
+    "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\cost_increment.json": "a10496a5760025f2881cdc40e06a20729be35ddbafeecbda3202ae383b746355",
+    "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\supplementary_audit.json": "0212eeaf8a984fd11f77acc99076564a787abf4eb4fb72f2e6455d6a5997a7c3",
+    "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\manifest.json": "8af725b7161c2dbc4c90eb9d84693a0b637ee2fc1f6d1c599d0ce70d892897b1",
+    "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\root_manual_visual_review.json": "0c40348ec80a0121de48962ed97498095cb94ed92ef98460f190abd4bb122c90",
+    "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\paper_verdict\\verdict_and_evidence.json": "ee46be2aff84fa17bebe6e49685d0f34b39362900a2c23a552cdb5c5206aca8b",
+    "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\research_verdict\\verdict.json": "1ccc1bb9971d51ef1acd3a4faf33ac2edb9bf6f15ca2567f169f77cfd69cb3df"
+  },
+  "agent_original_copies": [
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\paper_verdict\\save_verdict.py",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\paper_verdict\\save_verdict.py",
+      "sha256": "1bb7b0e059880db9110281848af7c6051245220379a5da695a383e2d3ee7e0f0"
+    },
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\paper_verdict\\verdict_and_evidence.json",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\paper_verdict\\verdict_and_evidence.json",
+      "sha256": "ee46be2aff84fa17bebe6e49685d0f34b39362900a2c23a552cdb5c5206aca8b"
+    },
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\paper_verdict\\直白一页判断.txt",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\paper_verdict\\直白一页判断.txt",
+      "sha256": "38252f02b4a92756b419c8292a1773340743c2577f53e837a94d1bc8c8d4dcc2"
+    },
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\research_verdict\\receipt.json",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\research_verdict\\receipt.json",
+      "sha256": "b71bb0e50abb00c4d973e9c23c862045707e7dc54a00f23983444da65615cc8a"
+    },
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\research_verdict\\verdict.json",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\research_verdict\\verdict.json",
+      "sha256": "1ccc1bb9971d51ef1acd3a4faf33ac2edb9bf6f15ca2567f169f77cfd69cb3df"
+    },
+    {
+      "source": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_completion_20261102\\research_verdict\\一页独立判断.txt",
+      "copy": "F:\\robot\\rsi_group_meeting\\v40\\root_verdict_20261102\\agent_originals\\research_verdict\\一页独立判断.txt",
+      "sha256": "8ebd1acadfda73d760b6fbc5e415b23ae153728a867cb7c1ff13bb57e9fd6293"
+    }
+  ],
+  "readable_verdict_sha256": "fb64a5ca457e8c38b93e0600bfa40583129e62d3fbfbae9ac3b45c4c7319a079",
+  "new_model_gradient_encoder_simulator_calls_by_merge": 0,
+  "observed_CPU_archive_seconds": 0.2026620999968145,
+  "human_or_project_wall_seconds": null
+}

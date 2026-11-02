@@ -1,0 +1,11 @@
+{
+  "phase": "frozen_analysis_once",
+  "command": [
+    "F:\\robot\\envs\\robot\\Scripts\\python.exe",
+    "-u",
+    "F:\\robot\\rsi_group_meeting\\v40\\code\\analyze_state_coverage_v40.py"
+  ],
+  "return_code": 0,
+  "external_command_wall_seconds": 146.23261719999937,
+  "definition": "Spawn through childexit; contains internal timers. Do not add contained timers."
+}

@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "created_utc": "2026-11-02T06:15:32.601550+00:00",
+    "new_scientific_execution": false,
+    "source_byte_exact": true,
+    "copy_files": 179,
+    "copied_payload_bytes": 18597627,
+    "registration_original_sources": 53,
+    "excluded_dependency_count": 117,
+    "contact_sheets": 12,
+    "raw_result_jsons": 48,
+    "credential_pattern_hits": [],
+    "heuristic_secret_scan_not_exhaustive": true,
+    "immutable_files_containing_workstation_paths_review_before_publication": [
+      "code/rsi_group_meeting/v40/code/state_coverage_study_v40.py",
+      "evidence/v40/registration.json",
+      "evidence/v40/root_verdict/evidence_manifest.json",
+      "evidence/v40/root_verdict/verdict.json",
+      "evidence/v40/agent_verdicts/research_verdict/verdict.json",
+      "evidence/v40/agent_verdicts/paper_verdict/verdict_and_evidence.json"
+    ],
+    "omitted": [
+      "weights/models/environment_packages",
+      "raw_physical_trajectories_and_feature_packets",
+      "all_videos_and288_individual_frames",
+      "large_trained_actors_and_optimizer_tensor_receipts",
+      "36MB_all_query_receipts",
+      "11MB_full_artifact_hash_manifest",
+      "v22_blind_probe_9MB_receipt"
+    ],
+    "missing_full_reproduction_dependencies": true,
+    "CPU_copy_and_hash_observed_seconds": 5.102941199998895,
+    "unknown_human_seconds": null
+  },
+  "files": [
+    {
+      "file": "code/rsi_group_meeting/v40/code/state_coverage_study_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/state_coverage_study_v40.py",
+      "sha256": "de6c2d499cea85f543416e42eef757b96d69dfb7eac9111266beed62e6901bed",
+      "bytes": 19125,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/state_coverage_runtime_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/state_coverage_runtime_v40.py",
+      "sha256": "2b5f657f0c431f7936c76b7de36d005e3e349d4c38cbdc14d2e22c9c379af1b0",
+      "bytes": 3479,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/train_state_coverage_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/train_state_coverage_v40.py",
+      "sha256": "5b057f08ee8487f5e7f27becdd7d4222733f88d650c0a3a93e61fd5de675f84e",
+      "bytes": 19932,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/worker_state_coverage_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/worker_state_coverage_v40.py",
+      "sha256": "975b3b082e138e06183b9f5a580aece84187da64381891b358e2d517f488132c",
+      "bytes": 9279,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/evaluate_state_coverage_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/evaluate_state_coverage_v40.py",
+      "sha256": "bd49a8f480b58633087ec30ef2d42882581ee9d8560f231fc7ae221394c41caf",
+      "bytes": 16879,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/audit_state_coverage_exposure_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/audit_state_coverage_exposure_v40.py",
+      "sha256": "e7582531dea84dc056769cad3b5909fb5a4f609e4e93a2b996569cbea23ba95f",
+      "bytes": 6183,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/analyze_state_coverage_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/analyze_state_coverage_v40.py",
+      "sha256": "6d779436acafd7ca6e57fbfc0402e2693cb1c4b25feffc56f74aca239f4a5821",
+      "bytes": 34070,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/code/run_state_coverage_sequence_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/code/run_state_coverage_sequence_v40.py",
+      "sha256": "c46f5594a15432f949f91c8ca828a6a2d00f2afffaa5ab4baaa70490ba44bdb4",
+      "bytes": 5192,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_runtime_v38.py",
+      "source": "workspace:rsi_group_meeting/head_bc_runtime_v38.py",
+      "sha256": "2b5f657f0c431f7936c76b7de36d005e3e349d4c38cbdc14d2e22c9c379af1b0",
+      "bytes": 3479,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_study_v38.py",
+      "source": "workspace:rsi_group_meeting/head_bc_study_v38.py",
+      "sha256": "d52e4004c32695c51c677993b325836ff60a8d1f4de3a36fc48bbce563c0e1c1",
+      "bytes": 17241,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/train_head_bc_v38.py",
+      "source": "workspace:rsi_group_meeting/train_head_bc_v38.py",
+      "sha256": "71ec3157c33c5a4295bb9aff44f675060bf8114ef476fdb5bc92662bcedcc250",
+      "bytes": 13988,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_worker_v38.py",
+      "source": "workspace:rsi_group_meeting/head_bc_worker_v38.py",
+      "sha256": "b0295305761ca1f8ebc5355dceb66b1a8b15465abf8b88dd16a43a645cfcd6a2",
+      "bytes": 7230,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/evaluate_head_bc_v38.py",
+      "source": "workspace:rsi_group_meeting/evaluate_head_bc_v38.py",
+      "sha256": "dbfda7a744512e602b86797e720082156b2df005532461fd66f8828efe9567ba",
+      "bytes": 7480,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/analyze_head_bc_v38.py",
+      "source": "workspace:rsi_group_meeting/analyze_head_bc_v38.py",
+      "sha256": "24b10821f4ec201fad961918f21e7a5a46294c0bdb1881b780a0289d23d316fe",
+      "bytes": 15457,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/score_head_bc_offline_v38.py",
+      "source": "workspace:rsi_group_meeting/score_head_bc_offline_v38.py",
+      "sha256": "79311fb9a1b47d519374db7e5947efc4f98a2c579e171439510984c2941a3c01",
+      "bytes": 9156,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/run_head_bc_sequence_v38.py",
+      "source": "workspace:rsi_group_meeting/run_head_bc_sequence_v38.py",
+      "sha256": "82b8ac0575eaff56950a915f57433e2458d5d1a0c17224af7c33cddc2daebaf3",
+      "bytes": 5725,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_runtime_v36.py",
+      "source": "workspace:rsi_group_meeting/head_bc_runtime_v36.py",
+      "sha256": "8143b92d578e9d445a9e5218edd791aef379a43eaf0d2d2ad835dd2d0e87fb24",
+      "bytes": 3424,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_study_v36.py",
+      "source": "workspace:rsi_group_meeting/head_bc_study_v36.py",
+      "sha256": "6169849353a7312d5100b95424932b0e01ec5e7b162005b7dbbf509d2b00e898",
+      "bytes": 12269,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/train_head_bc_v36.py",
+      "source": "workspace:rsi_group_meeting/train_head_bc_v36.py",
+      "sha256": "2605092ea240ea7a56dc522c1d42832f0519fa5a48508b45da5032c210bab1b9",
+      "bytes": 12216,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/head_bc_worker_v36.py",
+      "source": "workspace:rsi_group_meeting/head_bc_worker_v36.py",
+      "sha256": "14b264f143558b1fb23050abb4b2b2203359f3325b3694af3421ad30810808c3",
+      "bytes": 7091,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/evaluate_head_bc_v36.py",
+      "source": "workspace:rsi_group_meeting/evaluate_head_bc_v36.py",
+      "sha256": "4c1c54c8e5c24839379a9c68789769b7591b26e69c11410366f15886c7d7b181",
+      "bytes": 7231,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/analyze_head_bc_v36.py",
+      "source": "workspace:rsi_group_meeting/analyze_head_bc_v36.py",
+      "sha256": "1d1f7bf31fc957974e23e4d2a5d041f6bc69af2ff04c49db5f5dd55ab5229420",
+      "bytes": 13712,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/score_head_bc_offline_v36.py",
+      "source": "workspace:rsi_group_meeting/score_head_bc_offline_v36.py",
+      "sha256": "a3dfc7178c4bc60615fad7822bdb67a538ea52541e0bc32b06b5e8ddc3d35ae5",
+      "bytes": 8111,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/register_repair_learning_v32.py",
+      "source": "workspace:rsi_group_meeting/register_repair_learning_v32.py",
+      "sha256": "b7e34b8037342ab43c25642b124483b560e7a15042c7d4d04cedcb0f77cd9621",
+      "bytes": 9470,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/cache_repair_teachers_v32.py",
+      "source": "workspace:rsi_group_meeting/cache_repair_teachers_v32.py",
+      "sha256": "2f78b12775550a46ac100b6394efdd970a9c5f894689b868acbc76e57ea50232",
+      "bytes": 7915,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/repair_learning_worker_v32.py",
+      "source": "workspace:rsi_group_meeting/repair_learning_worker_v32.py",
+      "sha256": "fff4ecaa61019fede9d8c05f78aff645025d85aa212c713f7dc808a2f7291bc4",
+      "bytes": 4886,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/select_repair_training_targets_v32.py",
+      "source": "workspace:rsi_group_meeting/select_repair_training_targets_v32.py",
+      "sha256": "c1c4a33a0422638b356193a00914b022b1d971af47aad8ce7f35f96c4772fc61",
+      "bytes": 3672,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/train_repair_bc_v32.py",
+      "source": "workspace:rsi_group_meeting/train_repair_bc_v32.py",
+      "sha256": "105575d1b2dc3f255f51acd7d14e1dd97ba8e6cc4b9b216e4e2769cf4d4c6066",
+      "bytes": 6133,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/evaluate_repair_learning_v32.py",
+      "source": "workspace:rsi_group_meeting/evaluate_repair_learning_v32.py",
+      "sha256": "30d6b7ed4c98747ceec69796b18c7ee9590be9c8ebe43daaa7d184b2d4437142",
+      "bytes": 8504,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/analyze_repair_learning_v32.py",
+      "source": "workspace:rsi_group_meeting/analyze_repair_learning_v32.py",
+      "sha256": "4591c23a603daa268d2f3dcc012cfee4f52e562577a2c9cf0861fad93e02f7cb",
+      "bytes": 8657,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/dmpel_actor_runtime_v7.py",
+      "source": "workspace:rsi_group_meeting/dmpel_actor_runtime_v7.py",
+      "sha256": "6bee892f55fa785eb3c0ce67a129fb5a70721c9302b41259a4ce6a6329b8c268",
+      "bytes": 8118,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/dmpel_policy_ports_v6.py",
+      "source": "workspace:rsi_group_meeting/dmpel_policy_ports_v6.py",
+      "sha256": "6795773334f80a565e08d9fa982924c542a740ea4aaf02e08a5381b20e0a1c17",
+      "bytes": 1970,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/dmpel_motor_core_v6.py",
+      "source": "workspace:rsi_group_meeting/dmpel_motor_core_v6.py",
+      "sha256": "77fb623c5bf1245c8b16519aa00bd0a739cb18dcfdb50288ea20b11e3752ba0f",
+      "bytes": 3536,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/dmpel_onpolicy_objective_v7.py",
+      "source": "workspace:rsi_group_meeting/dmpel_onpolicy_objective_v7.py",
+      "sha256": "9ff2a7be99983e0b14c319e16eb1c03e50c2bbe2d57d30e468c322a876d8b1e8",
+      "bytes": 2252,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/policy_pipe_client_v7.py",
+      "source": "workspace:rsi_group_meeting/policy_pipe_client_v7.py",
+      "sha256": "f4959729768153a9dcc2759c7b154e578ea9c75597f4a1e205d57ccd9c7cc3c2",
+      "bytes": 2133,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/evaluate_dmpel_source_probe_v6.py",
+      "source": "workspace:rsi_group_meeting/evaluate_dmpel_source_probe_v6.py",
+      "sha256": "0c12b064a8280a11a871fd572894cd39b10986989f08fc074108a1f3278fff4f",
+      "bytes": 19038,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/paired_observation_v4.py",
+      "source": "workspace:rsi_group_meeting/paired_observation_v4.py",
+      "sha256": "105b4e95fa07446b0419e79186a5a8a8a1b7807472c3aef5a63b5d8ee1505074",
+      "bytes": 5898,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/xvla_benchmark_v4.py",
+      "source": "workspace:rsi_group_meeting/xvla_benchmark_v4.py",
+      "sha256": "1ba948011a0f92002284aded69b4ac3efb59154e2609758c86957388a0050117",
+      "bytes": 20831,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/benchmark_v4.py",
+      "source": "workspace:rsi_group_meeting/benchmark_v4.py",
+      "sha256": "5381c8201a4d9a20301aaa949544da6d96d3b10a1b0b348faad64d2d8e872ec5",
+      "bytes": 18994,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/local_run_lock_v4.py",
+      "source": "workspace:rsi_group_meeting/local_run_lock_v4.py",
+      "sha256": "a19ef4bfe57c930dbda2829c62f8d155de4c9993bf3f351b107d187672cd0c42",
+      "bytes": 1474,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/scripts/dmpel_native_backend_v6.py",
+      "source": "workspace:scripts/dmpel_native_backend_v6.py",
+      "sha256": "45051f16e7bdebb21097a3f73de6eccfb2c3ad9ad6d79f4f3daf18f233d2ebf1",
+      "bytes": 10480,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/scripts/check_dmpel_actor_runtime_v7.py",
+      "source": "workspace:scripts/check_dmpel_actor_runtime_v7.py",
+      "sha256": "d8bbbbbe75d77712fe402d22d30bdf6401da25682fe728331c6f38701f92faf1",
+      "bytes": 4872,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/repair_learning_awake_v32.py",
+      "source": "workspace:rsi_group_meeting/repair_learning_awake_v32.py",
+      "sha256": "cf12d074b097e9e4b2a4a7e8efeeda9a668d56deeb4c56ddf400e341a367ea2e",
+      "bytes": 368,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/language_schedule_dev_v30.py",
+      "source": "workspace:rsi_group_meeting/language_schedule_dev_v30.py",
+      "sha256": "0c07156ba7095f146259fc5a71c12b0d6a368bc8799949b326254d03a6bc4828",
+      "bytes": 13838,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/language_schedule_worker_v30.py",
+      "source": "workspace:rsi_group_meeting/language_schedule_worker_v30.py",
+      "sha256": "38cb475beb913366213e053ca153ab099f9074c2aeab691867fd6bc4fac62d39",
+      "bytes": 3040,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/handoff_factorial_dev_v31.py",
+      "source": "workspace:rsi_group_meeting/handoff_factorial_dev_v31.py",
+      "sha256": "5121a95d40db41657010b544b832096d5d558e8f150c9daf2073714880a51a8d",
+      "bytes": 16741,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/handoff_factorial_worker_v31.py",
+      "source": "workspace:rsi_group_meeting/handoff_factorial_worker_v31.py",
+      "sha256": "0a640385dfff2e8fe4d554885438b57e8cec9cfe6b5afca301fa055fd2db49d7",
+      "bytes": 3518,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/handoff_home_servo_v31.py",
+      "source": "workspace:rsi_group_meeting/handoff_home_servo_v31.py",
+      "sha256": "75d72695c219d8edcfdfdba2b722256fc9fb21e7bbc9e55166bcb18687f84bad",
+      "bytes": 2022,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/home_servo_preflight_v31.py",
+      "source": "workspace:rsi_group_meeting/home_servo_preflight_v31.py",
+      "sha256": "7eb105f78a8155970d06f7a1801e54d111a751e0337ab8e999d4bf1323656178",
+      "bytes": 4357,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/cross_context_diag_v35.py",
+      "source": "workspace:rsi_group_meeting/cross_context_diag_v35.py",
+      "sha256": "ad6e33646356ea5c019a0cf99f3556a7da89aa9fae2e876861f5a6a87720084d",
+      "bytes": 23580,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/cross_context_worker_v35.py",
+      "source": "workspace:rsi_group_meeting/cross_context_worker_v35.py",
+      "sha256": "e0328db20c33aa4b325fba0e948e30299a6b9d06de114335b25fa80f9bf5936a",
+      "bytes": 6948,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/analyze_cross_context_v35.py",
+      "source": "workspace:rsi_group_meeting/analyze_cross_context_v35.py",
+      "sha256": "0a1a8747db45c3f4864562ad40676c8103775a5f9099feabeaf82a2b5a1cb94c",
+      "bytes": 17073,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/analyze_handoff_factorial_v31.py",
+      "source": "workspace:rsi_group_meeting/analyze_handoff_factorial_v31.py",
+      "sha256": "d1654014ece84a560cd8d71bf241a4f61c0d7020cb140600b5d4250029270f72",
+      "bytes": 11114,
+      "role": "v40_registered_original_source",
+      "v40_registration_SHA_bound": true,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/recovery_code/aggregate_recovered_trainings_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/recovery_code/aggregate_recovered_trainings_v40.py",
+      "sha256": "dc67be2f24e5f51e6a3cb0e7641e036c4e0d5fc5cfd32096b563cfc9e2608cb1",
+      "bytes": 31162,
+      "role": "recovery_addendum_bound_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/recovery_code/run_namespace_recovery_sequence_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/recovery_code/run_namespace_recovery_sequence_v40.py",
+      "sha256": "e3a8172de1fde1c3b8b3df8cb26ac694a95229041907b13b66523de8084e24f9",
+      "bytes": 6929,
+      "role": "recovery_addendum_bound_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/recovery_code/run_remaining_coverage_namespace_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/recovery_code/run_remaining_coverage_namespace_v40.py",
+      "sha256": "e793d222c9c7e3af58450f868f160c3abe25f83b85c1490254241b3fa06f6c4f",
+      "bytes": 15378,
+      "role": "recovery_addendum_bound_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/check_frame_preparation_cpu.py",
+      "source": "workspace:rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/check_frame_preparation_cpu.py",
+      "sha256": "c035ebbbcb918329343ecdd168904d5557bcab75e062ca5c499537d3868bdc2f",
+      "bytes": 3877,
+      "role": "closed_root_raw_or_CPU_frame_review_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/extract_closed_frames_cpu.py",
+      "source": "workspace:rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/extract_closed_frames_cpu.py",
+      "sha256": "d6a34a51dfac00643b64d970decd15ec120d5ab8a1b3d3d78944f6aa696cf4c7",
+      "bytes": 15797,
+      "role": "closed_root_raw_or_CPU_frame_review_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/root_review_closed_v40.py",
+      "source": "workspace:rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/root_review_closed_v40.py",
+      "sha256": "05c15a803db48d5bf1b785a12a321f135bb51b03089e4e552dca8685d0ef99fc",
+      "bytes": 15482,
+      "role": "closed_root_raw_or_CPU_frame_review_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/run_root_review_attempt.py",
+      "source": "workspace:rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/run_root_review_attempt.py",
+      "sha256": "247f2e3a752d1cb8d4df91bbd08f90fa82e8db576f707066d5ca9aabcbb3f897",
+      "bytes": 1299,
+      "role": "closed_root_raw_or_CPU_frame_review_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    },
+    {
+      "file": "code/rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/supplement_closed_review.py",
+      "source": "workspace:rsi_group_meeting/v40/root_completed_review/root_audit_sources_and_attempt/supplement_closed_review.py",
+      "sha256": "3a71fea5a79c7dba9735a232baf33b608340e1c118a8bb74fb224e4e89009107",
+      "bytes": 5566,
+      "role": "closed_root_raw_or_CPU_frame_review_source",
+      "v40_registration_SHA_bound": false,
+      "expected_SHA_verified": true
+    }
+  ]
+}

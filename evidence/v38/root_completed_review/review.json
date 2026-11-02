@@ -1,0 +1,1606 @@
+{
+  "reviewed_utc": "2026-11-01T17:10:56.932909+00:00",
+  "registration_sha256": "b5b7403e5dd7654cb73f221815043ce46145bf37b4e4f17bb08fd252066525d1",
+  "frozen_analysis_sha256": "8ae4ba087e09e7dba0cc55da5f099cc73537d4519c8b3174bc0a299b968cf712",
+  "offline_fit_sha256": "232ec18fb32ddcbcf63224a8e1adcdd19b2331c8431003c82d8168e39ca119b4",
+  "rows": [
+    {
+      "key": "Long_task0_original_init10_noise20265300__full_teacher_head_bc",
+      "partition": "training_context",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          false
+        ],
+        "true_to_false_goal_counts": [
+          5,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            false,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            1,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "Long_task0_original_init10_noise20265301__full_teacher_head_bc",
+      "partition": "training_context",
+      "head": {
+        "success520": true,
+        "success900": true,
+        "task_controls": 372,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          true
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": true,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": true,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": true,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": true,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "Long_task7_original_init10_noise20265300__full_teacher_head_bc",
+      "partition": "training_context",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "Long_task7_original_init10_noise20265301__full_teacher_head_bc",
+      "partition": "training_context",
+      "head": {
+        "success520": false,
+        "success900": true,
+        "task_controls": 531,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          true
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": true,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": true,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_10_task0_original_init11_noise20265400__full_teacher_head_bc",
+      "partition": "test_context",
+      "head": {
+        "success520": false,
+        "success900": true,
+        "task_controls": 694,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          true
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": true,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": true,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": true,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_10_task0_original_init12_noise20265400__full_teacher_head_bc",
+      "partition": "test_context",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          false,
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          5
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_10_task7_original_init11_noise20265400__full_teacher_head_bc",
+      "partition": "test_context",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_10_task7_original_init12_noise20265400__full_teacher_head_bc",
+      "partition": "test_context",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false,
+          false
+        ],
+        "terminal_goals": [
+          true,
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0,
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false,
+            false
+          ],
+          "terminal_goals": [
+            true,
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0,
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_90_task9_original_init7_noise20265400__full_teacher_head_bc",
+      "partition": "source_regression",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false
+        ],
+        "terminal_goals": [
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 126,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 139,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 125,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 153,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_90_task9_original_init8_noise20265400__full_teacher_head_bc",
+      "partition": "source_regression",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false
+        ],
+        "terminal_goals": [
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 138,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 134,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 134,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 141,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_90_task34_original_init7_noise20265400__full_teacher_head_bc",
+      "partition": "source_regression",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false
+        ],
+        "terminal_goals": [
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 163,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 186,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 253,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": true
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": false
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": true
+          }
+        }
+      }
+    },
+    {
+      "key": "libero_90_task34_original_init8_noise20265400__full_teacher_head_bc",
+      "partition": "source_regression",
+      "head": {
+        "success520": false,
+        "success900": false,
+        "task_controls": 900,
+        "initial_goals": [
+          false
+        ],
+        "terminal_goals": [
+          false
+        ],
+        "true_to_false_goal_counts": [
+          0
+        ]
+      },
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 243,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "task_controls": 254,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            true
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "task_controls": 900,
+          "initial_goals": [
+            false
+          ],
+          "terminal_goals": [
+            false
+          ],
+          "true_to_false_goal_counts": [
+            0
+          ]
+        }
+      },
+      "numerical_instability_retained": false,
+      "repairs_and_harms": {
+        "520": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        },
+        "900": {
+          "parent": {
+            "repair": false,
+            "harm": false
+          },
+          "uniform_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "local_bc": {
+            "repair": false,
+            "harm": true
+          },
+          "head20_bc": {
+            "repair": false,
+            "harm": false
+          }
+        }
+      }
+    }
+  ],
+  "independently_recomputed_totals": {
+    "training_context": {
+      "full_teacher_head_bc": {
+        "conditions": 4,
+        "successes520": 1,
+        "successes900": 2
+      },
+      "parent": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "uniform_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "local_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "head20_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      }
+    },
+    "test_context": {
+      "full_teacher_head_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 1
+      },
+      "parent": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "uniform_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "local_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "head20_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      }
+    },
+    "source_regression": {
+      "full_teacher_head_bc": {
+        "conditions": 4,
+        "successes520": 0,
+        "successes900": 0
+      },
+      "parent": {
+        "conditions": 4,
+        "successes520": 3,
+        "successes900": 3
+      },
+      "uniform_bc": {
+        "conditions": 4,
+        "successes520": 4,
+        "successes900": 4
+      },
+      "local_bc": {
+        "conditions": 4,
+        "successes520": 3,
+        "successes900": 3
+      },
+      "head20_bc": {
+        "conditions": 4,
+        "successes520": 3,
+        "successes900": 3
+      }
+    }
+  },
+  "primary": "by520 complete-task success",
+  "extension": "by900 on same trajectories",
+  "all_initial_public_inputs_and_sim_states_match_references": true,
+  "prior_teacher_test": {
+    "successes900": 3,
+    "successes520": 2,
+    "conditions": 4,
+    "privileged_fixed_teacher": true
+  },
+  "ordinary_RL_comparator_performed": false,
+  "all_contexts_are_exposed_development": true,
+  "training_positives_are_not_generalization": true,
+  "head_parameterization_is_standard_BC_not_M_or_RSI": true,
+  "work_demonstrated": false,
+  "cpu_review_wall_seconds": 2.038705099999788
+}

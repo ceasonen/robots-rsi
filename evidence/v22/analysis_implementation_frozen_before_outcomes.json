@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-10-28T07:42:37.133667+00:00",
+  "implementation_sha256": "d98aa93622526e0f4168215959e329325a8e1cf628d1ebbc9097614142cedc8f",
+  "new_physical_episodes_at_freeze": 0,
+  "only_initial_unlabeled_probes_in_progress": true,
+  "primary_scope": "all6 actor deployment; cold2 and known4 separately secondary; Long task clusters10, Bdiagnostic9",
+  "metrics_predefined_in_registration": true
+}

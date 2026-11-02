@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "created_utc": "2026-11-02T06:15:32.601550+00:00",
+    "new_scientific_execution": false,
+    "source_byte_exact": true,
+    "copy_files": 179,
+    "copied_payload_bytes": 18597627,
+    "registration_original_sources": 53,
+    "excluded_dependency_count": 117,
+    "contact_sheets": 12,
+    "raw_result_jsons": 48,
+    "credential_pattern_hits": [],
+    "heuristic_secret_scan_not_exhaustive": true,
+    "immutable_files_containing_workstation_paths_review_before_publication": [
+      "code/rsi_group_meeting/v40/code/state_coverage_study_v40.py",
+      "evidence/v40/registration.json",
+      "evidence/v40/root_verdict/evidence_manifest.json",
+      "evidence/v40/root_verdict/verdict.json",
+      "evidence/v40/agent_verdicts/research_verdict/verdict.json",
+      "evidence/v40/agent_verdicts/paper_verdict/verdict_and_evidence.json"
+    ],
+    "omitted": [
+      "weights/models/environment_packages",
+      "raw_physical_trajectories_and_feature_packets",
+      "all_videos_and288_individual_frames",
+      "large_trained_actors_and_optimizer_tensor_receipts",
+      "36MB_all_query_receipts",
+      "11MB_full_artifact_hash_manifest",
+      "v22_blind_probe_9MB_receipt"
+    ],
+    "missing_full_reproduction_dependencies": true,
+    "CPU_copy_and_hash_observed_seconds": 5.102941199998895,
+    "unknown_human_seconds": null
+  },
+  "generated_explanations": [
+    {
+      "file": "code/代码与运行边界.txt",
+      "bytes": 1239,
+      "sha256": "d538c8aecc7fecfe8fd1967f2854aec491d8ecfcc7360ec9995d6803e4597fcf"
+    },
+    {
+      "file": "code/excluded_dependencies.json",
+      "bytes": 35955,
+      "sha256": "bc2c7402eed8f567e038262308a98dd27264a9e202f366e78247730ad571ae26"
+    },
+    {
+      "file": "evidence/证据范围说明.txt",
+      "bytes": 1587,
+      "sha256": "51f05eb9b8044390adca54150127505373933a27a1b2054bb3f0205bd4db2f5e"
+    }
+  ],
+  "all_copied_destination_SHA_checked": true
+}

@@ -1,0 +1,1059 @@
+{
+  "analyzed_utc": "2026-11-01T17:08:51.674915+00:00",
+  "registration_sha256": "b5b7403e5dd7654cb73f221815043ce46145bf37b4e4f17bb08fd252066525d1",
+  "rows": [
+    {
+      "key": "Long_task0_original_init10_noise20265300__full_teacher_head_bc",
+      "context": "Long_task0_original_init10_noise20265300",
+      "partition": "training_context",
+      "policy_seed": 20265300,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 136.41194859998996,
+      "episode_wall_seconds": 315.69021819999944,
+      "packet_io_seconds": 77.0732398999944,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "532a2f45a7bfbadf32b43d7da1b41fba23ba234994ae7a57d09b9827bab6d01f"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "da11765fc0488767391906c661a5c16465d36d73dc21063fa9e3e74d541c815e"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "7f82abbd2b60ce8808cd51f6756262dc5712f433a9eefcac826ec67b3ea2a82e"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "c50efb36a0c20910047869efb9b4126378c4ce7dbaf0ca183c821e654e6c5b57"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": 0,
+      "net900_vs_local": 0,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "203adde5b142623217ce23461434252bd32d375a5bf1afc2dd5646517bcac096"
+    },
+    {
+      "key": "Long_task0_original_init10_noise20265301__full_teacher_head_bc",
+      "context": "Long_task0_original_init10_noise20265301",
+      "partition": "training_context",
+      "policy_seed": 20265301,
+      "success520": true,
+      "success900": true,
+      "instability": false,
+      "task_controls": 372,
+      "inference_seconds": 62.857051700006195,
+      "episode_wall_seconds": 134.56381360000069,
+      "packet_io_seconds": 32.5745608000243,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "9a55c125c99dabe4e44297fbcc7602846f4fa83d529f51ef07560e68f3a01463"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "32e563ec6588f3e4cc92aaadda180dc59534af5f22ae6b8200a34ba787948f40"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "526481c7d99520ba8971c7aab9b0ec6cd3f4407de7a6a375c9d537b4542c25a5"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "56bff58ed3ba6eed03a1604a792961bbb11bf46ab221ff8b8298234585d71349"
+        }
+      },
+      "net900_vs_parent": 1,
+      "net900_vs_uniform": 1,
+      "net900_vs_local": 1,
+      "net520_vs_parent": 1,
+      "net520_vs_uniform": 1,
+      "net520_vs_local": 1,
+      "net520_vs_head20": 1,
+      "net900_vs_head20": 1,
+      "result_sha256": "5fa1584585dbfa4ecfc8e92d1374f2fe5c574375753508872a5498e33ee0c424"
+    },
+    {
+      "key": "Long_task7_original_init10_noise20265300__full_teacher_head_bc",
+      "context": "Long_task7_original_init10_noise20265300",
+      "partition": "training_context",
+      "policy_seed": 20265300,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 125.33125549999932,
+      "episode_wall_seconds": 256.1435915000002,
+      "packet_io_seconds": 70.16089920002923,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1561c203b05dbf49160b6b6729d5beeb9e2eede7188fa825b0e9d9fa5a443364"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "ad64258c69f37aea4fda9ba295e7cd3267276d386c8fb47db24a4ccec076e6c3"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "194a8bfca4041502593cdd4d523e3694e9fd132c73985e057ffb4004ec21e92c"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1f0af7a40e1c7a5e29cb4ad4117a91b0a6e549f30815bced30deb9df9b7dc637"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": 0,
+      "net900_vs_local": 0,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "34e48d6027c157427db55d5cd345f4859830f75e0695239be69291ae302b5d9f"
+    },
+    {
+      "key": "Long_task7_original_init10_noise20265301__full_teacher_head_bc",
+      "context": "Long_task7_original_init10_noise20265301",
+      "partition": "training_context",
+      "policy_seed": 20265301,
+      "success520": false,
+      "success900": true,
+      "instability": false,
+      "task_controls": 531,
+      "inference_seconds": 63.87474209998436,
+      "episode_wall_seconds": 130.94419789999847,
+      "packet_io_seconds": 35.595594899981734,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1900516d6aeadd96b533758a525b8eba0f564768b5fdbfc697364c6386689fa0"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "4818ded2a1e3d657c0c8b858ccb3909365231f2f37096349ef8c09f8b7c0570e"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "65d3db4a4dd4ba8f385abc0751bc3a95886dfc15f4b3e13acd3b35e66294b3bd"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "0926b4f7be2731c79d59032a76b1317f1bb9b21b5c0e7a0a61da7ba56f80eeb2"
+        }
+      },
+      "net900_vs_parent": 1,
+      "net900_vs_uniform": 1,
+      "net900_vs_local": 1,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 1,
+      "result_sha256": "fc2232f6084fbf29ca671219eac9c32bf2c15a9e1a7790a150fb448757fdd3cc"
+    },
+    {
+      "key": "libero_10_task0_original_init11_noise20265400__full_teacher_head_bc",
+      "context": "libero_10_task0_original_init11_noise20265400",
+      "partition": "test_context",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": true,
+      "instability": false,
+      "task_controls": 694,
+      "inference_seconds": 81.45416430000114,
+      "episode_wall_seconds": 180.8861219999999,
+      "packet_io_seconds": 48.94741609999801,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "e8a54070e78513454e3a281db8bb396a9b786483824d4508f09fc83636a3528b"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "b5da13c5d19fda2d022f7ab1fe8e2f99a4e9551f052e1b017bf89405f7445954"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "57f7987cbe1e86fd9a5eb86333cbc1a321cc4f950a37628a2c806bfb59ff6d2e"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "e82a5a27b5a16b4eb8a8d25c1896c30e3e8073031e714cc4eb77465511e70aac"
+        }
+      },
+      "net900_vs_parent": 1,
+      "net900_vs_uniform": 1,
+      "net900_vs_local": 1,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 1,
+      "result_sha256": "a2be5e6dc939a074e4d0f02d7dedbb6cd8c75537b2e521f32efe0916efe81edd"
+    },
+    {
+      "key": "libero_10_task0_original_init12_noise20265400__full_teacher_head_bc",
+      "context": "libero_10_task0_original_init12_noise20265400",
+      "partition": "test_context",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 120.7163060000239,
+      "episode_wall_seconds": 257.68001340000046,
+      "packet_io_seconds": 70.81576359998326,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "113b755e84537d0aab24cfcb509c952db2cd1ee517a7fbc7786159ccad723ca1"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "f8de61e9769a99cc239842cbacacf181e2f3c9db69c66568bb48b278f1f1d7fa"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "7fd6638959982a17ad323b292be637f2b7c4022af5f64065ae343ff31442cfa6"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "58f7ed98e7a8227b795bc4ea661e74dabfc4241f0dd94bf70d93d157b39e9162"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": 0,
+      "net900_vs_local": 0,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "bd9e8de5ee282c43f499c0bea32e8e19d437c9e08b69360bc7e8540473cdc8e1"
+    },
+    {
+      "key": "libero_10_task7_original_init11_noise20265400__full_teacher_head_bc",
+      "context": "libero_10_task7_original_init11_noise20265400",
+      "partition": "test_context",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 121.61304069997641,
+      "episode_wall_seconds": 246.32805449999978,
+      "packet_io_seconds": 70.4641834000322,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "02d684ef1c6b8d0e83609d31e0df868125b586ae1d3896a708f7153eff36f9c5"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "4be135531eb24895a9b57ecfdb36cd700b0d11d1d24a53ebb84036cec5f0b0c0"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "9c9218e195768f773ff7cb5c7d66be3bff590f4d5fe58451f52422a4f78f02d2"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "8b118c00afc2267615260dced002b4b8ba43d423d629c58adb047d0b7aece530"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": 0,
+      "net900_vs_local": 0,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "3c050605e0eedb20094ccf728fe043083693fbf7598462ec587a0d6df36dd393"
+    },
+    {
+      "key": "libero_10_task7_original_init12_noise20265400__full_teacher_head_bc",
+      "context": "libero_10_task7_original_init12_noise20265400",
+      "partition": "test_context",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 116.83374889997503,
+      "episode_wall_seconds": 236.90674070000023,
+      "packet_io_seconds": 65.67991490000713,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1af98bee5228766d8ef800fdb16676b9c170aacb0a876d89ee1c757e0dd1d502"
+        },
+        "uniform_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1bc66f0bdf0c9e9bbd08a363b91766299af23da7cd856b485ff264be112889e2"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "76ca4a22132128c073cc5cde47ca275f18183cb4a43a40eb96dc0d47c7b84278"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "613514272d5ed713ca499730c1f3e6ae0db09b6cd793a186a2ac963964a11622"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": 0,
+      "net900_vs_local": 0,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": 0,
+      "net520_vs_local": 0,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "3daa771b779795a7fd5668d936bf7d18a1d4ed81c26065ce8e106b447ceffb98"
+    },
+    {
+      "key": "libero_90_task9_original_init7_noise20265400__full_teacher_head_bc",
+      "context": "libero_90_task9_original_init7_noise20265400",
+      "partition": "source_regression",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 112.14180420001685,
+      "episode_wall_seconds": 229.61622080000052,
+      "packet_io_seconds": 62.889999799996076,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "5621659f1aa28839fbecc3fa1f9b7da2e03c8c13642ee7e94aedb174dbd76767"
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "9f9537f64d822147bac551f465df65d47ba26792447f489c18aa104d0b271297"
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "97b5ea890ec7bc4532946c96b45412146b8dacd423843dc20863e2eeca28873a"
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "5cb38adf8026c596d43a96c5b4ec720891db53c6e6871ba60397857d21023156"
+        }
+      },
+      "net900_vs_parent": -1,
+      "net900_vs_uniform": -1,
+      "net900_vs_local": -1,
+      "net520_vs_parent": -1,
+      "net520_vs_uniform": -1,
+      "net520_vs_local": -1,
+      "net520_vs_head20": -1,
+      "net900_vs_head20": -1,
+      "result_sha256": "0ff8a1398df5a42afab25d60d5fa5c502c3dba6201f8493f3cd7c3ee21e793df"
+    },
+    {
+      "key": "libero_90_task9_original_init8_noise20265400__full_teacher_head_bc",
+      "context": "libero_90_task9_original_init8_noise20265400",
+      "partition": "source_regression",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 111.07912300001408,
+      "episode_wall_seconds": 229.03763249999975,
+      "packet_io_seconds": 65.84238599999117,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "784aa4b2d6c9ef8e86c8914ce399b451e66e5a26940b80fceaff3169dffbec32"
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "b02cae9fa70c7b0c29822f65cbfdffe9164e5c9f8453a0c3ca92e17602336ed7"
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "fbd328cddf2013ae6551b6e7920722194b33f898e525be783ace3a2132b3b937"
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "2c08b19ac7a5d223e6f5c9281751920ef81515914725d81dc761927412867db9"
+        }
+      },
+      "net900_vs_parent": -1,
+      "net900_vs_uniform": -1,
+      "net900_vs_local": -1,
+      "net520_vs_parent": -1,
+      "net520_vs_uniform": -1,
+      "net520_vs_local": -1,
+      "net520_vs_head20": -1,
+      "net900_vs_head20": -1,
+      "result_sha256": "fa1932feb0fbe736791e6a7bec13fc1f3dba508858bdd16463b8c3c5bbf217c8"
+    },
+    {
+      "key": "libero_90_task34_original_init7_noise20265400__full_teacher_head_bc",
+      "context": "libero_90_task34_original_init7_noise20265400",
+      "partition": "source_regression",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 122.21893480000108,
+      "episode_wall_seconds": 239.90960219999943,
+      "packet_io_seconds": 64.17686120001781,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "02707ec4f275a457fbaa08e07ea6f811599385567dd1499b9a1963d824d1d593"
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "b98fb9a2b12f1f127bfafa93364b67f80f70f6f1a4a0431418b71fc45587b4b0"
+        },
+        "local_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "1955716331d946953fc21c3a90b93e4efb4f9d0124176ebf16abd1c4620121e5"
+        },
+        "head20_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "3bb4c5283de36bea9eafaceeb8c9845a89362b73095c3a8b7abdf13d394dfe5b"
+        }
+      },
+      "net900_vs_parent": -1,
+      "net900_vs_uniform": -1,
+      "net900_vs_local": 0,
+      "net520_vs_parent": -1,
+      "net520_vs_uniform": -1,
+      "net520_vs_local": 0,
+      "net520_vs_head20": -1,
+      "net900_vs_head20": -1,
+      "result_sha256": "3f9542835ce264b297a8fc37946f70b0f79b3a4ec44aac128ac2e2a385ef5b0b"
+    },
+    {
+      "key": "libero_90_task34_original_init8_noise20265400__full_teacher_head_bc",
+      "context": "libero_90_task34_original_init8_noise20265400",
+      "partition": "source_regression",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 115.12798729999668,
+      "episode_wall_seconds": 222.98362669999915,
+      "packet_io_seconds": 59.376491099988925,
+      "initial_goals": [
+        false
+      ],
+      "terminal_goals": [
+        false
+      ],
+      "references": {
+        "parent": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "40e5eb50d0adfa5c0bad3ec98d65eb18fd4ae14e7c6f60020b57fd7a81a7f8de"
+        },
+        "uniform_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "f2c86cd98d0ccbe6b7a105d9dd1df81245fd2b42ddc05cfa2e12ca0eb6b9de29"
+        },
+        "local_bc": {
+          "success520": true,
+          "success900": true,
+          "result_sha256": "fad97c90db0ad39087a5c58917af6210cddaefbab22a4503b9f94eeb92daf9bd"
+        },
+        "head20_bc": {
+          "success520": false,
+          "success900": false,
+          "result_sha256": "bca18cc293b773c5ed779ea7824020ff0db1509b16d56bcd940ead41e72bd56d"
+        }
+      },
+      "net900_vs_parent": 0,
+      "net900_vs_uniform": -1,
+      "net900_vs_local": -1,
+      "net520_vs_parent": 0,
+      "net520_vs_uniform": -1,
+      "net520_vs_local": -1,
+      "net520_vs_head20": 0,
+      "net900_vs_head20": 0,
+      "result_sha256": "8741d1c8cce39e4d9f774b24802b3a100a1625062fd8fc4b3905f0b122b73d2a"
+    }
+  ],
+  "totals": {
+    "training_context": {
+      "parent": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head20_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "full_teacher_head_bc": {
+        "successes900": 2,
+        "successes520": 1,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 1,
+        "harms": 0
+      },
+      "head_vs_parent_by900": {
+        "repairs": 2,
+        "harms": 0
+      }
+    },
+    "test_context": {
+      "parent": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head20_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "full_teacher_head_bc": {
+        "successes900": 1,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "head_vs_parent_by900": {
+        "repairs": 1,
+        "harms": 0
+      }
+    },
+    "source_regression": {
+      "parent": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 4,
+        "successes520": 4,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "head20_bc": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "full_teacher_head_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 0,
+        "harms": 3
+      },
+      "head_vs_parent_by900": {
+        "repairs": 0,
+        "harms": 3
+      }
+    }
+  },
+  "prior_teacher_test": {
+    "successes900": 3,
+    "successes520": 2,
+    "conditions": 4,
+    "privileged_fixed_teacher": true
+  },
+  "prior_teacher_test_all_rows": [
+    {
+      "key": "libero_10_task0_original_init11_noise20265400__home_learned",
+      "kind": "teacher_test_context",
+      "context": "libero_10_task0_original_init11_noise20265400",
+      "actor": "parent",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": true,
+      "instability": false,
+      "task_controls": 623,
+      "inference_seconds": 113.27458499991917,
+      "episode_wall_seconds": 189.98261300000013,
+      "feature_packets": 623,
+      "feature_packet_io_seconds": 38.94285979986307,
+      "servo_controls": 60,
+      "servo_reconstruction_max_abs_error": 0.0,
+      "first_servo_trigger_position": [
+        0.0010851071012783348,
+        0.24701415088788597,
+        0.6070310422861153
+      ],
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "goal_true_to_false_counts": [
+        0,
+        0
+      ],
+      "result_sha256": "10741df83b8dc2ab8a06b6bd94bfcd8fa74de4be0df525b8ae355beb24adee7b",
+      "initial_inputs_equal_reference": true
+    },
+    {
+      "key": "libero_10_task0_original_init12_noise20265400__home_learned",
+      "kind": "teacher_test_context",
+      "context": "libero_10_task0_original_init12_noise20265400",
+      "actor": "parent",
+      "policy_seed": 20265400,
+      "success520": false,
+      "success900": false,
+      "instability": false,
+      "task_controls": 900,
+      "inference_seconds": 162.61959210001805,
+      "episode_wall_seconds": 268.52352080000855,
+      "feature_packets": 900,
+      "feature_packet_io_seconds": 57.01357500035374,
+      "servo_controls": 0,
+      "servo_reconstruction_max_abs_error": 0.0,
+      "first_servo_trigger_position": null,
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        false,
+        false
+      ],
+      "goal_true_to_false_counts": [
+        0,
+        0
+      ],
+      "result_sha256": "032b3004c4e2e7d569250e4ffffe97162c25591f5369d164f010004275f5c3ff",
+      "initial_inputs_equal_reference": true
+    },
+    {
+      "key": "libero_10_task7_original_init11_noise20265400__home_learned",
+      "kind": "teacher_test_context",
+      "context": "libero_10_task7_original_init11_noise20265400",
+      "actor": "parent",
+      "policy_seed": 20265400,
+      "success520": true,
+      "success900": true,
+      "instability": false,
+      "task_controls": 389,
+      "inference_seconds": 69.69134520001535,
+      "episode_wall_seconds": 116.08920190000208,
+      "feature_packets": 389,
+      "feature_packet_io_seconds": 24.49955859989859,
+      "servo_controls": 60,
+      "servo_reconstruction_max_abs_error": 0.0,
+      "first_servo_trigger_position": [
+        0.016914304595910257,
+        0.25342452476480165,
+        0.6504596762610855
+      ],
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "goal_true_to_false_counts": [
+        0,
+        0
+      ],
+      "result_sha256": "c5d4c2bcc9e7bf34ad016c3fcf016e36c0729de245de0d13cab6a4e2151d7888",
+      "initial_inputs_equal_reference": true
+    },
+    {
+      "key": "libero_10_task7_original_init12_noise20265400__home_learned",
+      "kind": "teacher_test_context",
+      "context": "libero_10_task7_original_init12_noise20265400",
+      "actor": "parent",
+      "policy_seed": 20265400,
+      "success520": true,
+      "success900": true,
+      "instability": false,
+      "task_controls": 387,
+      "inference_seconds": 65.13015590014402,
+      "episode_wall_seconds": 110.65932669999893,
+      "feature_packets": 387,
+      "feature_packet_io_seconds": 23.987039800093044,
+      "servo_controls": 60,
+      "servo_reconstruction_max_abs_error": 0.0,
+      "first_servo_trigger_position": [
+        0.0033049534240702453,
+        0.2654048536171218,
+        0.6072563559255768
+      ],
+      "initial_goals": [
+        false,
+        false
+      ],
+      "terminal_goals": [
+        true,
+        true
+      ],
+      "goal_true_to_false_counts": [
+        0,
+        0
+      ],
+      "result_sha256": "fd3682f6c070f435a89155986234e64975b89bc30bbbf10d2eec76940e734a69",
+      "initial_inputs_equal_reference": true
+    }
+  ],
+  "prior_original24_totals": {
+    "Long_development": {
+      "parent": {
+        "successes": 0,
+        "conditions": 4,
+        "repairs": 0,
+        "harms": 0
+      },
+      "uniform_bc": {
+        "successes": 0,
+        "conditions": 4,
+        "repairs": 0,
+        "harms": 0
+      },
+      "local_bc": {
+        "successes": 0,
+        "conditions": 4,
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "source_regression": {
+      "parent": {
+        "successes": 3,
+        "conditions": 4,
+        "repairs": 0,
+        "harms": 0
+      },
+      "uniform_bc": {
+        "successes": 4,
+        "conditions": 4,
+        "repairs": 1,
+        "harms": 0
+      },
+      "local_bc": {
+        "successes": 3,
+        "conditions": 4,
+        "repairs": 1,
+        "harms": 1
+      }
+    }
+  },
+  "prior_head20_totals": {
+    "training_context": {
+      "parent": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "head_vs_parent_by900": {
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "test_context": {
+      "parent": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_uniform_bc": {
+        "successes900": 0,
+        "successes520": 0,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "head_vs_parent_by900": {
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "source_regression": {
+      "parent": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "uniform_bc": {
+        "successes900": 4,
+        "successes520": 4,
+        "conditions": 4
+      },
+      "local_bc": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "head_uniform_bc": {
+        "successes900": 3,
+        "successes520": 3,
+        "conditions": 4
+      },
+      "head_vs_parent_by520": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "head_vs_parent_by900": {
+        "repairs": 0,
+        "harms": 0
+      }
+    }
+  },
+  "prior_head20_analysis_sha256": "003449c36df65fd447e90802b37a73eeea320e31b980c090021caed7f3e125dc",
+  "new_test_repairs_by520_observed": false,
+  "new_test_repairs_by900_observed": true,
+  "costs": {
+    "new_training_runs": 1,
+    "optimizer_steps": 2000,
+    "loss_presentations": 64000,
+    "teacher_presentations": 32000,
+    "retention_presentations": 32000,
+    "training_distribution_forwards": 128000,
+    "parity_queries_encodings_samples": 8,
+    "parity_physical_controls": 0,
+    "parity_query_seconds": 2.5531991000002563,
+    "new_physical_episodes": 12,
+    "new_task_controls": 9697,
+    "new_settling_controls": 120,
+    "evaluation_policy_queries_encodings_samples": 9697,
+    "evaluation_inference_seconds": 1289.660107099985,
+    "packet_io_seconds_included_in_episode_wall": 723.5973109000442,
+    "evaluation_registered_run_elapsed_seconds": 2762.9171737999995,
+    "training_loop_wall_seconds": 5396.811456899999,
+    "peak_torch_allocation_not_total_VRAM": 723955200,
+    "new_teacher_acquisition": 0,
+    "new_training_feature_encoders": 0,
+    "actual_teacher_coverage": 3163,
+    "early_history_targets": 63,
+    "early_history_presentations": 647,
+    "servo_presentations": 4196,
+    "reused_reference_rows": 48,
+    "reused_old_trials_new_physical_increment": 0,
+    "offline_new_head_density_budget": 3291,
+    "offline_actual_not_yet_run": null,
+    "whole_project_end_to_end_seconds": null
+  },
+  "limitations": [
+    "A stronger standard BC baseline, not a new repair method, M or RSI. No ordinaryRL run fabricated from teacher actions.",
+    "The start is author source90 pretraining; old Long parent7/90 may reflect missing target-task adaptation, not repair of a previously competent full-task system. A gain is first a supervised adaptation baseline.",
+    "Full3163 supervision and2000 steps change jointly versus old128/20; not single-factor causality or equal-budget superiority.",
+    "No frozen-sigma claim: shared head may alter means/scales/logits. Density/mean-fit is not task success or proof of a unique failure mechanism.",
+    "Retention/KL/representation constraints remain; a negative result does not reject BC or establish a theoretical supervision ceiling.",
+    "All12 contexts are previously exposed development; training-context success never independent generalization/work.",
+    "Old teacher failure/late success, U/L outcomes and local source harm remain visible; zero-B parity does not imply trained-policy parity.",
+    "Uniform action sampling weights longer teachers more; correlated frames are not independent robot trials.",
+    "All12fixedconditionsclosedbeforeanalysis; no p-values or checkpoint selection.",
+    "No active ordinaryRL control performed; privileged teacher servo and A/B behavior are not joint on-policy training data.",
+    "Train-context success never counts as generalization/work."
+  ],
+  "work_demonstrated": false
+}

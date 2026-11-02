@@ -1,0 +1,2 @@
+# Keep registered frozen source bytes unchanged across clones.
+* -text

@@ -1,0 +1,86 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agia et~al.(2025)Agia, Sinha, Yang, Antonova, Pavone, Nishimura,
+  Itkina, and Bohg]{cupid}
+Christopher Agia, Rohan Sinha, Jingyun Yang, Rika Antonova, Marco Pavone,
+  Haruki Nishimura, Masha Itkina, and Jeannette Bohg.
+\newblock {CUPID: Curating Data your Robot Loves with Influence Functions}.
+\newblock \emph{arXiv preprint arXiv:2506.19121}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.19121v2}.
+\newblock Version v2.
+
+\bibitem[Bai et~al.(2026)Bai, Li, Huang, and Karlsson]{practice}
+Ziyi Bai, Siqi Li, Tinglei Huang, and B{\"o}rje~F. Karlsson.
+\newblock {PRACTICE: From Experience to Expertise in Self-Evolving Embodied
+  Agents}.
+\newblock \emph{arXiv preprint arXiv:2608.30760}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.30760v1}.
+\newblock Version v1.
+
+\bibitem[Chen et~al.(2026)Chen, Liu, Wang, Jin, Zhu, Ruan, and Han]{recursia}
+Yangzhi Chen, Feiran Liu, Zishuo Wang, Zijian Jin, Xin Zhu, Lecheng Ruan, and
+  Wenjuan Han.
+\newblock {Learning to Compose: Recursive Self-Improvement of Shared Executable
+  Stacks for Zero-Shot Long-Horizon Robot Manipulation}.
+\newblock \emph{arXiv preprint arXiv:2610.24464}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.24464v1}.
+\newblock Version v1.
+
+\bibitem[Lei et~al.(2025)Lei, Mao, Zhou, Zhang, Li, and Luo]{dmpel}
+Yuheng Lei, Sitong Mao, Shunbo Zhou, Hongyuan Zhang, Xuelong Li, and Ping Luo.
+\newblock {Dynamic Mixture of Progressive Parameter-Efficient Expert Library
+  for Lifelong Robot Learning}.
+\newblock \emph{arXiv preprint arXiv:2506.05985}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.05985v3}.
+\newblock Version v3.
+
+\bibitem[Liu et~al.(2023)Liu, Zhu, Gao, Feng, Liu, Zhu, and Stone]{libero}
+Bo~Liu, Yifeng Zhu, Chongkai Gao, Yihao Feng, Qiang Liu, Yuke Zhu, and Peter
+  Stone.
+\newblock {LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot
+  Learning}.
+\newblock \emph{arXiv preprint arXiv:2306.03310}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.03310v2}.
+\newblock Version v2.
+
+\bibitem[Luo et~al.(2026)Luo, Bai, Xu, Li, Li, Qian, Lu, Zhang, Zou, Luo, Chen,
+  and Lin]{physical_rsi}
+Meng Luo, Zechen Bai, Shanqing Xu, Yanlin Li, Kaixin Li, Mengchen Qian, Weifeng
+  Lu, Ran Zhang, Yingtian Zou, Ziyang Luo, Wei Chen, and Hongzhan Lin.
+\newblock {Toward Recursive Self-Improvement in Physical AI}.
+\newblock \emph{arXiv preprint arXiv:2610.29677}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.29677v1}.
+\newblock Version v1.
+
+\bibitem[Xie et~al.(2026)Xie, Xu, Jiang, and Zhao]{predict_before_modify}
+Zixuan Xie, Chang Xu, Yuhua Jiang, and Li~Zhao.
+\newblock {Predict Before You Modify: Learning Improvement Dynamics for
+  Self-Evolving Agents}.
+\newblock \emph{arXiv preprint arXiv:2610.13991}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.13991v2}.
+\newblock Version v2.
+
+\bibitem[Zhang et~al.(2026)Zhang, Liu, and Zhang]{local_recovery}
+Yuzhi Zhang, Xinyu Liu, and Yu~Zhang.
+\newblock {Recursive Self-Improvement of Visuomotor Policies through Local
+  Recovery Supervision}.
+\newblock \emph{arXiv preprint arXiv:2610.05151}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.05151v1}.
+\newblock Version v1.
+
+\bibitem[Zhou et~al.(2025)Zhou, Xu, Tie, Chen, Zhang, Chu, Zhou, and
+  Sun]{liberopro}
+Xueyang Zhou, Yangming Xu, Guiyao Tie, Yongchao Chen, Guowen Zhang, Duanfeng
+  Chu, Pan Zhou, and Lichao Sun.
+\newblock {LIBERO-PRO: Towards Robust and Fair Evaluation of
+  Vision-Language-Action Models Beyond Memorization}.
+\newblock \emph{arXiv preprint arXiv:2510.03827}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.03827v2}.
+\newblock Version v2.
+
+\end{thebibliography}

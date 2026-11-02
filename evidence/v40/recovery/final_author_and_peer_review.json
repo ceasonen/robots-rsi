@@ -1,0 +1,26 @@
+{
+  "reviewed_utc": "2026-11-01T20:02:11.197084+00:00",
+  "scope": "Author CPU tests of aggregator; independent static challenge of remaining runner, owner and installer. No actual recovery/aggregation/evaluation executed.",
+  "source_sha256": {
+    "run_remaining_coverage_namespace_v40.py": "e793d222c9c7e3af58450f868f160c3abe25f83b85c1490254241b3fa06f6c4f",
+    "aggregate_recovered_trainings_v40.py": "dc67be2f24e5f51e6a3cb0e7641e036c4e0d5fc5cfd32096b563cfc9e2608cb1",
+    "run_namespace_recovery_sequence_v40.py": "e3a8172de1fde1c3b8b3df8cb26ac694a95229041907b13b66523de8084e24f9"
+  },
+  "installer_sha256": "00f47739dfaaacab373992073b7cd2dc06ca296478ed9df51dc5c788ed3458b9",
+  "aggregator_author_role_not_self_independent_review": true,
+  "cpu_tests_passed": 20,
+  "real_closed_oldA_read_only_files": 4030,
+  "oldA_validation_seconds": 14.124066000000312,
+  "actual_aggregate_or_model_calls": 0,
+  "F_writes": 0,
+  "owner_findings": "No blocking science/overwrite/cost finding. One remaining training then truthful aggregation withACK then unchanged48evaluation and frozenanalysis. Separate owner completion, disjoint originalfailed/recovery intervals, nestedtimes not added; projectwallnull.",
+  "runner_findings": "Reviewed final runner: only coverage schedule, unchanged original scientificbody/preamble/handlers/finally AST; original zeroBelse initialdigest assert executes; no sys.modules deletion, no hardcoded originalaggregate tail. Actual one-armreceipts and8parity required.",
+  "aggregator_findings": "All evidence validates before canonicalcopy; actual firstarm fullfile set equals frozenmanifest, all source/input hashes match, restoredarm retains truecheckpointpath; complete marker last; exclusive outputs and interruptedprefix retention; totals derived from real2000+2000 receipts; within_attempt null and originalreturn1 kept.",
+  "installer_required_fix": "RESOLVED: terminating CIM errors and explicit successfulquery/emptyarray required; no empty-output success on access failure.",
+  "installer_nonblocking_cleanup": "RESOLVED: synthetic fixture and __pycache__ paths excluded; test code/receipts retained.",
+  "decision": "NO_REMAINING_STATIC_BLOCKER_IN_REVIEWED_OWNER_RUNNER_INSTALLER_AGGREGATOR_CPU_TESTS_PASS",
+  "whole_project_wall_seconds": null,
+  "prior_review_sha256": "8f3dc0aee941f9b448da7f9eba832bc1dc8e01bc3fbf9243207e27b587b4c07b",
+  "launch_recorder_sha256": "312e03431521324f6c70a62f0cdb406b50389f6ff609e27664fd8f1accfdf227",
+  "actual_install_launch_or_aggregate_by_reviewer": false
+}

@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:03:04.849217+00:00",
+  "episode": {
+    "key": "libero_90_task48_original_init20_noise20265510__parent",
+    "context": {
+      "context_id": "libero_90_task48_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 48,
+        "task_name": "LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket",
+        "perturbation": "original",
+        "language": "pick up the ketchup and put it in the basket",
+        "bddl_language": "pick up the ketchup and put it in the basket",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket.bddl",
+        "bddl_sha256": "5fde1132a61a67ee6bb6d785f6bce5b5f3c4ef8ece3f8d2ef5e0ccc5ce4c25d5",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket.pruned_init",
+        "init_sha256": "87fc0e5cc97b6c81820eafe317f6303c9f2bd7b77894ce332454414ed8947af6",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "old_A",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "parent"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "parent",
+    "actor": "parent",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "logical_parent_file_not_loaded_into_head_layout": true
+  },
+  "actor_file_sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 159,
+  "attempted_physics_steps": 159,
+  "policy_queries": 159,
+  "action_samples_completed": 159,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 12.484158799972647,
+  "wall_seconds": 35.047098499999265,
+  "paired_observation": {
+    "model_sha256": "db6af1cbb4b3b1cd05998b1b7ef02e56360456f550b3a4edb47bbd689daba11c",
+    "full_state_sha256": "310a3667f442ebcf9759f48ac9f380bec8f14dea1e77eb40a3f0571d7ad8aab2",
+    "measured_observation_sha256": "2a5a0c0b8f630685b6acdcd4fa1f7f0ef463debe0a49857201d168e974c5409e",
+    "canonical_observation_sha256": "2a5a0c0b8f630685b6acdcd4fa1f7f0ef463debe0a49857201d168e974c5409e",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:02:35.159076+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task48_original_init20_noise20265510__parent.npz",
+  "initial_sensors_sha256": "5e160c3c673ff101ad32402bdbce7928e9a92a1b6cce709fd54c25c7237a6da2",
+  "events": "events\\libero_90_task48_original_init20_noise20265510__parent.jsonl",
+  "events_sha256": "40974a8a0e556e19e422e1247afcc307af9c12d655d6ade56452604395de4bef",
+  "video": "videos\\libero_90_task48_original_init20_noise20265510__parent.mp4",
+  "video_sha256": "1865831f80c28e92d9e9e789c32344070db5ee3aa984b44d3304df00aa12686f",
+  "trace_sha256": "c6b0531ba861bb196d499cacfbdfc2a8adbee2da9aa6d75b68a73708d5d67570",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

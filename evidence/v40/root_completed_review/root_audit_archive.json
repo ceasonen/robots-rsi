@@ -1,0 +1,46 @@
+[
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\check_frame_preparation_cpu.py",
+    "sha256": "c035ebbbcb918329343ecdd168904d5557bcab75e062ca5c499537d3868bdc2f"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\extract_closed_frames_cpu.py",
+    "sha256": "d6a34a51dfac00643b64d970decd15ec120d5ab8a1b3d3d78944f6aa696cf4c7"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\frame_preparation_cpu_receipt.json",
+    "sha256": "3dcd09471febf389efa310f0b840dbc47e84cb20325d40c0c91ad00a68e587dd"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\research_raw_static_review.json",
+    "sha256": "917bd915faa16d7096bf23a7ef5de756dde206314ee1deadbd8b8575d4ae28af"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\root_review_attempt.json",
+    "sha256": "4b38c4c4e6b28a55bfd33d7cf0d44e8418d50dd22e3fb828115334e0dbe29176"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\root_review_closed_v40.py",
+    "sha256": "05c15a803db48d5bf1b785a12a321f135bb51b03089e4e552dca8685d0ef99fc"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\root_review_external_completion.json",
+    "sha256": "7c551605ea077150a559fc0b843ff8a8b72ff1cad24d2f979ce5e00013ce3eae"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\root_review_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\root_review_stdout.log",
+    "sha256": "7fb652599026c88ad8810df9c387dab553f2b5aa7469dbc251787bfe37c808fc"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\run_root_review_attempt.py",
+    "sha256": "247f2e3a752d1cb8d4df91bbd08f90fa82e8db576f707066d5ca9aabcbb3f897"
+  },
+  {
+    "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\root_audit_sources_and_attempt\\supplement_closed_review.py",
+    "sha256": "3a71fea5a79c7dba9735a232baf33b608340e1c118a8bb74fb224e4e89009107"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "stopped_utc": "2026-11-01T19:34:19.273242+00:00",
+  "error": "AssertionError(\"Use a dedicated policy process, not the simulator's LIBERO namespace\")",
+  "traceback": "Traceback (most recent call last):\n  File \"F:\\robot\\rsi_group_meeting\\v40\\code\\train_state_coverage_v40.py\", line 70, in main\n    loading=time.perf_counter();native=NativeDMPELSource90('cuda',threads=2)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\robot\\scripts\\dmpel_native_backend_v6.py\", line 69, in __init__\n    native_model_namespaces()\n  File \"F:\\robot\\scripts\\dmpel_native_backend_v6.py\", line 40, in native_model_namespaces\n    assert name not in sys.modules, \"Use a dedicated policy process, not the simulator's LIBERO namespace\"\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Use a dedicated policy process, not the simulator's LIBERO namespace\n",
+  "arm": "coverage_KL",
+  "step": 0,
+  "current_target": {
+    "arm": "oldA_KL",
+    "step": 2000,
+    "pool": "retention",
+    "selected_pool_index": 94,
+    "row": {
+      "file": "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group04_task35_replica1.npz",
+      "feature_field": "frozen_spatial_features",
+      "action_index": 118,
+      "source_task": 35,
+      "kind": "old_A_state",
+      "history_length": 10,
+      "labels_used": "No retention action target; common-parent distribution only."
+    }
+  },
+  "completed_arms": [
+    "oldA_KL"
+  ],
+  "loss_presentations_attempted": 0,
+  "loss_presentations_completed": 0,
+  "distribution_forwards_attempted": 0,
+  "distribution_forwards_completed": 0,
+  "parity_attempted_current_arm": 0,
+  "parity_completed_current_arm": 0,
+  "tensor_preservation_error": null,
+  "optimizer_preservation_error": null,
+  "within_attempt_elapsed_seconds": 3176.5803753,
+  "physical_controls": 0,
+  "auto_retry_allowed": false
+}

@@ -1,0 +1,1709 @@
+{
+  "registered_utc": "2026-11-01T14:48:13.499525+00:00",
+  "scope": "One fixed stronger full-teacher BC diagnostic, not an innovation/M/RSI or independent generalization experiment. All12 development cases were previously exposed.",
+  "parent": {
+    "id": "parent",
+    "training_seed": 77210,
+    "round": -1,
+    "mode": "parent",
+    "file": "F:\\robot\\rsi_group_meeting\\v7\\dmpel_onpolicy_source\\actors\\seed77210_initial.pt",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "optimizer_steps_total": 0,
+    "zero_update_proof": {
+      "is_exact_zero_B_identity": true,
+      "criterion": "All six float32 B factors exactly zero; frozen original weights separately verified; first-query reference distribution/action parity also required before reuse",
+      "layers": [
+        {
+          "module": "temporal_transformer.layers.0.1.qkv",
+          "B_nonzero_elements": 0
+        },
+        {
+          "module": "temporal_transformer.layers.1.1.qkv",
+          "B_nonzero_elements": 0
+        },
+        {
+          "module": "temporal_transformer.layers.2.1.qkv",
+          "B_nonzero_elements": 0
+        },
+        {
+          "module": "temporal_transformer.layers.3.1.qkv",
+          "B_nonzero_elements": 0
+        },
+        {
+          "module": "temporal_transformer.layers.4.1.qkv",
+          "B_nonzero_elements": 0
+        },
+        {
+          "module": "temporal_transformer.layers.5.1.qkv",
+          "B_nonzero_elements": 0
+        }
+      ],
+      "approximate_zero_tolerance_used": false
+    },
+    "repair_descriptor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "repair_descriptor_labels": [
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.0.1.qkv/effective_delta_frobenius",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.1.1.qkv/effective_delta_frobenius",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.2.1.qkv/effective_delta_frobenius",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.3.1.qkv/effective_delta_frobenius",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.4.1.qkv/effective_delta_frobenius",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_0",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_1",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_2",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_3",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_4",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_5",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_6",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_bilinear_7",
+      "temporal_transformer.layers.5.1.qkv/effective_delta_frobenius"
+    ]
+  },
+  "frozen_pretrained_parameters_sha256": "3b7f20de90dd219b712d069d1a84c56b8d9111f99526ce2963efd7ae72a0d27e",
+  "public_sensors": [
+    "agentview_image",
+    "robot0_eye_in_hand_image",
+    "robot0_joint_pos",
+    "robot0_gripper_qpos"
+  ],
+  "evaluation_primary": "Official complete original task success by520.",
+  "evaluation_extension": "By900 is the same-trajectory extension, never new samples; late-only success is not a primary repair.",
+  "implementation_sha256": {
+    "rsi_group_meeting/head_bc_runtime_v38.py": "2b5f657f0c431f7936c76b7de36d005e3e349d4c38cbdc14d2e22c9c379af1b0",
+    "rsi_group_meeting/head_bc_study_v38.py": "d52e4004c32695c51c677993b325836ff60a8d1f4de3a36fc48bbce563c0e1c1",
+    "rsi_group_meeting/train_head_bc_v38.py": "71ec3157c33c5a4295bb9aff44f675060bf8114ef476fdb5bc92662bcedcc250",
+    "rsi_group_meeting/head_bc_worker_v38.py": "b0295305761ca1f8ebc5355dceb66b1a8b15465abf8b88dd16a43a645cfcd6a2",
+    "rsi_group_meeting/evaluate_head_bc_v38.py": "dbfda7a744512e602b86797e720082156b2df005532461fd66f8828efe9567ba",
+    "rsi_group_meeting/analyze_head_bc_v38.py": "24b10821f4ec201fad961918f21e7a5a46294c0bdb1881b780a0289d23d316fe",
+    "rsi_group_meeting/score_head_bc_offline_v38.py": "79311fb9a1b47d519374db7e5947efc4f98a2c579e171439510984c2941a3c01",
+    "rsi_group_meeting/run_head_bc_sequence_v38.py": "82b8ac0575eaff56950a915f57433e2458d5d1a0c17224af7c33cddc2daebaf3",
+    "rsi_group_meeting/head_bc_runtime_v36.py": "8143b92d578e9d445a9e5218edd791aef379a43eaf0d2d2ad835dd2d0e87fb24",
+    "rsi_group_meeting/head_bc_study_v36.py": "6169849353a7312d5100b95424932b0e01ec5e7b162005b7dbbf509d2b00e898",
+    "rsi_group_meeting/train_head_bc_v36.py": "2605092ea240ea7a56dc522c1d42832f0519fa5a48508b45da5032c210bab1b9",
+    "rsi_group_meeting/head_bc_worker_v36.py": "14b264f143558b1fb23050abb4b2b2203359f3325b3694af3421ad30810808c3",
+    "rsi_group_meeting/evaluate_head_bc_v36.py": "4c1c54c8e5c24839379a9c68789769b7591b26e69c11410366f15886c7d7b181",
+    "rsi_group_meeting/analyze_head_bc_v36.py": "1d1f7bf31fc957974e23e4d2a5d041f6bc69af2ff04c49db5f5dd55ab5229420",
+    "rsi_group_meeting/score_head_bc_offline_v36.py": "a3dfc7178c4bc60615fad7822bdb67a538ea52541e0bc32b06b5e8ddc3d35ae5",
+    "rsi_group_meeting/register_repair_learning_v32.py": "b7e34b8037342ab43c25642b124483b560e7a15042c7d4d04cedcb0f77cd9621",
+    "rsi_group_meeting/cache_repair_teachers_v32.py": "2f78b12775550a46ac100b6394efdd970a9c5f894689b868acbc76e57ea50232",
+    "rsi_group_meeting/repair_learning_worker_v32.py": "fff4ecaa61019fede9d8c05f78aff645025d85aa212c713f7dc808a2f7291bc4",
+    "rsi_group_meeting/select_repair_training_targets_v32.py": "c1c4a33a0422638b356193a00914b022b1d971af47aad8ce7f35f96c4772fc61",
+    "rsi_group_meeting/train_repair_bc_v32.py": "105575d1b2dc3f255f51acd7d14e1dd97ba8e6cc4b9b216e4e2769cf4d4c6066",
+    "rsi_group_meeting/evaluate_repair_learning_v32.py": "30d6b7ed4c98747ceec69796b18c7ee9590be9c8ebe43daaa7d184b2d4437142",
+    "rsi_group_meeting/analyze_repair_learning_v32.py": "4591c23a603daa268d2f3dcc012cfee4f52e562577a2c9cf0861fad93e02f7cb",
+    "rsi_group_meeting/dmpel_actor_runtime_v7.py": "6bee892f55fa785eb3c0ce67a129fb5a70721c9302b41259a4ce6a6329b8c268",
+    "rsi_group_meeting/dmpel_policy_ports_v6.py": "6795773334f80a565e08d9fa982924c542a740ea4aaf02e08a5381b20e0a1c17",
+    "rsi_group_meeting/dmpel_motor_core_v6.py": "77fb623c5bf1245c8b16519aa00bd0a739cb18dcfdb50288ea20b11e3752ba0f",
+    "rsi_group_meeting/dmpel_onpolicy_objective_v7.py": "9ff2a7be99983e0b14c319e16eb1c03e50c2bbe2d57d30e468c322a876d8b1e8",
+    "rsi_group_meeting/policy_pipe_client_v7.py": "f4959729768153a9dcc2759c7b154e578ea9c75597f4a1e205d57ccd9c7cc3c2",
+    "rsi_group_meeting/evaluate_dmpel_source_probe_v6.py": "0c12b064a8280a11a871fd572894cd39b10986989f08fc074108a1f3278fff4f",
+    "rsi_group_meeting/paired_observation_v4.py": "105b4e95fa07446b0419e79186a5a8a8a1b7807472c3aef5a63b5d8ee1505074",
+    "rsi_group_meeting/xvla_benchmark_v4.py": "1ba948011a0f92002284aded69b4ac3efb59154e2609758c86957388a0050117",
+    "rsi_group_meeting/benchmark_v4.py": "5381c8201a4d9a20301aaa949544da6d96d3b10a1b0b348faad64d2d8e872ec5",
+    "rsi_group_meeting/local_run_lock_v4.py": "a19ef4bfe57c930dbda2829c62f8d155de4c9993bf3f351b107d187672cd0c42",
+    "scripts/dmpel_native_backend_v6.py": "45051f16e7bdebb21097a3f73de6eccfb2c3ad9ad6d79f4f3daf18f233d2ebf1",
+    "scripts/check_dmpel_actor_runtime_v7.py": "d8bbbbbe75d77712fe402d22d30bdf6401da25682fe728331c6f38701f92faf1",
+    "rsi_group_meeting/repair_learning_awake_v32.py": "cf12d074b097e9e4b2a4a7e8efeeda9a668d56deeb4c56ddf400e341a367ea2e",
+    "rsi_group_meeting/language_schedule_dev_v30.py": "0c07156ba7095f146259fc5a71c12b0d6a368bc8799949b326254d03a6bc4828",
+    "rsi_group_meeting/language_schedule_worker_v30.py": "38cb475beb913366213e053ca153ab099f9074c2aeab691867fd6bc4fac62d39",
+    "rsi_group_meeting/handoff_factorial_dev_v31.py": "5121a95d40db41657010b544b832096d5d558e8f150c9daf2073714880a51a8d",
+    "rsi_group_meeting/handoff_factorial_worker_v31.py": "0a640385dfff2e8fe4d554885438b57e8cec9cfe6b5afca301fa055fd2db49d7",
+    "rsi_group_meeting/handoff_home_servo_v31.py": "75d72695c219d8edcfdfdba2b722256fc9fb21e7bbc9e55166bcb18687f84bad",
+    "rsi_group_meeting/home_servo_preflight_v31.py": "7eb105f78a8155970d06f7a1801e54d111a751e0337ab8e999d4bf1323656178",
+    "envs/smolvla/Lib/site-packages/robosuite/controllers/base_controller.py": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332",
+    "envs/smolvla/Lib/site-packages/robosuite/controllers/osc.py": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb",
+    "envs/smolvla/Lib/site-packages/robosuite/utils/control_utils.py": "1d0f1a063894b1e8289339e223665e14e8aec492c31e9e00f42edea8dc735f43",
+    "rsi_group_meeting/cross_context_diag_v35.py": "ad6e33646356ea5c019a0cf99f3556a7da89aa9fae2e876861f5a6a87720084d",
+    "rsi_group_meeting/cross_context_worker_v35.py": "e0328db20c33aa4b325fba0e948e30299a6b9d06de114335b25fa80f9bf5936a",
+    "rsi_group_meeting/analyze_cross_context_v35.py": "0a1a8747db45c3f4864562ad40676c8103775a5f9099feabeaf82a2b5a1cb94c",
+    "rsi_group_meeting/analyze_handoff_factorial_v31.py": "d1654014ece84a560cd8d71bf241a4f61c0d7020cb140600b5d4250029270f72",
+    "external/DMPEL/libero/lifelong/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/__init__.py": "614d6e4ba00125ea97827d92890bbd99d05544377feab6329bdbcaa10079e4a3",
+    "external/DMPEL/libero/lifelong/algos/agem.py": "aba7f9783a1928959971e51f1625fdfad4f5073c5eef20dfeea0c896549be031",
+    "external/DMPEL/libero/lifelong/algos/base.py": "aaaff5fc138c88a3f1a60f79b889918ab03e37575a6f1289d5a1ca9e9c3e76a4",
+    "external/DMPEL/libero/lifelong/algos/dmpel.py": "ad43252bfe74a7d3961c57d3791c47a7f2527d41931e32b2f0e70e8cf956ac6c",
+    "external/DMPEL/libero/lifelong/algos/er.py": "32a342f3f9649ab09cb582c454fb05ceaf4db88b63175042e6c03409a19b21ac",
+    "external/DMPEL/libero/lifelong/algos/ewc.py": "4bd99f7c687f29eaff8e36208f11d8ccb265453648e6c99b2fde9f56e86aadcd",
+    "external/DMPEL/libero/lifelong/algos/iscil.py": "88b10dcb1f761cffc2b41032d5553538eaecc9a8a9eaa8d25699909223ce7f96",
+    "external/DMPEL/libero/lifelong/algos/l2m.py": "e07a56025931a3def1b934754a9bf01e5c3718ae9949b7234fcaf8cab6c66411",
+    "external/DMPEL/libero/lifelong/algos/lotus.py": "7bfd332e33a400a56b648725d78bd5a5fcf4be69a2ad2866bffe29909064b526",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/configs/__init__.py": "b286f45c0e5f49eaf583fb27e797b784895fb569e6ad7641fb3859b0c7dd6deb",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/__init__.py": "8cc7e4c6e6239a54c425732ad374c7094fc479a34351b2cdd5397702e04bbb5f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/adapters.py": "7263ffc44b971efcc8579e155fe7e4869e029e51daa59a5f39fd7a44f02d430c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/augmentations.py": "464f8c4f8a3c73ef99d722d545065babb639d475ab5a5e3aaadfec8062226e37",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/collate.py": "4683a9a1171fc0c3a9c62043bd022a3611f9481f72c0bc32890f3d67a12cc216",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/__init__.py": "68fb3fc04fcd86219c1892e02a8df7b0ba65525ce5be8aeb2a0c32d5a98b47e8",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/decoders.py": "1c4a49f2c658edb7014c777aeccb25d7f76f8d73339ee476b3bb1b160f910473",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/extended.py": "b711aed97dc8f7d3b831c3b6044f6897e8aba4f5e4f34ae93802ec55d59727f9",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/image_net.py": "2e1dca700b315c3d960941d1151214bb5e1562e0f598d0e5e004084648db554c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/image_net_22k.py": "a5c6c6eff929d0f0995de5b2042553ac8dcff0b6a63e0b005c0176e60d92442c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/loaders.py": "8e6da598610836e1020fc7aee768770adc583820aa8f4eed81c21ca4f475c6ab",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/masking.py": "4939c796a76c5ad6aeaf5fd43e038ca2e5b32b348903df6bd1c7314b88ca20ce",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/samplers.py": "95f54a8685858b515590f4f2734aab4e6b9d97fc132e77e51e24a5c9621a0963",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/transforms.py": "cc541f3096e7df2f5c1d9fd5efd3b3c73291d189fe2cf9355d7a1417c38916a2",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/distributed/__init__.py": "1cb7a2209b77fea91429577de694f0fe2b1ef4984f4ba00d4f091f702c111049",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/__init__.py": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/knn.py": "cd388ac400bf4f447acb807052eec3062167bf2d47307b4446be4638c47e8964",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/linear.py": "7e19076ac2a2e01f5f05153819398fed86329947c94faec304e123dbc3a7c543",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/log_regression.py": "c04ec50448bbf38b1b471dc969be8bb9d5733d8dfadf5fdbd085356097595834",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/metrics.py": "aa7ecc80bad950d72c1bd1736e72de273f78f8af79718807a32e3740ec8c0b72",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/setup.py": "8c505baff96233ac33336b3d3cbac904b02d29c745f00439bc3327157cec03a1",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/utils.py": "1b538bf3ae50fbb7c1127d43d779631eac9025b4539b2240ee370ff716b41626",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/fsdp/__init__.py": "b233d669cd4d60f42e2dea187b1f09a02d0d7c839f91845f3f3cb8215fe4fce2",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/__init__.py": "34312c0841b7ab254915b34b197072ade6984e28e2c718315793bdbaa34339bc",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/attention.py": "f7c67d57b0871fce8517dd50b55c02f33aa24c20493eff26971d3ec4cca0ec12",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/block.py": "a7218ff8350794efce37a010ac7d58d212e10a5b84b43a214a7b682cac656a62",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/dino_head.py": "5e1ca23565a0bcfd2ac1d79bfbe67c845e50582f4efe0bb1df2324bf4d4d98a8",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/drop_path.py": "27abed4dd9dafa14157c9c7717bdca15fedb62702066f627b314bc91c06a1d53",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/layer_scale.py": "a79f5b673c3f1fa60173b1905501ecfeb7fe77bed9b5e35881390c12baecbdfa",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/mlp.py": "9856d7274ca32428ff05dacf7adf8ad10fa81d7bb4e5d299ab57cf421dcc7620",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/patch_embed.py": "2d949ea0eff33185d829995373c963cac6eaebf77b4808478a72934d89587e42",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/swiglu_ffn.py": "e1744aa9d29610c57d4fa153ec0aa545ef60da565d2aaac754d318fea0e30d7c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/logging/__init__.py": "8306fe87ec2bb9679ac8ebb6dbc73649aa7e591ddf320668564e0b948b70d4de",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/logging/helpers.py": "d5358d527dafbf2790b42437f547da4e0d55c18318b6ea3119ebe69c8db60fd1",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/__init__.py": "89baf73fa5af01f44e5c73fb29aad0a0b0664b6b097669db4804fde4d4d85c1c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/dino_clstoken_loss.py": "dd59ceb5af0fe2e77ef5169791a49016db00605e75d38c18a8824ddc40d1c83f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/ibot_patch_loss.py": "d9e17100964a27a340d952d645e8f4340e24fd6da7dea81037e6a8c0d311fa2b",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/koleo_loss.py": "dbbb5d03d367cee5a94662c0b701f7ef4b9bdf27b48aea96225b1e4e8f3188c7",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/models/__init__.py": "ec928764b88a998c0fa2cd79e90564854c3f4c9d97f006bec7d8ee940fe07fe9",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/models/vision_transformer.py": "0ca8983d9d94e8a0dd0dac5c56488eee15178e0c9918a3d348c84acb44b89d5e",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/__init__.py": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/knn.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/linear.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/log_regression.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/submit.py": "e78ed779883e0a05981f636b109dffeb0808e943ef70519594566da69b01cc0b",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/train/train.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/__init__.py": "25880f0b3b9905e8ed87bab4b8c172fc45f1a70ebddc1b14f326beea210a3477",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/ssl_meta_arch.py": "9b6bc39c1afde05061e22eedbff93499f937dec9f04b9585686fba484881ba40",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/train.py": "f73e5cf71ba8be7bb20b7ce97c7e6c46e12343d5c9fbb80426e483018b0b2524",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/__init__.py": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/cluster.py": "b663b0e03c538a24fc5f5681eb9de617a04157edbd7912ceee997eb47da24036",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/config.py": "7e542ebd9630f6ea05fd925b1de9e007271058a04fab4592723f0b74d25553a3",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/dtype.py": "52bb3af14fca5317b0985601c605d2370a74df0c45c7a0a345a10648cb73926f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/param_groups.py": "2df3c3136b5ee53c159db5c640d3571f6791baf95061f27e8ef1a7a6bb9b7a30",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/utils.py": "66aebebba15923e3b78a36bd9b8127e52efde7e8cc139cbfa3e51deb80510fe4",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/hubconf.py": "c43eb62ac4c67e79dd88baaca6b44cb58ac21b36e00e260f7048de81bb098b06",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/setup.py": "0d1ba658d341ef5d4dca931af4b86773cb3ef6341a3cc9d195d37f795913ea20",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/args_utils.py": "b8b357a49de1ed9cdd986d0a3d3c27a38edc93b8143c8681418d8bdfa1766554",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/conf_utils.py": "ccf3dc1eb6e678f19d4f14d7ce537af095266d7928927db9b4c689ed32d1e8a7",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/model_utils.py": "27f40dd512fb59bef545e55560d4d49342f6efd30be6bd6234e7af8c17635474",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/resnet_model_utils.py": "0f65a4da6f5fddebdf5dd52e9af3b912021b985e6c87dcb08673357c66a9c139",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/torch_utils.py": "b7bb65400e12ae657a6201c558f46da1f9f49ce0388e8c04db00ce0797ad387c",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/dinov2_repr.py": "d30ca73397a8676423698db6b6b6cab4a37d6b1b9f7d4a1cc7e5a874f3abd540",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/save_dinov2_repr.py": "4c4327ce78444a8e3aca434dd05cf9553a87316946e99fe31742a4c67f6d2531",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/train_multimodal.py": "6fdc7bea7dfb2a42fc784299a3263a1eec9023065a381da3175fb9a7aabf7a3b",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/agglomoration_script_dinov2.py": "e983db089a464c2a560bf991c406d9f473a40f98efed09d86daeb5e80b3eeb8d",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/generate_joint_representation.py": "413e9366ac665fadfc340f5e78f49a7afb837235d182f24f830de121be1a312f",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/hierarchical_agglomoration.py": "6e193818b363fe65ee10d8d730b32eb0bdf3f64ed713b2a32c4a7a8545a40f65",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/hierarchical_agglomoration_utils.py": "f284af46e1145ae662577f3e489556dd0d86f72f15f032f431a366003490f530",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/init_path.py": "5395117d76688acf73ecc084c4431b60a227877fe622ac68db17c7bcf7537c62",
+    "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/utils.py": "157f85f302066390f76832afb2ea554eb8a3880352550d13e616860a800f344c",
+    "external/DMPEL/libero/lifelong/algos/multitask.py": "3c3dd8f712b4fbbfb8c065ee2dcc56fe8c3d45cc5fd7b91806831994e0db89ef",
+    "external/DMPEL/libero/lifelong/algos/packnet.py": "c7f33fd0806a9ef7c4c644d399323ed9ba60b6d3f6c21bba333d8d3f401d2540",
+    "external/DMPEL/libero/lifelong/algos/single_task.py": "e3d7956eeeddda7aab6b3ecb10c5603fb3d2f78cbc1dc8739a7fdcb455c06a63",
+    "external/DMPEL/libero/lifelong/algos/tail.py": "86207b2b01bc956e40ba233a67d546111861a505366ada02ca18eee252e7a6fb",
+    "external/DMPEL/libero/lifelong/datasets.py": "1985bbdf570ac443196b802a3cfb4598d278e19c46a2f714aa472f2dcc4b2ba3",
+    "external/DMPEL/libero/lifelong/init_path.py": "112e7800e0c6d933efe40d26ddba671e4baa8e584d6989d5c1c2c423e3260e29",
+    "external/DMPEL/libero/lifelong/main.py": "9fa17533c97690674b07c5bd4eb8ff75d9cebb0ddade7edb6dc8a210559b9c2e",
+    "external/DMPEL/libero/lifelong/metric.py": "a77ec7bae6902a11dce1a3b11e9b00cd2f13badb9a81745d756848da62d74b3c",
+    "external/DMPEL/libero/lifelong/models/__init__.py": "b3ead6e9d9cb75a42354da5777b85e25e08c0ca0e41eddc7cd92aceb0beee484",
+    "external/DMPEL/libero/lifelong/models/base_policy.py": "2ebbab842d313c2101dad412791bf296c44289ad95fbb7c9b6a1b782c1d6a04d",
+    "external/DMPEL/libero/lifelong/models/bc_foundation_dmpel_policy.py": "61080e61fbe91a5554913971d1746e4cb03cc8725155462182220639c296bad4",
+    "external/DMPEL/libero/lifelong/models/bc_foundation_iscil_policy.py": "dc1420e17fce1d2790343895c09f84330a8a83eb29534a948efd85e32d5c2395",
+    "external/DMPEL/libero/lifelong/models/bc_foundation_l2m_policy.py": "7d5798aa41f0355267b6f33d63c2173e5f945a4504bf7fdfb130cc6f715d2204",
+    "external/DMPEL/libero/lifelong/models/bc_foundation_tail_policy.py": "974036f9773ad03a0cf4a945da0afd21ca535d9a153fa197df6ecc3d877afc48",
+    "external/DMPEL/libero/lifelong/models/bc_hierarchical_policy/bc_transformer_skill_policy.py": "7d8b21262206877e7503a6ac21c07e87d70edf66f7ffac6d899104702186b6de",
+    "external/DMPEL/libero/lifelong/models/bc_hierarchical_policy/cvae_policy.py": "2e28370c9416e22c2992911ee1d4bf9019febfe7f6d41354b7d191f660e0b874",
+    "external/DMPEL/libero/lifelong/models/bc_rnn_policy.py": "2b90728c93daf7b7486532d44b0b3b8f228c6f00816c8f22bbb1509528cd17f6",
+    "external/DMPEL/libero/lifelong/models/bc_transformer_policy.py": "498ed8da2f5db58282ffa7baf308e1b497af21a313fa3bed8ea62374f82579ff",
+    "external/DMPEL/libero/lifelong/models/bc_vilt_policy.py": "769a3cf4358cd989d00672bff35a9da99a9def8c238219b2ff57423780c2a111",
+    "external/DMPEL/libero/lifelong/models/modules/adapter.py": "c1d5de922e6850b56e04e953d9323a6771d3f49b4e5f42ffa8c8087f960e2293",
+    "external/DMPEL/libero/lifelong/models/modules/data_augmentation.py": "6bc51173776688e28b4dc0b5377793ef35ad6b8ce615df3b9737bef452662d3d",
+    "external/DMPEL/libero/lifelong/models/modules/language_modules.py": "3f081b79a6e0e74743dc590de7bdd5e2af27fc7103bbb69b4ece466ed793fbbd",
+    "external/DMPEL/libero/lifelong/models/modules/rgb_modules.py": "f455f71166e1ab60d794de3a63d9b4e65fb9c0a8bd2ded6d7db103660af60d47",
+    "external/DMPEL/libero/lifelong/models/modules/transformer_modules.py": "759bb9edfb043a191b99948ebaddad8ec8ea2febd15724e459f9e83d1c6d8194",
+    "external/DMPEL/libero/lifelong/models/policy_head.py": "a1e2ca999d68fec9cc76645f782b1369830bdd85dbc4a921164fae33b33a9648",
+    "external/DMPEL/libero/lifelong/utils.py": "61495ddfc456b9e9e05013f4389cc6292e296c1915c776715bf4b705c296cce7",
+    "data/models/dmpel_author_source90/asset_receipt.json": "d4b820bbdbce6e40af5074ed0a481153f6c4270c0deef53935203066623611a5",
+    "data/models/dmpel_clip_config_tokenizer/asset_receipt.json": "23a8acecb634b1a67f786dda32b4f48645c9f9fcf0c5781d28885a7ef1684f09",
+    "data/models/dmpel_author_source90/config.json": "d2d7381c55c99806c70c2119b7bfb258eab318a49f6b0866fc714c4b35fa28ea"
+  },
+  "input_files_sha256": {
+    "rsi_group_meeting/v32/repair_learning_dev/registration.json": "67a20015b955d2746300279ec608744a6485cc23cae99ff55845875565de2f80",
+    "rsi_group_meeting/v32/repair_learning_dev/training_membership.json": "a81c94b8d4db0b9e0114292395a5b14eb7c65af02042194cedb02af8ea557caa",
+    "rsi_group_meeting/v32/repair_learning_dev/trained_actors.json": "f9384a95c8003f09cf865776ae94ce22a001173773d8f905be4575bf6d9a781f",
+    "rsi_group_meeting/v32/repair_learning_dev/analysis/repair_readout.json": "020d85976115daa2ae7a27e2f4cfb2888b569420f4f565e6f8c3496adf345d9c",
+    "rsi_group_meeting/v35/cross_context_diagnostic/registration.json": "1f8df95746a4c2a84158516f8536ca3cdaaf226b1cc3af9bc2955b151a1ec7f7",
+    "rsi_group_meeting/v35/cross_context_diagnostic/analysis/cross_context_readout.json": "ed4bc1975a0803811065adee27a629d835041eba85680edde0198f7132daad1c",
+    "rsi_group_meeting/v35/root_completed_review/review.json": "825cab31873d88667754c69390c0b93c5f4f4145d93298bee5f6ace82763e49d",
+    "rsi_group_meeting/v35/root_completed_review/cost_increment.json": "8616754cbe225dfc5bd7df29260057f316fa4621164f86a2e9239882c3bd1199",
+    "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/protocol.json": "a9f730a8d210805c796b72a832c79fd9457ded0a53d92db9ddfe75ddd014b81b",
+    "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/diagnostic_membership.json": "d86a59b7709d07d460972c5def3eed5de16a510352a4b6094177199c91b4099f",
+    "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/execution/summary.json": "9fdc5e3e7af92590dd9f989b60c06395b5057dd8eb8d6e60c127e640227a1a85",
+    "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/execution/per_action_fit.jsonl": "50a0fa98ec00aaad345948d8bc3c2373b4c02fbb619317e2ba49015f29a9ff01",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/actors/seed77210_initial.pt": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task7_original_init10_noise20265301__home_low.npz": "2135d5fef7d80f5d30786b6bd7456435fe0d002fae6041fc41160dced6d27cbe",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task0_original_init10_noise20265300__home_low.npz": "f060a19788dc4bceaa633680af6e001e2a08b4bf454062d7d3801fade2e96077",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task7_original_init10_noise20265300__home_learned.npz": "dd17d041fe380a9c715d12c13082b983fb710d9bc280452bdcf25d253b994ab1",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task0_original_init10_noise20265301__home_low.npz": "7b45d8898d707268396fb910aa115ca7a3bc9241ad1816c6d454a14f838dc620",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task0_original_init10_noise20265300__home_learned.npz": "d22ae24af0adb13c07019897b6df5d0aa9626c685d8c07f39cd7c3e2a8fc4c67",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task7_original_init10_noise20265301__home_learned.npz": "3fefd4c2ab312ab8b74a65d109aecdd38f870e42f6d832ae6a99cd471c976546",
+    "rsi_group_meeting/v32/repair_learning_dev/teacher_features/Long_task0_original_init10_noise20265301__home_learned.npz": "64195011cfaf91295fad0f015ba3f0934b9822bd2910ec54710a017d80eb8a97",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group03_task35_replica1.npz": "cf00f5182121e79a6aa247034761883e01dd855a228c7a38306fb1e1cd6e7493",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group03_task87_replica2.npz": "8a8d1d5154dd78857e60e076abe98e945e255952101c2782f2b8b1afada0167f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group05_task35_replica0.npz": "73b1bc045e88ae7b309738c5fe77309d2d5a8f3f04a291502b149b1ad9bd9fb6",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group06_task8_replica0.npz": "14b5c789646332354fe1218f2820a060bc85b263f4132ba1cd24c70148c49edd",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group02_task29_replica3.npz": "4a0a6dbc3aa2daa20bfcf518aead66d6314ffbf46fde06e725a6ef957957ea0f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group07_task48_replica2.npz": "9eb8b8302a64b8d125443c693668634154fa396aebbfaac2a981ad90ee4f739c",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group07_task48_replica1.npz": "1cd0a059386c6bc6d29cd20e068ec140b830c6a05f9fcaba07e7b35b397a2cda",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group03_task8_replica0.npz": "0937e45fca2b909dec565f6666d1b21578f1020ff3dee429a4f51058ecd1ad0a",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group06_task67_replica2.npz": "a87c4c90951f0c1d8318322c5d29df00e02f887d6c2b2d14749014c05f8d8359",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group06_task13_replica3.npz": "7b4df26293326aab31b250e9faf559fc9620f8c2f2de4b9128f23a9834581a36",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group06_task13_replica1.npz": "cb4d37be6b8772daab2a4d5cc2c30bf642a1a2ff0d128a1f07bd873e02b992a9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group07_task8_replica1.npz": "ee6c2a2a45d6166daef356d74bc848558082c5db21cdb5edde1eab55539113ce",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group00_task13_replica3.npz": "4e9a487ad571bee8e0b11f237ef09118090389bbd19e81ccb12bf01a1e5f9c7a",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group03_task67_replica3.npz": "f435efb22df573025e5410b881221d27a02e50a8f0cd297ffa1ce475fec9af40",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group07_task87_replica3.npz": "b705d8e522cccdbd5358635fee900b7b1219bbdf9cbca6ba78f4ce5794686e26",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group04_task67_replica2.npz": "d41a62586c8e05f6c588c6996bb63d8252bd3fbdf4af3e3794b75916b0679d96",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group07_task8_replica0.npz": "3f992e8c1480dc5f5750671f09fece48db135c261fae7dba416b210dff9f0c99",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group03_task8_replica1.npz": "f3404a18a1de568464beaeb70b98a66e71a087c86cc48e61f21321220fbfeec1",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group02_task8_replica2.npz": "21023fab47c5c230689a75cf7a91e4ee6afce48089e2138ff2769e22adddac19",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group02_task8_replica1.npz": "c5bebcc39459881233c5ce3dfa72e67e52105aeb578cc30a14f275d8e6bcf5dc",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group02_task13_replica2.npz": "d514b0e9d107573b6ef8932842482f67aee1a01c3c3f3620952c77830fbe97c9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group02_task29_replica2.npz": "7bd06c1b970366d3ceae586af99df05bb1969ec9dc70b33bcd6c09b3cc76b8d8",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group04_task48_replica3.npz": "3eba48ac3c0b559d11b92318217c389ca8f01d090e7a1f80f53107dbe86f37f9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group05_task48_replica1.npz": "8791316a054774e858c36a7baa957ff12ded42d40dd57261f76b57ae9e58e77b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group07_task87_replica0.npz": "80b43dac7750aa8a37f86bd38d3abe71efad29d3afba07ce94b8ff66d733af0a",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group04_task67_replica3.npz": "d1908795e6eac4de68c8d8cb5e0d2d2e24f9eff979fd6a36f0c0e3db54c9fd3b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group04_task48_replica2.npz": "ee44b344890ae81bbf50115a6f20e16c8477954e8747684dc31b157d4f04fce1",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group05_task87_replica0.npz": "0cc47eadb7001c0205da36abd978a4a87d815b24ac18291302b2655d4e1b4fd8",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group06_task67_replica1.npz": "1df2b7fa40ee7dac9e9b5df03172715f92d69c48ca1f7905d18665e6f27f86a0",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group05_task48_replica3.npz": "980c8ca3bd5529660535157ebd820a50e090118cc063b8401ca37031715cfe4d",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group02_task67_replica1.npz": "1182bde1997133d9aa75d7f92a528360ebfa2cd38654ffb2b9e64cc7fe77b2d3",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group04_task13_replica1.npz": "ea8ffd7265ef3722dda46571ff01b4541ac532fe907bcb8127b44b3d20313b6b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group01_task87_replica0.npz": "4a006674f75b2a4615173f53146eee5d6dcebe7cabb6cde3512606ba9790da35",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group05_task67_replica1.npz": "226f103e5aac2eb423ddd7c55a0c736faec3ae76b719129016a01c46ff7546b3",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group07_task87_replica3.npz": "c4e369d9d3e3ff65a2e4676a1e244ef44e3a588ff2b63bfabbe3510f1198af75",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group00_task13_replica2.npz": "9e1a4126f4acbdec018a909708ccedce5f0b402d924d5cc958f4a32404b11463",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group02_task29_replica0.npz": "51530e2b351cdcf9f56909d97f328906d55575493afd9f579a10b8383759ad0f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group01_task8_replica0.npz": "50e86cbb7c11a76e4355c52e8a3c57f4e117673c62fb1f1481590c32eff063a9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group03_task87_replica3.npz": "776318f9899e090335d9ae1d01047e7f9e833a32005ee5ace3525bb29555914e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group07_task86_replica0.npz": "e9a04db38ef8f1b4fcbe48c0ce465fb127f5e9e0493ac5948b2a2dd6b6118b58",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group01_task13_replica3.npz": "a111f66dfc719aa111791828676a96ff375841590558b705563bf2fac9c155cb",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group01_task8_replica2.npz": "87180a809d26bed041555b52006a1ab545c7dc13a62bfffc00e92f1b2c41e363",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group00_task8_replica3.npz": "4b7684f52f60361ccc7313fe1ea4f52d3859fb3c1602416c52dbf6ca38511eb2",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group03_task8_replica1.npz": "d51f0384a2bf081314c0485b2865274a4e18f3ee87042bc50a66766cbc917da9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group01_task48_replica2.npz": "06dc6be3100e981545d9f3ea7f0909f3918c5bb10ce8731f64971b16e9ee3bd2",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group01_task67_replica3.npz": "624fe33137175a9eae956563471bde99b00c7881f6119e94ccc0b863c6d27dd4",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group05_task86_replica2.npz": "e54f1270a72ec49dc413ea083c83723aad3b86cd7bf28f8454dbda67aec1a51e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group01_task35_replica0.npz": "c2bc9c253246d7c64455b9028395c0a7af8425ffc2b6d9b189657702c7a17cfe",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group07_task48_replica0.npz": "c383a51ea7e96b8b609bb516895a59d2bf5e9d5a10845a684e83d8cd58fdeaaf",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group00_task87_replica0.npz": "33dbc8dca7460ae9a0e86a783bd73e7d93518df4a06ef5c53763e778c31ca681",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group02_task29_replica3.npz": "06df77270c7c8f450e5b6eecaf7df0ed7c42b3b0dcf132f4faac69456a450ae3",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group07_task8_replica2.npz": "e849f677ac03026ec10b648e3b21013ac8ccfbc17c6d7ead62ea9bb892e74f8e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group02_task29_replica0.npz": "8c946a39351ad7be680c1771263c71815653583c5aa13ef69063745c5532f4c4",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group04_task86_replica3.npz": "282fc1ac59b8b15406cbee495191113c7ac538fc0231231272f502f1799ceea9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group07_task86_replica2.npz": "d219c6d7254e2efbc4982fbb7d5d8710f3084e58d71d840a609dbec6319f6288",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group03_task67_replica0.npz": "8d3aa27bdf753d43028361152b2e552be56896a09038d37f77cf9efbca82959f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group00_task86_replica2.npz": "c15e55bc64fed1542a2bae063376d00c6075fb7d02f69b7aacddea62f12605a3",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group02_task87_replica3.npz": "23aaf8c06d2ca719e640c4de0fb793972034b4641571bdd36091bcf7873d7f9b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group04_task29_replica2.npz": "31510fbdb44f17ad1783e8a61a58c32fef02ea6623234009829329d08d3df95b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group00_task87_replica2.npz": "cdc1d278e3fb63898b9a5c5ce2559bd8679aae70da3304c30a0ad30fcc58a8ac",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group00_task35_replica2.npz": "57e658795529321132f636fb838847127ebbcfe98fd478a512c4182e296aded2",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group01_task87_replica1.npz": "48f7b1792b1d6c53bcdf1c25378f6502d6400b790d093547a5a90ad501481c83",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group01_task35_replica0.npz": "9a64e85a15e805f8064aba12fd255a70693796a93ea175ca3ab2ab7cc72fcdc4",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group05_task48_replica1.npz": "831068793181bba145acc7debd718d808c3664849169c26ce87752226a963f01",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group00_task35_replica1.npz": "d6146137c8250913ef855121f843a65560ca43c3d8260040a1be2fed6776803f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group05_task86_replica3.npz": "44cfe714e61850547a1217062afd654b8c2da9f14c2b7a1eabfdb51877d42239",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group02_task8_replica3.npz": "00588930a0e98498ac72d87656e0c9f2e73e8bbbeb9f13e00653e51a302da29e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group07_task8_replica3.npz": "e29c0bb705cae694be3f9e1b74d29dd46a17f7d13bbf52e90f731a377def5979",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group01_task35_replica3.npz": "a76cbcfdc93c6a747acf04dcb3fe93bd4e79b38af91fceae49cf62259c658554",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group07_task87_replica3.npz": "0f620da14f6462f22a7bf617e6565ec7590a5431781fde01a705a2b31b9c9722",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group02_task8_replica1.npz": "0abd940980dc0fcdc7fc4487c7601f218f0d19943dbd283f6dcd9a06a1356865",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group06_task8_replica3.npz": "c70aa1d1ca4ab43d192a2123ff8a9ae53173d69201ef194d84eb47215c58a136",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group01_task48_replica0.npz": "1f757fd6baf91fe4f7d78de86502d8972bc0c323f360def702f819c36b2e4d1c",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group04_task86_replica0.npz": "27c6d2d5c468ba2a30e8f61eaf99efd3409c66653e31c58fb039b7da68da1f46",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group05_task67_replica2.npz": "6d66d1c8689714aea82e6e9655e674a7b4acacf851aeda7ab19c5a613d613870",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group07_task48_replica1.npz": "6b8d2fc96368df46ee1fee6ee9983ab13446f84f559fdfdbf9ea2e47236767de",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group01_task67_replica0.npz": "71967d5f286e55e0e1ab9e44ae9d63f93b24bc02f57f520d678c0b41d6905302",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group02_task29_replica2.npz": "fb7f259896bbfdd2c3ad5ed46f0236d94086b0e798fd98bec0dcbc7d51e4df38",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group02_task29_replica1.npz": "f62d7aaf86df3c7b2e42d22a46111e6273c8673c6b20b6bacf422d7a39b2f5fc",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group03_task86_replica3.npz": "f4f6b33ea9484e43e1f62008b742c9a99a815a780f15234cf30d8b6760359577",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group02_task29_replica3.npz": "4547a6acf18c09c0557178f4c5399eb38d03fe993042301b2998b4e1d49cb8fa",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group04_task35_replica1.npz": "cc46e2db2b051883942c8a2a15e394a21fb1b02ae1bc8b8fa6ab1673b6ed69c9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group04_task35_replica3.npz": "caa57cbfa1f6a295c7d7a114a83f907eb52e153d7f2d1ccc803bb99326db5a48",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group05_task67_replica3.npz": "87212cdf44e750f1245437f46a0113047e174915840164234cbd227f36f32da7",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group01_task48_replica0.npz": "d1b9f1d321417380589e3649a48bd1f556e58a6437099838b15c89a13d455f29",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group03_task35_replica2.npz": "f2698c55d14f20d11514ad44c5b0ed5b4c7bed49c2ec0bc6464df9cc8143d128",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group07_task87_replica2.npz": "4098ea400db720dd80d7140a5112ab993aff6e3a0bfd324716bd1ce5228f897a",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group03_task87_replica0.npz": "b7daf4d4c04fed733351c9bf07ac57eb4d42279223138bb2e5f1d139dad24480",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group06_task13_replica2.npz": "acf6688f0136b5c6cf5618827796c6d6459eb94871cfb868bec455b1beb6c67f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group00_task67_replica3.npz": "a72d30f9b74812c12ae576e482f9c636effd226ab949a0e627086a4bba342cd0",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group02_task29_replica2.npz": "bc942b63dc84cbca1d7c0ffb260bb65b754ef5a2a9a4914341dfd3751f572827",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group04_task86_replica2.npz": "24a0cd66965bd45a565d08cf362a691caa711621de569b0cb972040bb4be5ad9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group01_task8_replica3.npz": "4d01cb376bdf732d7c81998920a2b338845709dfaf77fd6c5261e9ceba1b4c3c",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group03_task67_replica0.npz": "f80258e00d275fb19081434fd9f2a97e736c99a6d9d2f2bc2741dc0f6432d691",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group04_task35_replica1.npz": "5abd98253a79d507123026c2f72c6deac8f6ec5d994e24be7014b4a3fe6cf733",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group01_task13_replica1.npz": "0706d7f21c9bb2713f514c930e00608a4f68504a523c8e3a4b165c7c56fe19bc",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group03_task35_replica3.npz": "d682ed36d712057c8b56c826d849bfc02e952ac95c48f90acfd183ce9e6e49aa",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group00_task86_replica3.npz": "481a785587810d29063e9ad123a573506356d6e18322288a3169d37ccc468ab0",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round2_group00_task13_replica0.npz": "b12e813908f12a6324e1e6c454f649d08f16cc1f69d9bb5743b4810185ca0689",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round2_group05_task86_replica1.npz": "dde7a35d5df0af5de531a5016b25ec151dcd7fa6e6db050a5aa668f7cc203c95",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group07_task87_replica2.npz": "d1c0c1d4a7e20cfad79b07696fc37e0ee6444e95d10b19c9ac235ec45a075b71",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group06_task35_replica1.npz": "19d55d413cde7d7b787d2cd42fbeca14b86c35bddc49825877eee6b308d28680",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group00_task29_replica3.npz": "2ec358bd207635a88903e8644ddc56e2457c106c6b1d6cf6c7fe0cd0ed6cc91b",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group00_task86_replica1.npz": "1bad55e66832c10b0b3b23e3a96d3e77b39419b9fc49006dfb001add6023a869",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group03_task67_replica2.npz": "dcdeb4d493691e622d16af68210828427017c32cdb270546b7ffcc66e20c1433",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group07_task86_replica3.npz": "8eec4481f03e85de41dd4b772b81dff7b535af3d56ad3ad2c4eda71a9a235a2f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group01_task48_replica3.npz": "769dfcb44cc25fabec76b2a3dfbd52e26ea6082c09dc61d27bb282855c94d3f1",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group07_task87_replica2.npz": "249d7f3fa9de0c1fd018cb92e511bbe3470399965777fa15c59d8b41844a98a8",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group07_task87_replica1.npz": "d73820a6bbb5e505c34bbbcd61e95729ab1e1b3cc3a2bb055de2eef1bb168f77",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group04_task29_replica1.npz": "477be6ae54fdb2078396c45a41fcfe1b78d4e75c2ab81b9b271a76c8ccd012ef",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group06_task35_replica2.npz": "97e873f70072bd3edc67223956e281e1c1c3cecca50a8946328cccb7395b6de8",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group00_task8_replica1.npz": "1deb0083615761c4b663e16a7bd8ed0ce72046c0d6ae47f539a768ec1ca6302c",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group03_task29_replica1.npz": "c2386d34095b9019ddfe68a5c0d73bd85c269e926e4ec41d15b28841dd7056af",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group01_task86_replica2.npz": "afa132c7e18c94b110212bb0aa856235690316b9492f3d273225045d011960bc",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group01_task67_replica2.npz": "c0693aa4b8957a48eb33e0c16d7f4c72faf36923c3097c3c9cd2064074141bb9",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group04_task29_replica3.npz": "d38d0fdd763f962d2f11d27766965b43f51849d2b562a3c647167495b54233e1",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group00_task29_replica0.npz": "09379b156d73a9dde98ec24bd6b60e7ed978348a244c47e9d3df25eeaebe86fe",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group07_task87_replica1.npz": "edc95bd2bfd6624523ce8befdd92492f2ed86f257ac3687cf67b509d3e833893",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round0_group03_task67_replica2.npz": "ee091f86a5933b82d1ac299a31ad84eb118e23872486865b375361c284b4e14e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round1_group04_task29_replica3.npz": "f00de748f7c06b72397b2356d55512918a9b4ca9a64fdf9e309ba7a5dff8ea77",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round1_group00_task8_replica0.npz": "a9dc51dc1d76082d0e05dd50885905ec5983356f05910fcd8e0d6224aba3305f",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round2_group04_task29_replica0.npz": "a3573a68a0fcf083aef69976034c95201b3197cbb22444efd3a7a57ea7ab50d4",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group01_task48_replica2.npz": "f32cd87af010b2b68689669f3789258a5105d5d9186294d57ac207b48b70a5b0",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group01_task48_replica1.npz": "cf48c414fff713b823c81cf9f9ea05987bb2bc4bfcb3c4ad6fbf766025e2c60c",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group03_task8_replica0.npz": "d6cd07401783ff1c92c8f6ce5039053860f81f5e6d250220bfac2b687ce82741",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77210_round0_group07_task87_replica2.npz": "a2ea3055948b7fd5ff810d7b399d88888487e4c27fb3b847c670414a17462fe3",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77212_round0_group05_task87_replica3.npz": "7cc4f4b1a20a8ef5fd1a674e97878848be86c27a3adcfec2c963952565ec0d1e",
+    "rsi_group_meeting/v7/dmpel_onpolicy_source/results/seed77211_round1_group05_task48_replica0.npz": "c9469348d773c6eae17cd043c9dd47a8c32dc769e0c6980da04f8938577ce3f4",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265300__joint.json": "532a2f45a7bfbadf32b43d7da1b41fba23ba234994ae7a57d09b9827bab6d01f",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265300__joint.npz": "44575f3387a9e8d0678f86ed4da8dba25785324885ea5de7c85d0da506500908",
+    "rsi_group_meeting/v30/language_schedule_dev/events/Long_task0_original_init10_noise20265300__joint.jsonl": "70cbb612c089d6db2fa599938384fdec7f3ac7c94e0b68c351186c95fc6a0dd1",
+    "rsi_group_meeting/v30/language_schedule_dev/videos/Long_task0_original_init10_noise20265300__joint.mp4": "44d8fdc44d8d6206edcf904cf172121d5fdbcf5ce44be8417e9ae1ed9e7cf1b3",
+    "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265300__joint.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__uniform_bc.json": "da11765fc0488767391906c661a5c16465d36d73dc21063fa9e3e74d541c815e",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__uniform_bc.npz": "dde43a7ad412dec5a66ce70628634ea148816ed0c933704f035540ca14046d49",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task0_original_init10_noise20265300__uniform_bc.jsonl": "dc5709a6ef637d63b4309673abb04608288758ea87824adf1098ad7d69cd3ed9",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task0_original_init10_noise20265300__uniform_bc.mp4": "80669451be10f418360cb3b53bea269f4afa1a8efa5496bc8924bb05713c1f41",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265300__uniform_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__local_bc.json": "7f82abbd2b60ce8808cd51f6756262dc5712f433a9eefcac826ec67b3ea2a82e",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__local_bc.npz": "2216fde1b0b564f3b347f384c5ab217d93f9d270ccb8d10aefe789ae8ec5e02d",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task0_original_init10_noise20265300__local_bc.jsonl": "09f601a9809c2f4b3deb0cc869cfd610acd6fabe36190e4ac5b46ca562406c96",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task0_original_init10_noise20265300__local_bc.mp4": "6d3a5c1aea92cf836725c9fb5fe26b1c59714601847b988f4e05777d8a5141f9",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265300__local_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265301__joint.json": "9a55c125c99dabe4e44297fbcc7602846f4fa83d529f51ef07560e68f3a01463",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265301__joint.npz": "bcda7d3209457b26907e639787f968b164b44934754dea331db42367a7876572",
+    "rsi_group_meeting/v30/language_schedule_dev/events/Long_task0_original_init10_noise20265301__joint.jsonl": "4851c74852ff4c2d7ca7ff68be9683e674d5dfaa1fe45b8ae4d60a709d5caad8",
+    "rsi_group_meeting/v30/language_schedule_dev/videos/Long_task0_original_init10_noise20265301__joint.mp4": "16011fcc6b1a2c435d2150c7d3c9903fefa8363e3a707c9f14bc52a8a1d1e3a3",
+    "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265301__joint.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__uniform_bc.json": "32e563ec6588f3e4cc92aaadda180dc59534af5f22ae6b8200a34ba787948f40",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__uniform_bc.npz": "b4c8cf0520912ceb382632e61d01b53c2dcd66f1ab120204cb4b0228cb53ad7f",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task0_original_init10_noise20265301__uniform_bc.jsonl": "2c4aa65e124b6a20cec999975a63cf0c36c9eed17b9e13304836d073a37067f4",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task0_original_init10_noise20265301__uniform_bc.mp4": "5c14a9bd1678840dd9d5dbab21ab4b287b607c4ec108b0cdf85730fa8af86a31",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265301__uniform_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__local_bc.json": "526481c7d99520ba8971c7aab9b0ec6cd3f4407de7a6a375c9d537b4542c25a5",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__local_bc.npz": "03450faf5babe18a0400cfd5bcc828e76bf8937dae4c721af9f78a195959082c",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task0_original_init10_noise20265301__local_bc.jsonl": "969f37380e702ff9787fe8ce5f957ef657363ee11baeef4242f54aae8fe667d6",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task0_original_init10_noise20265301__local_bc.mp4": "9cc20ab084cc9ffd9decf70e8edbc4aa7b016138fbeba5136d7ffd9f5de5ef8e",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265301__local_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265300__joint.json": "1561c203b05dbf49160b6b6729d5beeb9e2eede7188fa825b0e9d9fa5a443364",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265300__joint.npz": "42b09b23008dc33fe663350c949045fe24eacc5381484e535426dc1139d30cef",
+    "rsi_group_meeting/v30/language_schedule_dev/events/Long_task7_original_init10_noise20265300__joint.jsonl": "37b3af685345c2b0a8e75545af020c249cbf2ce7f0809f2664e92b36f301293f",
+    "rsi_group_meeting/v30/language_schedule_dev/videos/Long_task7_original_init10_noise20265300__joint.mp4": "c0abc4ece976550375d5e2cdf894b93edc81835519c1f0d345e0bfbd9e3aaf26",
+    "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265300__joint.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__uniform_bc.json": "ad64258c69f37aea4fda9ba295e7cd3267276d386c8fb47db24a4ccec076e6c3",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__uniform_bc.npz": "203d80a9a9ec336c7a798d2eb05bed62976ef12ead22c6e045d9d6db56b11913",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task7_original_init10_noise20265300__uniform_bc.jsonl": "d1ea2824875939167e178c0620ea6edc99a5727849aae64fbfee1a5f018e41b7",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task7_original_init10_noise20265300__uniform_bc.mp4": "3cf0e07cf3c442a3773867b4635a357cf8bfebda651e6b21a45e786b0feb658d",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265300__uniform_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__local_bc.json": "194a8bfca4041502593cdd4d523e3694e9fd132c73985e057ffb4004ec21e92c",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__local_bc.npz": "d0dd9359865cd19fd65ca5d8dadf7fc0f8578a632b0379ff54611008f66658d0",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task7_original_init10_noise20265300__local_bc.jsonl": "c628cae81b75e630d1cf26cf80f76d624ec764800eb5904bcc6d6112b4503cde",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task7_original_init10_noise20265300__local_bc.mp4": "e56151f0caab3e7619cccb171d8ff792d7241c60e82e540393ed8da330944781",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265300__local_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265301__joint.json": "1900516d6aeadd96b533758a525b8eba0f564768b5fdbfc697364c6386689fa0",
+    "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265301__joint.npz": "d2cc8005f1e78cb992a4e4d0cade00d2157ee09bf306517fc6d6a016b1638f13",
+    "rsi_group_meeting/v30/language_schedule_dev/events/Long_task7_original_init10_noise20265301__joint.jsonl": "9016ec60df6fc3a656fe9559303c930bee78e090753444b3193916641e18ca3f",
+    "rsi_group_meeting/v30/language_schedule_dev/videos/Long_task7_original_init10_noise20265301__joint.mp4": "54f49b22b87f36ed1bfed83270c6aea3de6057d9b35158cec1e32590162b98a2",
+    "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265301__joint.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__uniform_bc.json": "4818ded2a1e3d657c0c8b858ccb3909365231f2f37096349ef8c09f8b7c0570e",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__uniform_bc.npz": "807a0ee23f6d9afd7c1d9c44723718938ca3481355d04f047cc33f9872fe8298",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task7_original_init10_noise20265301__uniform_bc.jsonl": "fab5e0468abfe4d17e8cd13d2d792892898bc8a3a2f6587fed03c707baff6655",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task7_original_init10_noise20265301__uniform_bc.mp4": "4a3e1316c50a620640821dc0de451ee69736ab8debb10660d490342b52941417",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265301__uniform_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__local_bc.json": "65d3db4a4dd4ba8f385abc0751bc3a95886dfc15f4b3e13acd3b35e66294b3bd",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__local_bc.npz": "3e0bc2f2ef2af66dce0f73d2e6821d49b2ac718617dadd2635aa4c9b00f72dbc",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/events/Long_task7_original_init10_noise20265301__local_bc.jsonl": "cacbcef5a05abef53576acd5b68fdce3e191a6e90ccd0c759ec1c5fcc1784cf3",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/videos/Long_task7_original_init10_noise20265301__local_bc.mp4": "706e9da2dcf31f3a015e624fbfdab0a2559ae90abebfb4c57ede93ee9343c090",
+    "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265301__local_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__parent.json": "e8a54070e78513454e3a281db8bb396a9b786483824d4508f09fc83636a3528b",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__parent.npz": "4717550860bb0e3b924ca725aed09d069fe08f6177689e254ed37c941570817d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init11_noise20265400__parent.jsonl": "a8ca765986ee41cde63a66c6a430c6c3f88fe9f99298d4ba81f94b62d1918416",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init11_noise20265400__parent.mp4": "9c11986426fab480ed1600b616c90496f12248853c3d484f1ef330ff59142a0a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__parent.npz": "d52d41b9bf782694c2f9949965a23297d5d5aacbb41fba066da5f60de609dfb4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__uniform_bc.json": "b5da13c5d19fda2d022f7ab1fe8e2f99a4e9551f052e1b017bf89405f7445954",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__uniform_bc.npz": "2211e7ba81a2e8e8ead71de74f7138ca71c30218024b6523bdb428b2082d411b",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init11_noise20265400__uniform_bc.jsonl": "ad109f01a82ee8dfff2fc4b54d55ed1394acafe23617654107ac96bba5e9fd04",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init11_noise20265400__uniform_bc.mp4": "36670b01809e1708b43390a0d62b5f5d02261a63c870a6cda568006fc7f62643",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__uniform_bc.npz": "d52d41b9bf782694c2f9949965a23297d5d5aacbb41fba066da5f60de609dfb4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__local_bc.json": "57f7987cbe1e86fd9a5eb86333cbc1a321cc4f950a37628a2c806bfb59ff6d2e",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__local_bc.npz": "768251cc30ca35b1bff7d521449708e69cc4836446fd35d23406bc49f0ff94a5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init11_noise20265400__local_bc.jsonl": "21557caa91395e17dce98fc3de6d9a9e1df8515afee6268275f79e4a85648bf4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init11_noise20265400__local_bc.mp4": "ff7b34bb3c29fe1a6155ae0e5a53d54d39b8f383bbb56e300e966d4c6a84f0c7",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__local_bc.npz": "d52d41b9bf782694c2f9949965a23297d5d5aacbb41fba066da5f60de609dfb4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__parent.json": "113b755e84537d0aab24cfcb509c952db2cd1ee517a7fbc7786159ccad723ca1",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__parent.npz": "cb3ddf3390fd87e8b4436e3bbc32832525e8d6190cc730575361abb071f63201",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init12_noise20265400__parent.jsonl": "33353f7ec360d6ca80ed4a8ae5e501aee17eb2266aa439bcd6df3aff81a0baa7",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init12_noise20265400__parent.mp4": "4728f7897036fea4e5bd9ad645154b9abc6c8b9ee9e27d506e8dcff38f30d1a0",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__parent.npz": "337d58b41bc3f2509f91a6e05da96752092396b08cd34cca5be7b70776293664",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__uniform_bc.json": "f8de61e9769a99cc239842cbacacf181e2f3c9db69c66568bb48b278f1f1d7fa",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__uniform_bc.npz": "ac9f811896333620c159ad41729a4570937502a83f5874ef3e46bcc024b5d6e5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init12_noise20265400__uniform_bc.jsonl": "e251e9d3a45e23dec49eb1dab26b2b4f4f4e46c54e6c4a420aaa2bf28637e203",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init12_noise20265400__uniform_bc.mp4": "1b414a887b6112e38fb365688a62be36f259e9a1634771f4abaae6ee3e4c711d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__uniform_bc.npz": "337d58b41bc3f2509f91a6e05da96752092396b08cd34cca5be7b70776293664",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__local_bc.json": "7fd6638959982a17ad323b292be637f2b7c4022af5f64065ae343ff31442cfa6",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__local_bc.npz": "c14b228670007de1d0b8a6a6b02c9510cbb41940432d3c2a4197295fc4c9b066",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task0_original_init12_noise20265400__local_bc.jsonl": "17351b68e9376964e358f1c095b575bdc19a13c324358160452be0f71c5943de",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task0_original_init12_noise20265400__local_bc.mp4": "8fc8b075f41342cc634fe264bfa793f015fa83bf0ea0f11e4f85517507858586",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__local_bc.npz": "337d58b41bc3f2509f91a6e05da96752092396b08cd34cca5be7b70776293664",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__parent.json": "02d684ef1c6b8d0e83609d31e0df868125b586ae1d3896a708f7153eff36f9c5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__parent.npz": "e24121ecc2485607c15b37ecb96818cc5197708ff198ce0f42240e94da032c64",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init11_noise20265400__parent.jsonl": "a2c6cfc1704adb0a37797fc651bf9368bfed2045fc57b0e7fb99d431db2893b7",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init11_noise20265400__parent.mp4": "698a9162d7002cea347428bf72fa98f51d8bfc200fa1e713d36b41371f7d9df4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__parent.npz": "0edf5042f8ea2b32ede20097dd14d5c67551f28b32da87a2ca7f01efcfec1921",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__uniform_bc.json": "4be135531eb24895a9b57ecfdb36cd700b0d11d1d24a53ebb84036cec5f0b0c0",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__uniform_bc.npz": "d4927a971a9ac952b90f1ebf0eebf46dd86e6e5c7e87ea1077224cc5c466b106",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init11_noise20265400__uniform_bc.jsonl": "5c534f394345345505dd75fd582debc1305fcb843e4cb54f11e7c504e761dc4d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init11_noise20265400__uniform_bc.mp4": "5b03ec66179229af6b11c3667a11c91d1202029e5e4027b2f535906e0f298a6c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__uniform_bc.npz": "0edf5042f8ea2b32ede20097dd14d5c67551f28b32da87a2ca7f01efcfec1921",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__local_bc.json": "9c9218e195768f773ff7cb5c7d66be3bff590f4d5fe58451f52422a4f78f02d2",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__local_bc.npz": "4c61e2df488ec4ec4c5699ef6e32391b0a38c4cc31cb36da84d5d08b223831f9",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init11_noise20265400__local_bc.jsonl": "9443dffc4a5cbb113f5957069ff06d1195ba3b8b949995076e622564ce86364b",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init11_noise20265400__local_bc.mp4": "3c646460190c1e9576b23608e573f6fb55ad7ebd76b67187c5c9d40d3093842a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__local_bc.npz": "0edf5042f8ea2b32ede20097dd14d5c67551f28b32da87a2ca7f01efcfec1921",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__parent.json": "1af98bee5228766d8ef800fdb16676b9c170aacb0a876d89ee1c757e0dd1d502",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__parent.npz": "04c6375a63ccc2440823b16f6e8471d850e50017dcca4e0e48d8ac603ca609cb",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init12_noise20265400__parent.jsonl": "81a0f6a86461bdf3eaa41cc0fc291b2f5e154c99ea20c33745d22d5b794e68ed",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init12_noise20265400__parent.mp4": "9a1e6ade079204b2634812e17f77b8748846ed3fbd53da5c516baf8fe87ef952",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__parent.npz": "1145ead35509f73083651ca51dd04d7d3fb6f8d8b3c78fce270d78048cb02a9c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__uniform_bc.json": "1bc66f0bdf0c9e9bbd08a363b91766299af23da7cd856b485ff264be112889e2",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__uniform_bc.npz": "b6fe68cf5d30143844e4ceba3cce4961fed83b98c28e150ba04134e4b6c3cc5c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init12_noise20265400__uniform_bc.jsonl": "c15d4cb6872b7c6d6d3eee7eb8617e7652c97b80f06930f664731553f54ac6a1",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init12_noise20265400__uniform_bc.mp4": "8d7a8acb67bf9a6b1d5e8767947c54860ebc203f7e59f09c657afa65ee3463e4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__uniform_bc.npz": "1145ead35509f73083651ca51dd04d7d3fb6f8d8b3c78fce270d78048cb02a9c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__local_bc.json": "76ca4a22132128c073cc5cde47ca275f18183cb4a43a40eb96dc0d47c7b84278",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__local_bc.npz": "b2e358ef244090c32bc56e73ab3b9040bcf5b572c375448b405086965466860a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_10_task7_original_init12_noise20265400__local_bc.jsonl": "ce5774edd2dd5bd31070fe5df4333617b48e0cc91637dcb5ec0338e9e94f0ea1",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_10_task7_original_init12_noise20265400__local_bc.mp4": "b9dbbb5c173fd0358cdc686f6455a666d626f235cc6ff65bde9c7353d65ef7a6",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__local_bc.npz": "1145ead35509f73083651ca51dd04d7d3fb6f8d8b3c78fce270d78048cb02a9c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__parent.json": "5621659f1aa28839fbecc3fa1f9b7da2e03c8c13642ee7e94aedb174dbd76767",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__parent.npz": "77c9bef845617e0a6f022d385367398ef61e5bafd27a3654298440575612d552",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init7_noise20265400__parent.jsonl": "4d97fef12919d1f834aab1be9eed8ca1a646b069bde97d8c846e1df59699cf5c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init7_noise20265400__parent.mp4": "c21309c8f6281ac3779884ac78d7cf0aa902fd9b68bc1e4093946007c751049a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__parent.npz": "380bd76a36c3041ff2e024d633d8b1279695c7628e48ae95e8d6d469802d3704",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__uniform_bc.json": "9f9537f64d822147bac551f465df65d47ba26792447f489c18aa104d0b271297",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__uniform_bc.npz": "d52d1c7d78804e9485b31c876a234a8482a0feefa22d5a7b34f382b4d68bd83b",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init7_noise20265400__uniform_bc.jsonl": "ce149e0113b4a7099cf1fb35ec871fd4b461c20aff98d3250c53942d5ba60137",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init7_noise20265400__uniform_bc.mp4": "55089ccd1ba08fa461c459fdc8cfc6e0f9881fe29a4bfe33e6bb700f9cce5bf7",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__uniform_bc.npz": "380bd76a36c3041ff2e024d633d8b1279695c7628e48ae95e8d6d469802d3704",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__local_bc.json": "97b5ea890ec7bc4532946c96b45412146b8dacd423843dc20863e2eeca28873a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__local_bc.npz": "35926dc5013d2844fba481496f54d267d894f23dabdaa38c95f62af24582f0c1",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init7_noise20265400__local_bc.jsonl": "b7b732d7f1bc3383ffaa80cc4c4ca94d51c1dde75378e010509a8916b1c1468a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init7_noise20265400__local_bc.mp4": "c518d321a34208b06ec288c27c4c3a86f79925c8c89e710fce05d294b5612216",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__local_bc.npz": "380bd76a36c3041ff2e024d633d8b1279695c7628e48ae95e8d6d469802d3704",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__parent.json": "784aa4b2d6c9ef8e86c8914ce399b451e66e5a26940b80fceaff3169dffbec32",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__parent.npz": "13ba7b831cf411f7341e9036034a0e2e5980ad24f903576a8fdec1f6c9111e54",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init8_noise20265400__parent.jsonl": "ee85258aab1e81810cf40c180e9cc7cf95386486c6c68bbdcaf4f731a883ed9e",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init8_noise20265400__parent.mp4": "ab55fba980b7d9688c5c802a06bcd8446e9b42761400eb7959e50c0537543a94",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__parent.npz": "e98be4a2b1580fec2cb05948a707d97b9405cfd6a615d3ec6adc6636c67eecac",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__uniform_bc.json": "b02cae9fa70c7b0c29822f65cbfdffe9164e5c9f8453a0c3ca92e17602336ed7",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__uniform_bc.npz": "48c8ab30e0f8609b1c9dcc8301ea5255fd7e9a0834bdeda2883e5c086c52366a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init8_noise20265400__uniform_bc.jsonl": "49ae25be2200e437cda4ede48ae33f1c1116fa7e51d123a667a5fb46a54932d2",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init8_noise20265400__uniform_bc.mp4": "fe4afe9f4996f7c54d3a146dbdff9683e23f426bef8759c6c42e1c1a80ac3ea2",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__uniform_bc.npz": "e98be4a2b1580fec2cb05948a707d97b9405cfd6a615d3ec6adc6636c67eecac",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__local_bc.json": "fbd328cddf2013ae6551b6e7920722194b33f898e525be783ace3a2132b3b937",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__local_bc.npz": "7259e671b2994cb22e32399c675d00c12c5765e1a9468f18e82fee5c4486b432",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task9_original_init8_noise20265400__local_bc.jsonl": "401168af0a4bd1f48511675ac9cb91dd5a47ec092181225865cbc513b508f4e5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task9_original_init8_noise20265400__local_bc.mp4": "340316e830264743a4084c7626a44fb4d0b7511c3fa8770d2d1aea67679a204c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__local_bc.npz": "e98be4a2b1580fec2cb05948a707d97b9405cfd6a615d3ec6adc6636c67eecac",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__parent.json": "02707ec4f275a457fbaa08e07ea6f811599385567dd1499b9a1963d824d1d593",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__parent.npz": "ebc5b1adbcba99aeacd04da291da135880ab5fd5db33f4d7a764d7f451853caa",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init7_noise20265400__parent.jsonl": "d1e0a2f1bdc0fd49223bc73dc2788d3b465399e92f253256ecc98ff07a7bc17d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init7_noise20265400__parent.mp4": "01340bd7d916ab6eea84ae1c0814ab5972468f8df775d4f197655b72a32dd8a6",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__parent.npz": "0cc087e745089702735cbefd2ee575982f06c0f7ca6b36c9183a8e39cfdea12f",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__uniform_bc.json": "b98fb9a2b12f1f127bfafa93364b67f80f70f6f1a4a0431418b71fc45587b4b0",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__uniform_bc.npz": "578ebffd847edc624c367fa86324c5fd6764ccb655c66cd5afc6623b09bb9c44",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init7_noise20265400__uniform_bc.jsonl": "def3a928531a8677ab1cbdf9f4e0dc69d4262c3b48da72f4a8edd8f26de9cf13",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init7_noise20265400__uniform_bc.mp4": "f14ff3e72376be2862f360662ade6ddb6dcb65b63d98899d1cf0e19c1f27c1a4",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__uniform_bc.npz": "0cc087e745089702735cbefd2ee575982f06c0f7ca6b36c9183a8e39cfdea12f",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__local_bc.json": "1955716331d946953fc21c3a90b93e4efb4f9d0124176ebf16abd1c4620121e5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__local_bc.npz": "cf1a225b156f6e057f735104f0ec6bdc92063c5f6155e65cccfa54974f84a493",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init7_noise20265400__local_bc.jsonl": "69660b3f0b050500d423295b80f25b361e986f7520ed88be203597b288c33411",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init7_noise20265400__local_bc.mp4": "64102484c4550b268f8f4a6a440cdf5189a49eef51b20990e4c9d413adc0d56d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__local_bc.npz": "0cc087e745089702735cbefd2ee575982f06c0f7ca6b36c9183a8e39cfdea12f",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__parent.json": "40e5eb50d0adfa5c0bad3ec98d65eb18fd4ae14e7c6f60020b57fd7a81a7f8de",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__parent.npz": "f86945d20c4b345f012809708d656aeeea6cad9ce864974f945f7542b236167f",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init8_noise20265400__parent.jsonl": "9223d7d6e6a7afb5345c9ba91ae797f4f6215ed08f8979d8ee94adac346d93de",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init8_noise20265400__parent.mp4": "1b29b2c794f0331eb6b40fd543c1c20bf7782f6a9d7dc1eee6a759f49bc4b299",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__parent.npz": "9828d4d28aeaf10cb443dc1d9b7780b31980b8ef9998e1e93cd2cffe28a8a04c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__uniform_bc.json": "f2c86cd98d0ccbe6b7a105d9dd1df81245fd2b42ddc05cfa2e12ca0eb6b9de29",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__uniform_bc.npz": "18e8872d07483e6398c93772bb520c4291deb5ebb75c239ae6ef5b06533de10a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init8_noise20265400__uniform_bc.jsonl": "153898b5999fa795b966170bcc74e0c028604685396c902267caffd188bd3f8f",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init8_noise20265400__uniform_bc.mp4": "63b85e41096243f9717d0b68dda2babcea41993fd4a24a8a9e9584341b04230e",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__uniform_bc.npz": "9828d4d28aeaf10cb443dc1d9b7780b31980b8ef9998e1e93cd2cffe28a8a04c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__local_bc.json": "fad97c90db0ad39087a5c58917af6210cddaefbab22a4503b9f94eeb92daf9bd",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__local_bc.npz": "0dd8ca297e75c3f43cfc5e7be0652cc4d48a5f587aa113bd162fec517e38e275",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/events/libero_90_task34_original_init8_noise20265400__local_bc.jsonl": "610dc21f6458135b622e681a1b785259fbb56493e896fdf13d57faf9e035460d",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/videos/libero_90_task34_original_init8_noise20265400__local_bc.mp4": "e242a8fd0b10425b4c49c457e2b02220ddc7c26157137f0dbdb22ff64d3355be",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__local_bc.npz": "9828d4d28aeaf10cb443dc1d9b7780b31980b8ef9998e1e93cd2cffe28a8a04c",
+    "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+    "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+    "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+    "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+    "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.bddl": "70d59f7b23002f12b9a4412a64ca747015929421df2b6bf688a2cd7dae160d54",
+    "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.pruned_init": "b6b60752f4529555abb51155b0475197560fdb94e23e2e880945576ad58ba1ed",
+    "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.bddl": "2061698211bf2a471f59303aeada739b95ebbe95bf0a5d7f40390cab7998fe6e",
+    "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.pruned_init": "2973a41354430bbd7c68569e998ada89744ec0465775957f093579bf6e18f6fd",
+    "rsi_group_meeting/v4/xvla/protocol.json": "26c3a07f18aec2d0b04da8e260f76992e404d578a8816e1dcb0912ed557b28f4",
+    "rsi_group_meeting/v30/language_schedule_dev/canonical/libero_10_task0_original_init10.json": "b0dac1e8a45ec465b78d9465f11366dbb6680863f957a6c368e4483b00acc993",
+    "rsi_group_meeting/v30/language_schedule_dev/canonical/libero_10_task0_original_init10.npz": "960136e1345afb881499c831c795b830d2b8ae0f320a1ab86068241e76be983e",
+    "rsi_group_meeting/v30/language_schedule_dev/canonical/libero_10_task7_original_init10.json": "9079a402d855a3a9b7dab5c33d67a1165cf783411ae037dd539e8e639e4e0e3d",
+    "rsi_group_meeting/v30/language_schedule_dev/canonical/libero_10_task7_original_init10.npz": "839760f4049588e24743c8c199b41d1489186d60ce8c9575ed3a768d09548d31",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task0_original_init11.json": "c37ad8ab2c4cfd79cf545c914d6b6a80a8857b352a0cde9d64bf906af26aeb84",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task0_original_init11.npz": "bf09a75c45157b9eb5a8f97b7b70faf41fd318303ee0db4506b60b9c00c4f29b",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task0_original_init12.json": "486a20f82c0b8b3ad3a8334a30f77ceb731918c1af3592e9ff6eceb2695bef4c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task0_original_init12.npz": "8673bf6c30f89566ca442a4f66f6cac2788acc7b47dcfa4cd175a5e709a4c2f5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task7_original_init11.json": "5f09b8b4f718ab2b3dcd5d4f3290fd933f9e22b87d79631dcee6e883aa4cea71",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task7_original_init11.npz": "2d66c45d1c5c2758af6757c3888264a38da921de2c749a87743d0f986fbe247c",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task7_original_init12.json": "49f6488aa63d7a8f9a4a4b785328156f4ed2ce77001ad4e5cc45abc9633e1646",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_10_task7_original_init12.npz": "917a3a8cc9e139cb2738550e85ba4011d54fc1251246cf435b825a43099a85aa",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task34_original_init7.json": "467b9c86b5528ce833b910d8db3867097bffa5ac04cc09f2e8615e1cde1ad1db",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task34_original_init7.npz": "8795d22424edaa42d9eb349da98b6dda10d6d76333e1a5b7eec7c566d7be2918",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task34_original_init8.json": "b74ceb6ff092a0f27d3f570c97f767d809ebf10c18dd5b53d60c9408c9e7b6d5",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task34_original_init8.npz": "a92c9728dfa3bb66368dde3af3cb08bbd331fa3c54cfbc225a69928a2ad2c58a",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task9_original_init7.json": "af54860328e36cdeb9063aed2ee38c820528d4531e2ef02bd834ba0683d47ba9",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task9_original_init7.npz": "f9ade9eed49657e6e34cb1ba7005186f046657c7540228c5898a96f8c33f7c26",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task9_original_init8.json": "55340a338e3f7714dc43abb3e5cfcfaadbdcb44184fbd53abda92b8a3242c92e",
+    "rsi_group_meeting/v32/repair_learning_dev/evaluation/canonical/libero_90_task9_original_init8.npz": "145b0036dbd4cc7840a662c33a30f5bda963a7acb4cb851da82c7eb324154adc",
+    "rsi_group_meeting/v36/head_uniform_parameterization/registration.json": "cca74fa2f818d6539ff8560c33b78410f1aaa52ee2eb27bd7774e6da81ef0037",
+    "rsi_group_meeting/v36/head_uniform_parameterization/analysis_frozen_before_head_outcomes.json": "fc8119bd4e67f15132f3def6b606f8ff7d00646d031404797c6369947f765419",
+    "rsi_group_meeting/v36/head_uniform_parameterization/fixed_offline_membership.json": "d86a59b7709d07d460972c5def3eed5de16a510352a4b6094177199c91b4099f",
+    "rsi_group_meeting/v36/head_uniform_parameterization/analysis/head_readout.json": "003449c36df65fd447e90802b37a73eeea320e31b980c090021caed7f3e125dc",
+    "rsi_group_meeting/v36/head_uniform_parameterization/analysis/episode_rows.csv": "5a99c31690aa66fbff3d265b84870168cce4c43fa28092bad7c0bc1a7e2c929d",
+    "rsi_group_meeting/v36/head_uniform_parameterization/offline_fit/summary.json": "c63ef26e745ca0ed70f13c1a0f1e37d0679236d5f30ae5cdfb28605bfe58df60",
+    "rsi_group_meeting/v36/head_uniform_parameterization/offline_fit/head_per_action_fit.jsonl": "df2fe9fc6d69c1a610bd16a43b0e50e5656bfb709b73dd32f91d0129d7c5da81",
+    "rsi_group_meeting/v36/head_uniform_parameterization/trained_actors.json": "2ddbf6cc8d8a8faa393d4051213a10a3f5b5063faf1490a8b2cbc543035c875e",
+    "rsi_group_meeting/v36/head_uniform_parameterization/training_receipt.json": "df791922690a0813d8e457ddf3c24523277e25da918cc05d228449e8ef3039a2",
+    "rsi_group_meeting/v36/head_uniform_parameterization/training_complete.json": "bad00d5e45da4eb35f1cdf908190914d1ae7b7e23bae6f9336b4e044e221c741",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation_complete.json": "2375cbde163393de948f48e4c18810b2f5693c5f50cf029dd478a6ae493a3e57",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation_worker_close.json": "b4a33f4d794128882223fcdb779e5cb0015a26cf18a32cc85232cf5943b34759",
+    "rsi_group_meeting/v36/root_completed_review_recovered_analysis/review.json": "ef125789a25fc99303dd84feb0cdc13499f3946d887e0684dc8c70781a740836",
+    "rsi_group_meeting/v36/root_completed_review_recovered_analysis/cost_increment.json": "422d566ba73e2ac48188bb64bbbd8e8f86138e5244b40767f732416dcfc63bff",
+    "rsi_group_meeting/review_head_completion_recovered_v36.py": "1b1e61d10a25815288a0e823f489682e5aeda46ae700a60d4f43d171fee1e790",
+    "rsi_group_meeting/v32/repair_learning_dev/cache_complete.json": "b83843c0c3038b9ad7f6564a39a53e4980cf6bbdd935dffc3fe010e3975d4903",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265300__head_uniform_bc.json": "c50efb36a0c20910047869efb9b4126378c4ce7dbaf0ca183c821e654e6c5b57",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265300__head_uniform_bc.npz": "22f58394f9f2c30ccad37ac75eb6f854cb969b68f8abccada3c8ea2020aebf44",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/Long_task0_original_init10_noise20265300__head_uniform_bc.jsonl": "77a3d93acd30b738497943b93d0eb9107feec3d5f054834e7be4a96da32813df",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/Long_task0_original_init10_noise20265300__head_uniform_bc.mp4": "56a7dc4d12b5be5d680aca47ebc3017c60f97b01c7cf33d55f26b849ec0911f4",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task0_original_init10_noise20265300__head_uniform_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265301__head_uniform_bc.json": "56bff58ed3ba6eed03a1604a792961bbb11bf46ab221ff8b8298234585d71349",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265301__head_uniform_bc.npz": "5791c3becb7870b9a946fb09d3fa45baf34d30fafd6f882ea96a845db7c85310",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/Long_task0_original_init10_noise20265301__head_uniform_bc.jsonl": "35541d38506abf3601514f4169e56b4152ae929758916b06fc3caf7412056e9a",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/Long_task0_original_init10_noise20265301__head_uniform_bc.mp4": "45640a5fc59e31cb937c092a599a9d594d380e7cad3101e77107d9c33a8b5c81",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task0_original_init10_noise20265301__head_uniform_bc.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265300__head_uniform_bc.json": "1f0af7a40e1c7a5e29cb4ad4117a91b0a6e549f30815bced30deb9df9b7dc637",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265300__head_uniform_bc.npz": "95f5e625fd7580324a99760ae7174bacfad5c3e2936691621c563715fe303c59",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/Long_task7_original_init10_noise20265300__head_uniform_bc.jsonl": "84fc10db263e253142679284a63af1edb02f39f0a357816d703af06e1f2a062d",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/Long_task7_original_init10_noise20265300__head_uniform_bc.mp4": "b41f63efb5badd33f42ae7c32a40d4c0713411abdf16acf6d7ecc9371887f3da",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task7_original_init10_noise20265300__head_uniform_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265301__head_uniform_bc.json": "0926b4f7be2731c79d59032a76b1317f1bb9b21b5c0e7a0a61da7ba56f80eeb2",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265301__head_uniform_bc.npz": "e7ce1c4a6199858efb968c132e9b89c0daaef3e9b2cde07dfc8fa2561d4dd826",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/Long_task7_original_init10_noise20265301__head_uniform_bc.jsonl": "6851b45c48b77c150ca0399b717f062e920ee130992352051ac592adbf09824f",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/Long_task7_original_init10_noise20265301__head_uniform_bc.mp4": "2002095bb003b54e6d438c02fa2d67b4256d5e356c31108335a42f84afa5d071",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task7_original_init10_noise20265301__head_uniform_bc.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init11_noise20265400__head_uniform_bc.json": "e82a5a27b5a16b4eb8a8d25c1896c30e3e8073031e714cc4eb77465511e70aac",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init11_noise20265400__head_uniform_bc.npz": "61e84bff235420fe1b7344ca0c0f8ef281bbf6eb1ccbd0fb640900507f768067",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_10_task0_original_init11_noise20265400__head_uniform_bc.jsonl": "cfb831246f1204722a6147dcf432ac9d7024a62d7b6a3f76f397f1eb8a10d829",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_10_task0_original_init11_noise20265400__head_uniform_bc.mp4": "79cb559cbfe81be160baef0865e34a2f45b6f1c5f54e24aeaf71003fb4f617f6",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__head_uniform_bc.npz": "d52d41b9bf782694c2f9949965a23297d5d5aacbb41fba066da5f60de609dfb4",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init12_noise20265400__head_uniform_bc.json": "58f7ed98e7a8227b795bc4ea661e74dabfc4241f0dd94bf70d93d157b39e9162",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init12_noise20265400__head_uniform_bc.npz": "233b6e2dc169364aa44d9f316f91078e7de6e0feabe58a8b3a0d96fe6a4ae08c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_10_task0_original_init12_noise20265400__head_uniform_bc.jsonl": "f71398404e7d37b1fa9d0d202dd5745728cc5e57cec075deccc94bc7747252f6",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_10_task0_original_init12_noise20265400__head_uniform_bc.mp4": "3f030795e88731aad7bb58ec4bc5a001b85f82fc7e93c89ab3eedf57bc108770",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__head_uniform_bc.npz": "337d58b41bc3f2509f91a6e05da96752092396b08cd34cca5be7b70776293664",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init11_noise20265400__head_uniform_bc.json": "8b118c00afc2267615260dced002b4b8ba43d423d629c58adb047d0b7aece530",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init11_noise20265400__head_uniform_bc.npz": "bdb99de7f9b2a78b82701b777fb04692b53dfd6bed9f833e153b2b6805f65c58",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_10_task7_original_init11_noise20265400__head_uniform_bc.jsonl": "d8636e9a945d8b5ac9d765245b93b76e6436f7de36af89d3361e173414efb40d",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_10_task7_original_init11_noise20265400__head_uniform_bc.mp4": "16f3a822c66cddcc8fcd48087361cab0a93b3eceeaaf7d34c35b169f599ccba8",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__head_uniform_bc.npz": "0edf5042f8ea2b32ede20097dd14d5c67551f28b32da87a2ca7f01efcfec1921",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init12_noise20265400__head_uniform_bc.json": "613514272d5ed713ca499730c1f3e6ae0db09b6cd793a186a2ac963964a11622",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init12_noise20265400__head_uniform_bc.npz": "0a3b827b49981f1b37f1a16336e5499eca24a35f65ecd05edbb838d4e836a619",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_10_task7_original_init12_noise20265400__head_uniform_bc.jsonl": "40f1d8a4c0806326a92599ad0d9ed128a83f2ea832488beb5b185ad311c07744",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_10_task7_original_init12_noise20265400__head_uniform_bc.mp4": "b065550297e6955fdc052d6fac9f34d91996079ef9b335310adb567ea3649962",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__head_uniform_bc.npz": "1145ead35509f73083651ca51dd04d7d3fb6f8d8b3c78fce270d78048cb02a9c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init7_noise20265400__head_uniform_bc.json": "5cb38adf8026c596d43a96c5b4ec720891db53c6e6871ba60397857d21023156",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init7_noise20265400__head_uniform_bc.npz": "18b5dce0557702b91601341abd3a51ac2ace64c59c97bf2a42ec07fffbf01aa1",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_90_task9_original_init7_noise20265400__head_uniform_bc.jsonl": "ca707e7d9acdfdad076e4d060652e28554c30b480a0abe37322d61caee6d6901",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_90_task9_original_init7_noise20265400__head_uniform_bc.mp4": "4dd3871713c389aaca0e1b22d38928a7d6959f248b4cdbdec58ec342be14aa1c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__head_uniform_bc.npz": "380bd76a36c3041ff2e024d633d8b1279695c7628e48ae95e8d6d469802d3704",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init8_noise20265400__head_uniform_bc.json": "2c08b19ac7a5d223e6f5c9281751920ef81515914725d81dc761927412867db9",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init8_noise20265400__head_uniform_bc.npz": "131c2751b9b0493940106473dab572a2183e8518a7abe7558db55a59ed49fd60",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_90_task9_original_init8_noise20265400__head_uniform_bc.jsonl": "b7cdce80ab0f1c1a0cd6ff7e2f90d7811e406689ee6890c66997797596864cd6",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_90_task9_original_init8_noise20265400__head_uniform_bc.mp4": "902fe7274de2dced63866b17bfcd3130b4640f58afc076f4f4dbb1e3a83a775f",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__head_uniform_bc.npz": "e98be4a2b1580fec2cb05948a707d97b9405cfd6a615d3ec6adc6636c67eecac",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init7_noise20265400__head_uniform_bc.json": "3bb4c5283de36bea9eafaceeb8c9845a89362b73095c3a8b7abdf13d394dfe5b",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init7_noise20265400__head_uniform_bc.npz": "09cc2158e5ae0f89a6c0ba8b4c6bfb4fc10fd09891ee54df18570ea6d3043206",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_90_task34_original_init7_noise20265400__head_uniform_bc.jsonl": "b0312e14a1373f6fa05b487515fa9111e018090e70854dc7a2ac0e9a66fdf8c2",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_90_task34_original_init7_noise20265400__head_uniform_bc.mp4": "8fd6a38ad1806957bb59b734aa1347359c38317b5095450c0c13ce2aa9c8b671",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__head_uniform_bc.npz": "0cc087e745089702735cbefd2ee575982f06c0f7ca6b36c9183a8e39cfdea12f",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init8_noise20265400__head_uniform_bc.json": "bca18cc293b773c5ed779ea7824020ff0db1509b16d56bcd940ead41e72bd56d",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init8_noise20265400__head_uniform_bc.npz": "bb9250441ca53d6889eefbf0491650d25438aa88de9205104114ed6706479ebd",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/events/libero_90_task34_original_init8_noise20265400__head_uniform_bc.jsonl": "8b08caad87cc611b7be866744d94a2e2d6c345f1b8fdbc917f2387b15e8cda64",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/videos/libero_90_task34_original_init8_noise20265400__head_uniform_bc.mp4": "07893283d260df296e84b2dbf562001eb0edba12a0d9a40640c9f1ecb94fd692",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__head_uniform_bc.npz": "9828d4d28aeaf10cb443dc1d9b7780b31980b8ef9998e1e93cd2cffe28a8a04c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/00.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/01.npz": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd",
+    "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/02.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/03.npz": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init10.json": "b0dac1e8a45ec465b78d9465f11366dbb6680863f957a6c368e4483b00acc993",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init10.npz": "960136e1345afb881499c831c795b830d2b8ae0f320a1ab86068241e76be983e",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init11.json": "c37ad8ab2c4cfd79cf545c914d6b6a80a8857b352a0cde9d64bf906af26aeb84",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init11.npz": "bf09a75c45157b9eb5a8f97b7b70faf41fd318303ee0db4506b60b9c00c4f29b",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init12.json": "486a20f82c0b8b3ad3a8334a30f77ceb731918c1af3592e9ff6eceb2695bef4c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init12.npz": "8673bf6c30f89566ca442a4f66f6cac2788acc7b47dcfa4cd175a5e709a4c2f5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init10.json": "9079a402d855a3a9b7dab5c33d67a1165cf783411ae037dd539e8e639e4e0e3d",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init10.npz": "839760f4049588e24743c8c199b41d1489186d60ce8c9575ed3a768d09548d31",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init11.json": "5f09b8b4f718ab2b3dcd5d4f3290fd933f9e22b87d79631dcee6e883aa4cea71",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init11.npz": "2d66c45d1c5c2758af6757c3888264a38da921de2c749a87743d0f986fbe247c",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init12.json": "49f6488aa63d7a8f9a4a4b785328156f4ed2ce77001ad4e5cc45abc9633e1646",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init12.npz": "917a3a8cc9e139cb2738550e85ba4011d54fc1251246cf435b825a43099a85aa",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init7.json": "467b9c86b5528ce833b910d8db3867097bffa5ac04cc09f2e8615e1cde1ad1db",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init7.npz": "8795d22424edaa42d9eb349da98b6dda10d6d76333e1a5b7eec7c566d7be2918",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init8.json": "b74ceb6ff092a0f27d3f570c97f767d809ebf10c18dd5b53d60c9408c9e7b6d5",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init8.npz": "a92c9728dfa3bb66368dde3af3cb08bbd331fa3c54cfbc225a69928a2ad2c58a",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init7.json": "af54860328e36cdeb9063aed2ee38c820528d4531e2ef02bd834ba0683d47ba9",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init7.npz": "f9ade9eed49657e6e34cb1ba7005186f046657c7540228c5898a96f8c33f7c26",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init8.json": "55340a338e3f7714dc43abb3e5cfcfaadbdcb44184fbd53abda92b8a3242c92e",
+    "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init8.npz": "145b0036dbd4cc7840a662c33a30f5bda963a7acb4cb851da82c7eb324154adc"
+  },
+  "copies": [
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/00.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/parity_inputs/00.npz",
+      "sha256": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/01.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/parity_inputs/01.npz",
+      "sha256": "b0a24d7ce313e41d672989b6e7e803a7e2bb6acbde19ec0de506683391a16afd"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/02.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/parity_inputs/02.npz",
+      "sha256": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/parity_inputs/03.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/parity_inputs/03.npz",
+      "sha256": "9bcdb9f8cdabea752c290f7b5cd8937e260bc9e99d867429a287987edf04f7e5"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init10.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init10.json",
+      "sha256": "b0dac1e8a45ec465b78d9465f11366dbb6680863f957a6c368e4483b00acc993"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init10.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init10.npz",
+      "sha256": "960136e1345afb881499c831c795b830d2b8ae0f320a1ab86068241e76be983e"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init11.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init11.json",
+      "sha256": "c37ad8ab2c4cfd79cf545c914d6b6a80a8857b352a0cde9d64bf906af26aeb84"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init11.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init11.npz",
+      "sha256": "bf09a75c45157b9eb5a8f97b7b70faf41fd318303ee0db4506b60b9c00c4f29b"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init12.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init12.json",
+      "sha256": "486a20f82c0b8b3ad3a8334a30f77ceb731918c1af3592e9ff6eceb2695bef4c"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task0_original_init12.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task0_original_init12.npz",
+      "sha256": "8673bf6c30f89566ca442a4f66f6cac2788acc7b47dcfa4cd175a5e709a4c2f5"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init10.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init10.json",
+      "sha256": "9079a402d855a3a9b7dab5c33d67a1165cf783411ae037dd539e8e639e4e0e3d"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init10.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init10.npz",
+      "sha256": "839760f4049588e24743c8c199b41d1489186d60ce8c9575ed3a768d09548d31"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init11.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init11.json",
+      "sha256": "5f09b8b4f718ab2b3dcd5d4f3290fd933f9e22b87d79631dcee6e883aa4cea71"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init11.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init11.npz",
+      "sha256": "2d66c45d1c5c2758af6757c3888264a38da921de2c749a87743d0f986fbe247c"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init12.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init12.json",
+      "sha256": "49f6488aa63d7a8f9a4a4b785328156f4ed2ce77001ad4e5cc45abc9633e1646"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_10_task7_original_init12.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_10_task7_original_init12.npz",
+      "sha256": "917a3a8cc9e139cb2738550e85ba4011d54fc1251246cf435b825a43099a85aa"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init7.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task34_original_init7.json",
+      "sha256": "467b9c86b5528ce833b910d8db3867097bffa5ac04cc09f2e8615e1cde1ad1db"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init7.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task34_original_init7.npz",
+      "sha256": "8795d22424edaa42d9eb349da98b6dda10d6d76333e1a5b7eec7c566d7be2918"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init8.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task34_original_init8.json",
+      "sha256": "b74ceb6ff092a0f27d3f570c97f767d809ebf10c18dd5b53d60c9408c9e7b6d5"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task34_original_init8.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task34_original_init8.npz",
+      "sha256": "a92c9728dfa3bb66368dde3af3cb08bbd331fa3c54cfbc225a69928a2ad2c58a"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init7.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task9_original_init7.json",
+      "sha256": "af54860328e36cdeb9063aed2ee38c820528d4531e2ef02bd834ba0683d47ba9"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init7.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task9_original_init7.npz",
+      "sha256": "f9ade9eed49657e6e34cb1ba7005186f046657c7540228c5898a96f8c33f7c26"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init8.json",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task9_original_init8.json",
+      "sha256": "55340a338e3f7714dc43abb3e5cfcfaadbdcb44184fbd53abda92b8a3242c92e"
+    },
+    {
+      "source": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/canonical/libero_90_task9_original_init8.npz",
+      "copy": "rsi_group_meeting/v38/full_teacher_head_bc/evaluation/canonical/libero_90_task9_original_init8.npz",
+      "sha256": "145b0036dbd4cc7840a662c33a30f5bda963a7acb4cb851da82c7eb324154adc"
+    }
+  ],
+  "fixed_training_membership_sha256": "871cc12eb66dd5b18bca7697f679704b452206c232b53d103c095b04484db829",
+  "fixed_training_sampling_sha256": "6d47187c16e64a1704955fa09e6ce440c2cf1a03a2fdd1905c11b13f82ce217c",
+  "fixed_training_coverage_sha256": "370694b6f76f2b79fe4e0876f4291f6ba95f5cbb6834c674155389f27b924b2c",
+  "fixed_offline_membership_sha256": "d86a59b7709d07d460972c5def3eed5de16a510352a4b6094177199c91b4099f",
+  "method": {
+    "module": "policy_head.share.0",
+    "input_size": 768,
+    "output_size": 256,
+    "rank": 72,
+    "alpha": 144,
+    "scale": 2.0,
+    "trainable_parameters": 73728,
+    "A_initialization": "kaiming_uniform_a=sqrt5,torchseed77210",
+    "B_initialization": "ExactF32zero",
+    "merge": "CastscaledLoRAresidualtobaseLinearoutputdtypebeforeaddition; nativeF16headactivationdtypeispreserved, LoRAparameters/gradientsF32.",
+    "source_initialization": "Sameoriginalauthorcheckpointonly. OldtemporaladapterptisreadonCPUsolelytoproveallsixBzero; neverloadedintoheadlayout. Sameauthornamedparametershashandfunctionalparity, notcross-layoutallparameterhash."
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "gradient_clip": 1.0,
+    "joint_KL_coefficient": 0.001,
+    "steps": 2000,
+    "teacher_per_step": 16,
+    "retention_per_step": 16,
+    "rng_seed": 20265450,
+    "teacher_presentations": 32000,
+    "retention_presentations": 32000,
+    "sampling": "Uniform with replacement over3163 action targets, then original128 retention; exact NumPy RNG sequence frozen before new queries.",
+    "history": "Unpadded real pre-action features[max(0,index-9):index+1], lengths1..10; all63 index0..8 targets included.",
+    "checkpoint": "Only final step2000; no intermediate candidates, early stop or best-checkpoint selection.",
+    "initialization": "Original author pi0 plus new zero-B head; never continue any step20 candidate.",
+    "data": "All3163 original teacher targets and unchanged128 retention; uniform over actions, not equal per trajectory. Full coverage and optimization budget change together."
+  },
+  "parity": [
+    {
+      "context": {
+        "task_id": 0,
+        "state_index": 10,
+        "policy_seed": 20265300,
+        "setting": {
+          "suite": "libero_10",
+          "task_id": 0,
+          "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+          "perturbation": "original",
+          "language": "put both the alphabet soup and the tomato sauce in the basket",
+          "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+          "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+          "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+          "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+          "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+          "n_saved_states": 50,
+          "max_steps": 520
+        },
+        "subcommands": [
+          "put the alphabet soup in the basket",
+          "put the tomato sauce in the basket"
+        ],
+        "context_id": "Long_task0_original_init10_noise20265300",
+        "partition": "training_context"
+      },
+      "source_initial": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265300__joint.npz",
+      "expected_action": [
+        -0.05735384672880173,
+        -0.08466591686010361,
+        -0.03578934818506241,
+        -0.0007725534960627556,
+        0.011835308745503426,
+        -0.01739739626646042,
+        -1.0000596046447754
+      ],
+      "expected_log_probability": 21.386634826660156,
+      "legacy_logp_abs_tolerance": 1e-05,
+      "observation_file": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\parity_inputs\\00.npz"
+    },
+    {
+      "context": {
+        "task_id": 0,
+        "state_index": 10,
+        "policy_seed": 20265301,
+        "setting": {
+          "suite": "libero_10",
+          "task_id": 0,
+          "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+          "perturbation": "original",
+          "language": "put both the alphabet soup and the tomato sauce in the basket",
+          "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+          "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+          "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+          "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+          "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+          "n_saved_states": 50,
+          "max_steps": 520
+        },
+        "subcommands": [
+          "put the alphabet soup in the basket",
+          "put the tomato sauce in the basket"
+        ],
+        "context_id": "Long_task0_original_init10_noise20265301",
+        "partition": "training_context"
+      },
+      "source_initial": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265301__joint.npz",
+      "expected_action": [
+        0.145817369222641,
+        -0.115898497402668,
+        0.02865508571267128,
+        -0.005035958252847195,
+        -0.01671755500137806,
+        -0.002477833069860935,
+        -0.9999163150787354
+      ],
+      "expected_log_probability": 18.25714874267578,
+      "legacy_logp_abs_tolerance": 1e-05,
+      "observation_file": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\parity_inputs\\01.npz"
+    },
+    {
+      "context": {
+        "task_id": 7,
+        "state_index": 10,
+        "policy_seed": 20265300,
+        "setting": {
+          "suite": "libero_10",
+          "task_id": 7,
+          "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+          "perturbation": "original",
+          "language": "put both the alphabet soup and the cream cheese box in the basket",
+          "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+          "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+          "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+          "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+          "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+          "n_saved_states": 50,
+          "max_steps": 520
+        },
+        "subcommands": [
+          "put the alphabet soup in the basket",
+          "put the cream cheese box in the basket"
+        ],
+        "context_id": "Long_task7_original_init10_noise20265300",
+        "partition": "training_context"
+      },
+      "source_initial": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265300__joint.npz",
+      "expected_action": [
+        -0.03543063998222351,
+        -0.06908641755580902,
+        -0.02300916239619255,
+        0.0006667375564575195,
+        0.00999404489994049,
+        -0.01270497776567936,
+        -1.0000596046447754
+      ],
+      "expected_log_probability": 22.80401039123535,
+      "legacy_logp_abs_tolerance": 1e-05,
+      "observation_file": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\parity_inputs\\02.npz"
+    },
+    {
+      "context": {
+        "task_id": 7,
+        "state_index": 10,
+        "policy_seed": 20265301,
+        "setting": {
+          "suite": "libero_10",
+          "task_id": 7,
+          "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+          "perturbation": "original",
+          "language": "put both the alphabet soup and the cream cheese box in the basket",
+          "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+          "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+          "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+          "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+          "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+          "n_saved_states": 50,
+          "max_steps": 520
+        },
+        "subcommands": [
+          "put the alphabet soup in the basket",
+          "put the cream cheese box in the basket"
+        ],
+        "context_id": "Long_task7_original_init10_noise20265301",
+        "partition": "training_context"
+      },
+      "source_initial": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265301__joint.npz",
+      "expected_action": [
+        0.1258045732975006,
+        -0.09167608618736267,
+        0.02846076339483261,
+        -0.0026789505500346422,
+        -0.012755084782838821,
+        -0.0011329236440360546,
+        -0.9999163150787354
+      ],
+      "expected_log_probability": 19.67449951171875,
+      "legacy_logp_abs_tolerance": 1e-05,
+      "observation_file": "F:\\robot\\rsi_group_meeting\\v38\\full_teacher_head_bc\\parity_inputs\\03.npz"
+    }
+  ],
+  "parity_rule": "SameNativeinstancebeforeandafterheadinstallation:4rawfirstobservations×2. Originalnativeplainpolicyprobesmustmatcholdzero-temporalπ0actionsbitwiseandlegacylogp<=1e-5. Newzero-BmustmatcheachplainfirstLinearoutputdtype/values,allGMMmeans/scales/logits,spatialfeature,action/logpexactly. Savebothsidesbeforeassert; no thresholdrelaxation.",
+  "cases": [
+    {
+      "episode": {
+        "key": "Long_task0_original_init10_noise20265300__full_teacher_head_bc",
+        "context": {
+          "task_id": 0,
+          "state_index": 10,
+          "policy_seed": 20265300,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 0,
+            "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+            "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+            "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "subcommands": [
+            "put the alphabet soup in the basket",
+            "put the tomato sauce in the basket"
+          ],
+          "context_id": "Long_task0_original_init10_noise20265300",
+          "partition": "training_context"
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265300__joint.json",
+          "initial_sensors": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265300__joint.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265300__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265300__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265300__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265300__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task0_original_init10_noise20265300__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "Long_task0_original_init10_noise20265301__full_teacher_head_bc",
+        "context": {
+          "task_id": 0,
+          "state_index": 10,
+          "policy_seed": 20265301,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 0,
+            "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+            "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+            "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "subcommands": [
+            "put the alphabet soup in the basket",
+            "put the tomato sauce in the basket"
+          ],
+          "context_id": "Long_task0_original_init10_noise20265301",
+          "partition": "training_context"
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v30/language_schedule_dev/results/Long_task0_original_init10_noise20265301__joint.json",
+          "initial_sensors": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task0_original_init10_noise20265301__joint.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265301__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task0_original_init10_noise20265301__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task0_original_init10_noise20265301__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task0_original_init10_noise20265301__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task0_original_init10_noise20265301__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "Long_task7_original_init10_noise20265300__full_teacher_head_bc",
+        "context": {
+          "task_id": 7,
+          "state_index": 10,
+          "policy_seed": 20265300,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 7,
+            "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+            "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+            "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "subcommands": [
+            "put the alphabet soup in the basket",
+            "put the cream cheese box in the basket"
+          ],
+          "context_id": "Long_task7_original_init10_noise20265300",
+          "partition": "training_context"
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265300__joint.json",
+          "initial_sensors": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265300__joint.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265300__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265300__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265300__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265300__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task7_original_init10_noise20265300__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "Long_task7_original_init10_noise20265301__full_teacher_head_bc",
+        "context": {
+          "task_id": 7,
+          "state_index": 10,
+          "policy_seed": 20265301,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 7,
+            "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+            "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+            "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "subcommands": [
+            "put the alphabet soup in the basket",
+            "put the cream cheese box in the basket"
+          ],
+          "context_id": "Long_task7_original_init10_noise20265301",
+          "partition": "training_context"
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v30/language_schedule_dev/results/Long_task7_original_init10_noise20265301__joint.json",
+          "initial_sensors": "rsi_group_meeting/v30/language_schedule_dev/initial_sensors/Long_task7_original_init10_noise20265301__joint.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265301__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v35/cross_context_diagnostic/student/results/Long_task7_original_init10_noise20265301__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v35/cross_context_diagnostic/student/initial_sensors/Long_task7_original_init10_noise20265301__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/Long_task7_original_init10_noise20265301__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/Long_task7_original_init10_noise20265301__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_10_task0_original_init11_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_10_task0_original_init11_noise20265400",
+          "partition": "test_context",
+          "state_index": 11,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 0,
+            "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+            "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+            "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init11_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init11_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task0_original_init11_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_10_task0_original_init12_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_10_task0_original_init12_noise20265400",
+          "partition": "test_context",
+          "state_index": 12,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 0,
+            "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+            "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+            "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task0_original_init12_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task0_original_init12_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task0_original_init12_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_10_task7_original_init11_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_10_task7_original_init11_noise20265400",
+          "partition": "test_context",
+          "state_index": 11,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 7,
+            "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+            "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+            "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init11_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init11_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task7_original_init11_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_10_task7_original_init12_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_10_task7_original_init12_noise20265400",
+          "partition": "test_context",
+          "state_index": 12,
+          "setting": {
+            "suite": "libero_10",
+            "task_id": 7,
+            "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+            "perturbation": "original",
+            "language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+            "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+            "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_10_task7_original_init12_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_10_task7_original_init12_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_10_task7_original_init12_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_90_task9_original_init7_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_90_task9_original_init7_noise20265400",
+          "partition": "source_regression",
+          "state_index": 7,
+          "setting": {
+            "suite": "libero_90",
+            "task_id": 9,
+            "task_name": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate",
+            "perturbation": "original",
+            "language": "put the black bowl on the plate",
+            "bddl_language": "put the black bowl on the plate",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.bddl",
+            "bddl_sha256": "70d59f7b23002f12b9a4412a64ca747015929421df2b6bf688a2cd7dae160d54",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.pruned_init",
+            "init_sha256": "b6b60752f4529555abb51155b0475197560fdb94e23e2e880945576ad58ba1ed",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init7_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init7_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task9_original_init7_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_90_task9_original_init8_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_90_task9_original_init8_noise20265400",
+          "partition": "source_regression",
+          "state_index": 8,
+          "setting": {
+            "suite": "libero_90",
+            "task_id": 9,
+            "task_name": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate",
+            "perturbation": "original",
+            "language": "put the black bowl on the plate",
+            "bddl_language": "put the black bowl on the plate",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.bddl",
+            "bddl_sha256": "70d59f7b23002f12b9a4412a64ca747015929421df2b6bf688a2cd7dae160d54",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.pruned_init",
+            "init_sha256": "b6b60752f4529555abb51155b0475197560fdb94e23e2e880945576ad58ba1ed",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task9_original_init8_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task9_original_init8_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task9_original_init8_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_90_task34_original_init7_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_90_task34_original_init7_noise20265400",
+          "partition": "source_regression",
+          "state_index": 7,
+          "setting": {
+            "suite": "libero_90",
+            "task_id": 34,
+            "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug",
+            "perturbation": "original",
+            "language": "put the yellow and white mug to the front of the white mug",
+            "bddl_language": "put the yellow and white mug to the front of the white mug",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.bddl",
+            "bddl_sha256": "2061698211bf2a471f59303aeada739b95ebbe95bf0a5d7f40390cab7998fe6e",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.pruned_init",
+            "init_sha256": "2973a41354430bbd7c68569e998ada89744ec0465775957f093579bf6e18f6fd",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init7_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init7_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task34_original_init7_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    },
+    {
+      "episode": {
+        "key": "libero_90_task34_original_init8_noise20265400__full_teacher_head_bc",
+        "context": {
+          "context_id": "libero_90_task34_original_init8_noise20265400",
+          "partition": "source_regression",
+          "state_index": 8,
+          "setting": {
+            "suite": "libero_90",
+            "task_id": 34,
+            "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug",
+            "perturbation": "original",
+            "language": "put the yellow and white mug to the front of the white mug",
+            "bddl_language": "put the yellow and white mug to the front of the white mug",
+            "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.bddl",
+            "bddl_sha256": "2061698211bf2a471f59303aeada739b95ebbe95bf0a5d7f40390cab7998fe6e",
+            "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.pruned_init",
+            "init_sha256": "2973a41354430bbd7c68569e998ada89744ec0465775957f093579bf6e18f6fd",
+            "n_saved_states": 50,
+            "max_steps": 520
+          },
+          "policy_seed": 20265400
+        },
+        "actor": "full_teacher_head_bc"
+      },
+      "references": {
+        "parent": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__parent.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__parent.npz"
+        },
+        "uniform_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__uniform_bc.npz"
+        },
+        "local_bc": {
+          "result": "rsi_group_meeting/v32/repair_learning_dev/evaluation/results/libero_90_task34_original_init8_noise20265400__local_bc.json",
+          "initial_sensors": "rsi_group_meeting/v32/repair_learning_dev/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__local_bc.npz"
+        },
+        "head20_bc": {
+          "result": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/results/libero_90_task34_original_init8_noise20265400__head_uniform_bc.json",
+          "initial_sensors": "rsi_group_meeting/v36/head_uniform_parameterization/evaluation/initial_sensors/libero_90_task34_original_init8_noise20265400__head_uniform_bc.npz"
+        }
+      }
+    }
+  ],
+  "budget": {
+    "new_training_runs": 1,
+    "new_optimizer_steps": 2000,
+    "loss_presentations": 64000,
+    "teacher_presentations": 32000,
+    "retention_presentations": 32000,
+    "training_distribution_forwards": 128000,
+    "parity_queries": 8,
+    "parity_encodings": 8,
+    "parity_action_samples": 8,
+    "parity_physical_controls": 0,
+    "parity_numpy_records": 8,
+    "new_teacher_episodes": 0,
+    "new_training_feature_encoders": 0,
+    "evaluation_episodes": 12,
+    "maximum_evaluation_controls": 10800,
+    "evaluation_settling_controls": 120,
+    "maximum_evaluation_feature_packets": 10800,
+    "additional_model_calls_for_packet_preservation": 0,
+    "offline_new_head_density_forwards": 3291,
+    "offline_old_actor_forwards": 0,
+    "offline_old_rows_reused": 13164,
+    "offline_encoders_or_samples_or_controls": 0
+  },
+  "old_fit_per_action_file": "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/execution/per_action_fit.jsonl",
+  "old_fit_summary_file": "rsi_group_meeting/v30/research_agent/offline_teacher_fit_diagnostic/execution/summary.json",
+  "old_head_fit_per_action_file": "rsi_group_meeting/v36/head_uniform_parameterization/offline_fit/head_per_action_fit.jsonl",
+  "old_head_fit_summary_file": "rsi_group_meeting/v36/head_uniform_parameterization/offline_fit/summary.json",
+  "old_head_analysis_file": "rsi_group_meeting/v36/head_uniform_parameterization/analysis/head_readout.json",
+  "old_head_review_file": "rsi_group_meeting/v36/root_completed_review_recovered_analysis/review.json",
+  "old_cross_analysis_file": "rsi_group_meeting/v35/cross_context_diagnostic/analysis/cross_context_readout.json",
+  "old_cross_review_file": "rsi_group_meeting/v35/root_completed_review/review.json",
+  "original_student_analysis_file": "rsi_group_meeting/v32/repair_learning_dev/analysis/repair_readout.json",
+  "limitations": [
+    "A stronger standard BC baseline, not a new repair method, M or RSI. No ordinaryRL run fabricated from teacher actions.",
+    "The start is author source90 pretraining; old Long parent7/90 may reflect missing target-task adaptation, not repair of a previously competent full-task system. A gain is first a supervised adaptation baseline.",
+    "Full3163 supervision and2000 steps change jointly versus old128/20; not single-factor causality or equal-budget superiority.",
+    "No frozen-sigma claim: shared head may alter means/scales/logits. Density/mean-fit is not task success or proof of a unique failure mechanism.",
+    "Retention/KL/representation constraints remain; a negative result does not reject BC or establish a theoretical supervision ceiling.",
+    "All12 contexts are previously exposed development; training-context success never independent generalization/work.",
+    "Old teacher failure/late success, U/L outcomes and local source harm remain visible; zero-B parity does not imply trained-policy parity.",
+    "Uniform action sampling weights longer teachers more; correlated frames are not independent robot trials."
+  ],
+  "stopping": "Exactly2000 steps, all12 evaluations, one frozen analysis, one3291-new-head offline pass. Preserve all attempts/prefixes/numerical failures; no auto retry or LR/epoch/rank/sigma/window search.",
+  "registration_cpu_wall_seconds": 19.482958999999937,
+  "work_demonstrated": false
+}

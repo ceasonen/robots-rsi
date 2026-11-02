@@ -1,0 +1,476 @@
+{
+  "created_utc": "2026-11-01T22:22:27.334534+00:00",
+  "decision": "pivot_to_one_bounded_diagnostic; reject_scaling_current_global_head_recipes; do_not_reject_BC_class",
+  "status": "proposal_only_no_registration_or_execution",
+  "complete_bundle_hashes_verified": true,
+  "outcomes_copied_from_frozen_analysis": {
+    "old_A": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 8,
+            "conditions": 8,
+            "success_rate": 1.0
+          },
+          "oldA_KL": {
+            "successes": 6,
+            "conditions": 8,
+            "success_rate": 0.75
+          },
+          "coverage_KL": {
+            "successes": 7,
+            "conditions": 8,
+            "success_rate": 0.875
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 8,
+            "repairs": 0,
+            "harms": 2,
+            "success_count_difference": -2,
+            "baseline_success_opportunities": 8,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.25,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 8,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 8,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.125,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 8,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 6,
+            "baseline_failure_opportunities": 2,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": 0.5,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      }
+    },
+    "source_coverage": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 4,
+            "conditions": 4,
+            "success_rate": 1.0
+          },
+          "oldA_KL": {
+            "successes": 3,
+            "conditions": 4,
+            "success_rate": 0.75
+          },
+          "coverage_KL": {
+            "successes": 4,
+            "conditions": 4,
+            "success_rate": 1.0
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 4,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.25,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 4,
+            "baseline_failure_opportunities": 0,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": null,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 3,
+            "baseline_failure_opportunities": 1,
+            "harm_rate_given_baseline_success": 0.0,
+            "repair_rate_given_baseline_failure": 1.0,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      }
+    },
+    "Long": {
+      "by520": {
+        "actors": {
+          "parent": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0
+          },
+          "oldA_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0
+          },
+          "coverage_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          }
+        }
+      },
+      "by900_same_trajectories": {
+        "actors": {
+          "parent": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0
+          },
+          "oldA_KL": {
+            "successes": 1,
+            "conditions": 4,
+            "success_rate": 0.25
+          },
+          "coverage_KL": {
+            "successes": 0,
+            "conditions": 4,
+            "success_rate": 0.0
+          }
+        },
+        "comparisons": {
+          "oldA_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 1,
+            "harms": 0,
+            "success_count_difference": 1,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.25,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_parent": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 0,
+            "success_count_difference": 0,
+            "baseline_success_opportunities": 0,
+            "baseline_failure_opportunities": 4,
+            "harm_rate_given_baseline_success": null,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "UNINFORMATIVE_FOR_HARM: baseline has zero successes; zero harms is not preservation evidence"
+          },
+          "coverage_KL_vs_oldA_KL": {
+            "conditions": 4,
+            "repairs": 0,
+            "harms": 1,
+            "success_count_difference": -1,
+            "baseline_success_opportunities": 1,
+            "baseline_failure_opportunities": 3,
+            "harm_rate_given_baseline_success": 1.0,
+            "repair_rate_given_baseline_failure": 0.0,
+            "harm_information": "finite observed comparison, not a safety guarantee"
+          }
+        }
+      }
+    }
+  },
+  "root_independent_summary": {
+    "old_A": {
+      "by520": {
+        "parent": 8,
+        "oldA_KL": 6,
+        "coverage_KL": 7
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 2
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      }
+    },
+    "source_coverage": {
+      "by520": {
+        "parent": 4,
+        "oldA_KL": 3,
+        "coverage_KL": 4
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 1
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      }
+    },
+    "Long": {
+      "by520": {
+        "parent": 0,
+        "oldA_KL": 0,
+        "coverage_KL": 0
+      },
+      "oldA_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "coverage_KL_vs_parent": {
+        "repairs": 0,
+        "harms": 0
+      },
+      "by900": {
+        "parent": 0,
+        "oldA_KL": 1,
+        "coverage_KL": 0
+      }
+    }
+  },
+  "specific_harms": {
+    "oldA_KL": [
+      "libero_90_task13_init20",
+      "libero_90_task67_init20",
+      "libero_90_task34_init21"
+    ],
+    "coverage_KL": [
+      "libero_90_task67_init20"
+    ]
+  },
+  "late_only_success": {
+    "actor": "oldA_KL",
+    "suite": "libero_10",
+    "task": 7,
+    "state_index": 21,
+    "first_complete_task_control": 720,
+    "primary520_success": false,
+    "same_trajectory900_success": true
+  },
+  "bounded_next_gate": {
+    "question": "Can fixed students complete a joint-instruction suffix after an exactly replayed successful teacher prefix, versus their own prefix in the same contexts?",
+    "prior_equivalent_test_found": false,
+    "scope": "v31 teacher wrappers and v35 full-free-run/cross-context tests are not equivalent; not an exhaustive repository claim",
+    "contexts": "all four original home_learned teacher contexts, task0/7 init10 and both original execution seeds; selection fixed before new outcomes",
+    "actors": [
+      "parent",
+      "oldA_KL",
+      "coverage_KL"
+    ],
+    "paths": [
+      "own_prefix_full_free_run",
+      "forced_exact_teacher_prefix_then_joint_student"
+    ],
+    "proposal_trials": 24,
+    "absolute_task_horizon": 900,
+    "primary_absolute_task_horizon": 520,
+    "max_task_controls_including_forced_prefix": 21600,
+    "settling_controls": 240,
+    "additional_encoder_head_sample_parity_budget": null,
+    "budget_gate": "Must freeze exact real counts and RNG/history semantics before any start. Cached features do not make physical-prefix/query work free.",
+    "cut": "first true B control after original fixed60 home, identified only from immutable historical event/controller records",
+    "preconditions": [
+      "Exact canonical and step-by-step teacher action replay, public sensor/fullstate/robot/warning equality; no direct simstate-only shortcut",
+      "Original joint-language real history1..10 reconstructed and identity-checked; spatial features are language conditioned",
+      "Actor, horizon, suffix RNG and all proposal sampling/encoder/head/control costs fixed before results",
+      "All results/prefixes/costs retained; infrastructure censoring is not task failure"
+    ],
+    "mechanism_signal_gate": "At least two same-context primary520 repairs for teacher-prefix path versus own-prefix path, no reverse harm; descriptive only, no statistical or pure-state causal claim.",
+    "stop_gate": "If both candidates fail all fixed teacher-state suffixes by520, withdraw prefix-drift-as-main-current-explanation and current route/P necessity; no automatic knob/epoch extension. Unverifiable replay/history stops before execution.",
+    "parent_control": "If parent benefits as much, this supports common-prefix/state assistance, not an additional learned student repair.",
+    "not_innovation_or_robot_gain": true
+  },
+  "innovation_verdict": "No currently identifiable learned-improver contribution; do not implement P/route now. The next gate diagnoses a missing premise, not novelty.",
+  "alternative_explanations": [
+    "Ordinary task adaptation has not stabilized; author source90 parent was only7/90 Long, not a previously reliable full-task system",
+    "Joint-language progress/history and physical state support may differ, not just optimizer capacity",
+    "GMM likelihood can improve through multiple mean/variance/logit mechanisms; sigma increase is not intrinsically wrong",
+    "New-arm retention objective and support changed versus v38; only current arm comparison holds objective fixed",
+    "Single train/evaluation seeds and correlated task conditions limit generalization and causal conclusions"
+  ],
+  "cost_increment_existing": {
+    "previous_ledger_file": "F:\\robot\\rsi_group_meeting\\v38\\root_completed_review\\cost_increment.json",
+    "previous_ledger_sha256": "ac09371d24d5d65a94d99f9d2e5d0ae7f4010db2c47eb6500f38c1f811d1adb9",
+    "new_physical_trial_rows": 48,
+    "new_task_controls": 18069,
+    "new_settling_controls": 480,
+    "new_training_runs": 2,
+    "new_optimizer_steps": 4000,
+    "new_teacher_loss_presentations": 64000,
+    "new_retention_state_presentations": 64000,
+    "new_training_distribution_forwards": 256000,
+    "new_parity_queries_encodings_samples": 16,
+    "parity_controls": 0,
+    "new_offline_head_density_forwards": 0,
+    "new_teacher_acquisition_controls": 0,
+    "original_failed_training_command_external_seconds": 3183.9016432999997,
+    "recovery_phase_external_seconds": {
+      "fixed48_evaluation": 4080.8377943000014,
+      "frozen_analysis_once": 146.23261719999937,
+      "remaining_coverage_training": 2679.8558042000004,
+      "truthful_two_arm_aggregation": 255.18721549999827
+    },
+    "recovery_owner_observed_sequence_wall_seconds": 7184.6742042000005,
+    "evaluation_query_seconds": 1638.4458377000337,
+    "packet_IO_seconds_included_in_episode_wall": 982.391729500072,
+    "episode_wall_sum_not_whole_sequence": 3993.659802499995,
+    "cumulative_scoped_completed_trial_rows": 2537,
+    "cumulative_scoped_task_controls": 1004079,
+    "cumulative_scoped_settling_controls": 25370,
+    "known_HD_and_teacher_cache_replays_separate": 21,
+    "completed_new_development_episodes": 140,
+    "completed_new_training_runs": 6,
+    "whole_project_or_human_wall_seconds": null,
+    "accounting": "Original failed training command and recovery owner are disjoint intervals. Recovery owner contains its four phase timers; query/packetIO/episode/loop times are nested and not additive. Historical acquisition/B labels/cache/interruptions remain in previous ledgers; preparation/visual CPU separate, unknown human/global wall null."
+  },
+  "closed_integrity_existing": {
+    "raw_file_hashes": 50150,
+    "queries_actions": 18069,
+    "supplementary": {
+      "reviewed_utc": "2026-11-01T22:15:31.920559+00:00",
+      "main_raw_review_sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14",
+      "all_v40_scientific_and_recovery_python_processes": [],
+      "all_actual_query_attempts": 18069,
+      "all_action_samples_completed": 18069,
+      "all_saved_sim_and_robot_states_finite_rows": {
+        "privileged_sim_states_for_replay_only": 18069,
+        "robot_states": 18069
+      },
+      "exposure_refresh_CPU_seconds_already_inside_evaluation_external_interval": 16.35753079999995,
+      "root_raw_review_external_CPU_seconds": 175.804900799998,
+      "root_raw_review_internal_CPU_seconds_already_inside_external": 174.99468980000165,
+      "CPU_observed_supplementary_seconds": 2.187537199999497,
+      "new_model_gradient_encoder_physics_calls": 0,
+      "whole_project_or_human_elapsed_seconds": null
+    }
+  },
+  "visual_review": "not performed by this agent; root independent visual check still pending at review time",
+  "input_files": [
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\state_coverage_kl_control\\analysis\\coverage_readout.json",
+      "sha256": "bef50a379701601bf1d87b556617bf717beb135a6f389140c93d9db35c70b55f",
+      "bytes": 109262,
+      "role": "complete_bundle"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\review.json",
+      "sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14",
+      "bytes": 43598,
+      "role": "complete_bundle"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\cost_increment.json",
+      "sha256": "a10496a5760025f2881cdc40e06a20729be35ddbafeecbda3202ae383b746355",
+      "bytes": 1926,
+      "role": "complete_bundle"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_completed_review\\supplementary_audit.json",
+      "sha256": "0212eeaf8a984fd11f77acc99076564a787abf4eb4fb72f2e6455d6a5997a7c3",
+      "bytes": 839,
+      "role": "complete_bundle"
+    },
+    {
+      "file": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_parallel_preparation_root_review_20261102\\candidate_counterargument\\一页强反方.txt",
+      "sha256": "2d53be14431086f30f72ce01db52273b5d26ae331070239157d476754d784d96",
+      "bytes": 3776,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\v40_parallel_novelty_constraints_20261102\\evidence_manifest.json",
+      "sha256": "66643e80948dc2f6e7eb7e1881c1003ab0be0cdce8f6581e42104118ddc4bd77",
+      "bytes": 15596,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\cache_repair_teachers_v32.py",
+      "sha256": "2f78b12775550a46ac100b6394efdd970a9c5f894689b868acbc76e57ea50232",
+      "bytes": 7915,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\repair_learning_worker_v32.py",
+      "sha256": "fff4ecaa61019fede9d8c05f78aff645025d85aa212c713f7dc808a2f7291bc4",
+      "bytes": 4886,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\cross_context_diag_v35.py",
+      "sha256": "ad6e33646356ea5c019a0cf99f3556a7da89aa9fae2e876861f5a6a87720084d",
+      "bytes": 23580,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "F:\\robot\\external\\DMPEL\\libero\\lifelong\\models\\bc_foundation_dmpel_policy.py",
+      "sha256": "61080e61fbe91a5554913971d1746e4cb03cc8725155462182220639c296bad4",
+      "bytes": 28477,
+      "role": "local_prior_or_static_feasibility"
+    },
+    {
+      "file": "F:\\robot\\scripts\\dmpel_native_backend_v6.py",
+      "sha256": "45051f16e7bdebb21097a3f73de6eccfb2c3ad9ad6d79f4f3daf18f233d2ebf1",
+      "bytes": 10480,
+      "role": "local_prior_or_static_feasibility"
+    }
+  ],
+  "new_model_calls": 0,
+  "new_gradient_calls": 0,
+  "new_encoder_calls": 0,
+  "new_simulator_controls": 0,
+  "new_scientific_scoring_calls": 0,
+  "human_or_whole_project_seconds": null,
+  "interactive_reading_elapsed_seconds": null,
+  "timing_scope": "Measured final artifact read/hash/write interval below; preceding interactive file inspection and human-equivalent reasoning are not estimated as zero.",
+  "final_artifact_read_hash_write_observed_seconds": 0.019165199999406468
+}

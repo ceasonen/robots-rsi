@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-11-01T20:52:08.939901+00:00",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "addendum_sha256": "776012ec5c66c8052265f9c6ab054cd7b9010bb59b25569bb62f826af220690c",
+  "global_outputs_sha256": {
+    "trained_actors.json": "a055d91c37a21657c323725c496d73c7780f1bac9700b394535196e6d56cceec",
+    "zero_B_functional_parity_complete.json": "63114896bd33c84d0b83f4b9146e0f67e531d2a50bf86290ac62d5fccb0b8b22",
+    "training_receipt.json": "d87c1914f484bb37ec717716f1b1564ed7b5cf72a536a456774fc03bc126b557",
+    "training_complete.json": "c616d19ba8ae569b1b20de2047b87df08945607d6196c4bbebda24186fdb5c05"
+  },
+  "canonical_copy_manifest_sha256": "5009d7fea30259e49e18848109ea566823a5ec9d88aa410cbc61c5b73a43cc21",
+  "actual_training_runs": 2,
+  "optimizer_steps": 4000,
+  "total_distribution_forwards": 256000,
+  "total_loss_presentations": 128000,
+  "total_parity_queries": 16,
+  "original_owner_remains_failed": true,
+  "within_aggregation_attempt_seconds": 254.288663299998,
+  "new_model_gradient_encoder_or_simulator_calls": 0
+}

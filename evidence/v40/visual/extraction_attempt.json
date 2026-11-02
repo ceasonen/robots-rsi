@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-11-01T22:16:06.740337+00:00",
+  "implementation_sha256": "d6a34a51dfac00643b64d970decd15ec120d5ab8a1b3d3d78944f6aa696cf4c7",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "root_raw_gate_sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14",
+  "automatic_retry": false,
+  "case_rule": "All48 registration cases in original order, six deterministic slots each. No success-based case filtering."
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "fixed48_evaluation",
+  "command": [
+    "F:\\robot\\envs\\xvla\\Scripts\\python.exe",
+    "-u",
+    "F:\\robot\\rsi_group_meeting\\v40\\code\\evaluate_state_coverage_v40.py"
+  ],
+  "return_code": 0,
+  "external_command_wall_seconds": 4080.8377943000014,
+  "definition": "Spawn through childexit; contains internal timers. Do not add contained timers."
+}

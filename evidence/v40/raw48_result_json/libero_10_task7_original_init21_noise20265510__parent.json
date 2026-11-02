@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:54:21.670549+00:00",
+  "episode": {
+    "key": "libero_10_task7_original_init21_noise20265510__parent",
+    "context": {
+      "context_id": "libero_10_task7_original_init21_noise20265510",
+      "suite": "libero_10",
+      "setting": {
+        "suite": "libero_10",
+        "task_id": 7,
+        "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+        "perturbation": "original",
+        "language": "put both the alphabet soup and the cream cheese box in the basket",
+        "bddl_language": "put both the alphabet soup and the cream cheese box in the basket",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl",
+        "bddl_sha256": "4f20311e8758ff6c5ea2d807671364ab71a50c956e53aaa35049fb9637a80ed9",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init",
+        "init_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 21,
+      "partition": "Long",
+      "policy_seed": 20265510,
+      "max_task_controls": 900
+    },
+    "actor": "parent"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "parent",
+    "actor": "parent",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "logical_parent_file_not_loaded_into_head_layout": true
+  },
+  "actor_file_sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+  "success_by520": false,
+  "success_by900": false,
+  "success_by_cap": false,
+  "executed_physics_steps": 900,
+  "attempted_physics_steps": 900,
+  "policy_queries": 900,
+  "action_samples_completed": 900,
+  "maximum_task_controls": 900,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": false,
+  "inference_seconds": 84.10976289990867,
+  "wall_seconds": 193.8918721000009,
+  "paired_observation": {
+    "model_sha256": "db6af1cbb4b3b1cd05998b1b7ef02e56360456f550b3a4edb47bbd689daba11c",
+    "full_state_sha256": "442c093687995ff7e6e051bbebf12f3cc80cd9972f065b228a6bd661147daaf2",
+    "measured_observation_sha256": "198675e2d21a02e7e2ccecf52be728b0f97a5d8f68d5c7448214357bc03ab58e",
+    "canonical_observation_sha256": "198675e2d21a02e7e2ccecf52be728b0f97a5d8f68d5c7448214357bc03ab58e",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:51:12.756622+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_10_task7_original_init21_noise20265510__parent.npz",
+  "initial_sensors_sha256": "de0172c867ea01d76e142893e9f642750b5d522992647c1adc8a48d2adbf535e",
+  "events": "events\\libero_10_task7_original_init21_noise20265510__parent.jsonl",
+  "events_sha256": "5b87ef304421ed5e42cd72788de76415f4fa5baafc2c7a85f2e483322dd0f6ab",
+  "video": "videos\\libero_10_task7_original_init21_noise20265510__parent.mp4",
+  "video_sha256": "4b7f6e2e2b2e1bcb4b1dfa10cb1a85f499271673f531536a28b57e1e6d21b5c8",
+  "trace_sha256": "313149affaff8906c97bf8266d207ac7647a52d0732e0b50f801cd142db9f4a1",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

@@ -1,0 +1,125 @@
+{
+  "reviewed_utc": "2026-11-02T06:32:59.626264+00:00",
+  "reviewer": "repair_research independent science review",
+  "document_version": "v42, not reused v41 review",
+  "final_document_identity": [
+    {
+      "file": "main.tex",
+      "sha256": "cf5fd69db66d7a621ed2069c9adab7586226ac49335ac0e831d1a4c34217826f",
+      "actual_bytes_hashed": true
+    },
+    {
+      "file": "main.pdf",
+      "sha256": "9399f2da4a56f0d391c5a6b38ef19023940e0d0e7cdcab99c08d33d5a1b2681b",
+      "actual_bytes_hashed": true
+    }
+  ],
+  "scope": "Incremental source-based scientific review of new v40 tables, objective/support provenance, namespace recovery, costs, merged decision and unregistered prefix gate; final source reread plus actual final PDF/TeX SHA. No independent PDF visual claim.",
+  "reviewed_source_sections": [
+    "9 complete v40 state-support comparison",
+    "10 new and cumulative costs, nested timing boundaries",
+    "12 closed merged verdict and unregistered24 diagnostic gate",
+    "front-page completion/scope statements and new evidence index"
+  ],
+  "blocking_findings": [],
+  "verdict": "NO_BLOCKING_SCIENTIFIC_ISSUES_FOUND_IN_REVIEWED_INCREMENT",
+  "checks": {
+    "v40_primary520": {
+      "old_A": [
+        "8/8",
+        "6/8",
+        "7/8"
+      ],
+      "source": [
+        "4/4",
+        "3/4",
+        "4/4"
+      ],
+      "Long": [
+        "0/4",
+        "0/4",
+        "0/4"
+      ],
+      "actor_order": [
+        "parent",
+        "oldA_KL",
+        "coverage_KL"
+      ]
+    },
+    "primary_vs_parent_over_oldA_source_Long": {
+      "oldA_KL": {
+        "repairs": 0,
+        "harms": 3
+      },
+      "coverage_KL": {
+        "repairs": 0,
+        "harms": 1
+      }
+    },
+    "Long900": "same trajectories only, parent0/4 oldA1/4 coverage0/4; task7 init21 oldA first complete720, not a520 success",
+    "source900": "unobserved/null, not0",
+    "A67": "both candidates fail; not uniquely attributable to coverage arm reducing17states to4",
+    "support_objective": "samepi0, teacherNLL+.001 jointKL and retention1.0 jointKL, each item/32; no retention behavior action labels; task/state support and removed oldA support confounded",
+    "training": "two arms each2000steps, total4000; total128000loss presentations/256000current+reference forwards;16real parity queries,0physics",
+    "recovery": "oldA completed, coverage0 before namespace construction failure; fresh process only completes coverage, identical scientific per-arm AST; same init digest/8parity each, no claim old cross-process torch.equal ran; original failure retained",
+    "cost_increment": {
+      "rows": 48,
+      "task_controls": 18069,
+      "settling": 480
+    },
+    "cumulative_scoped": {
+      "rows": 2537,
+      "task_controls": 1004079,
+      "settling": 25370,
+      "development": 140,
+      "training_runs": 6
+    },
+    "timing": "3183.9016433 original failed command and7184.6742042 recovery owner disjoint; recovery phase timers nested; query/packet/episode/loop/visual decode timers not added again; unknown human/projectwall null",
+    "media": "root reported48MP4 fullyCPUdecoded18117frames;12sheets288slots/192unique source positions actually viewed, not18117frames manually watched; independent image review belongs root and author, not this agent",
+    "prefix_gate": "24 development proposal only, no new registration/start;21600task+240settling proposed caps, encoder/head/sample/parity budget not frozen/null; absolute520primary/900total includes forced teacher prefix; cut first trueB after60home; replay/controller/joint-history/RNG equivalence prerequisite, no arbitrary reliable DAgger oracle assumed",
+    "joint_cache": "existing3163 teacher cache is already originaljoint language; language-conditioned spatial model does not imply old cache was wrongly A/B conditioned",
+    "claims": "reject current two recipes, not BC class/all global-heads; no multipleGPU necessity, no learnedimprover/RSI/novelty established"
+  },
+  "evidence_manifest": {
+    "file": "evidence_manifest.json",
+    "sha256": "2da62cb563586d35eb10ffa44f44f071e6d1331b35dab7601354e4410a6fdad9",
+    "declared_sources_count": 92,
+    "reviewed_metadata_count": true,
+    "all92_source_hashes_recomputed_by_this_agent": false,
+    "all92_hash_verification_attribution": "author report_review and root independent checks; not duplicated here"
+  },
+  "closed_sources_read": [
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/state_coverage_kl_control/analysis/coverage_readout.json",
+      "sha256": "bef50a379701601bf1d87b556617bf717beb135a6f389140c93d9db35c70b55f"
+    },
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/root_completed_review/cost_increment.json",
+      "sha256": "a10496a5760025f2881cdc40e06a20729be35ddbafeecbda3202ae383b746355"
+    },
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/root_completed_review/review.json",
+      "sha256": "0e01afb43201f091f3ed8969d1b6727149e8093a9dfaff2121214bcd93763d14"
+    },
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/root_completed_review/supplementary_audit.json",
+      "sha256": "0212eeaf8a984fd11f77acc99076564a787abf4eb4fb72f2e6455d6a5997a7c3"
+    },
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/root_verdict_20261102/verdict.json",
+      "sha256": "22439333cf7d1763ba35f730e31af34fb1bcc79c4216f43bbde36279bd1524f9"
+    },
+    {
+      "logical_workspace_path": "rsi_group_meeting/v40/root_visual_review/root_manual_visual_review.json",
+      "sha256": "0c40348ec80a0121de48962ed97498095cb94ed92ef98460f190abd4bb122c90"
+    }
+  ],
+  "limitations": [
+    "Not a fresh full-manuscript historical fact audit; old sections retain prior reviewed evidence",
+    "Did not render, compile or personally view21PDF pages; root and author visual reviews are separately attributed",
+    "No scientific outcome recomputation or models/gradient/physics/network/git/Fwrites"
+  ],
+  "new_model_gradient_encoder_physics_scientific_analysis_calls": 0,
+  "observed_final_receipt_hash_write_seconds": 0.009447500000533182,
+  "whole_review_human_or_project_seconds": null
+}

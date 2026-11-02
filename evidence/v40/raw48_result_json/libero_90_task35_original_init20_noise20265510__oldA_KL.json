@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:02:01.527292+00:00",
+  "episode": {
+    "key": "libero_90_task35_original_init20_noise20265510__oldA_KL",
+    "context": {
+      "context_id": "libero_90_task35_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 35,
+        "task_name": "KITCHEN_SCENE7_open_the_microwave",
+        "perturbation": "original",
+        "language": "open the microwave",
+        "bddl_language": "open the microwave",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE7_open_the_microwave.bddl",
+        "bddl_sha256": "747eae5d9e572d3d7cfac7218d5aa1b09807ba7240618ef00006dac497a6b5fd",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE7_open_the_microwave.pruned_init",
+        "init_sha256": "7dd3a8f1306f45d14c82062c6e2d5e86808267be8e455d9122498b05a2bc2ea8",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "old_A",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "oldA_KL"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "oldA_KL",
+    "actor": "oldA_KL",
+    "sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+    "all_parameter_digest": "8ff42a2bcd308bdaa148c594f488c9c980b84d6d3f76859a6d2d7f1e649c41d0",
+    "logical_parent_file_not_loaded_into_head_layout": false
+  },
+  "actor_file_sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 141,
+  "attempted_physics_steps": 141,
+  "policy_queries": 141,
+  "action_samples_completed": 141,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 10.927471399987553,
+  "wall_seconds": 30.422715799999423,
+  "paired_observation": {
+    "model_sha256": "91b091ccfe98381ad2c8628d475eb2ba5d51148043b3ffa510a04ec2d522f2a8",
+    "full_state_sha256": "d60721dde26df85d43b2f63f9cdc64ce0bbbfca721a560c32824fd44b0fbc2cb",
+    "measured_observation_sha256": "dc3f33139a04fdfadb6f8cf13bf54b368491d999e5dae5d9a86ae17c1ef6acf9",
+    "canonical_observation_sha256": "dc3f33139a04fdfadb6f8cf13bf54b368491d999e5dae5d9a86ae17c1ef6acf9",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:01:03.432036+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task35_original_init20_noise20265510__oldA_KL.npz",
+  "initial_sensors_sha256": "cf764e0802224b67998a0e43c9b74c6bec3f1c2f6cff9e8cefd73e95476d380b",
+  "events": "events\\libero_90_task35_original_init20_noise20265510__oldA_KL.jsonl",
+  "events_sha256": "507e0f6acba6f753b706c3a721af6041c2b5c8dbc7ad2645e025e7d0d6e811f6",
+  "video": "videos\\libero_90_task35_original_init20_noise20265510__oldA_KL.mp4",
+  "video_sha256": "1c39347534bd72d881c7a27479ab5fe5c8e05172768d9316f70aa98e4b9a89bd",
+  "trace_sha256": "15c8f56c6ca6dce51bc5c1d65b91e5f7c819743689fe11966a5866f0913d7c29",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

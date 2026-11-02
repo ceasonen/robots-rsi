@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:18:05.516771+00:00",
+  "episode": {
+    "key": "libero_90_task34_original_init20_noise20265510__oldA_KL",
+    "context": {
+      "context_id": "libero_90_task34_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 34,
+        "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug",
+        "perturbation": "original",
+        "language": "put the yellow and white mug to the front of the white mug",
+        "bddl_language": "put the yellow and white mug to the front of the white mug",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.bddl",
+        "bddl_sha256": "2061698211bf2a471f59303aeada739b95ebbe95bf0a5d7f40390cab7998fe6e",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.pruned_init",
+        "init_sha256": "2973a41354430bbd7c68569e998ada89744ec0465775957f093579bf6e18f6fd",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "source_coverage",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "oldA_KL"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "oldA_KL",
+    "actor": "oldA_KL",
+    "sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+    "all_parameter_digest": "8ff42a2bcd308bdaa148c594f488c9c980b84d6d3f76859a6d2d7f1e649c41d0",
+    "logical_parent_file_not_loaded_into_head_layout": false
+  },
+  "actor_file_sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 147,
+  "attempted_physics_steps": 147,
+  "policy_queries": 147,
+  "action_samples_completed": 147,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 13.339983400001074,
+  "wall_seconds": 35.8293769999982,
+  "paired_observation": {
+    "model_sha256": "68df624ea44b2268748d40f0ac0972fc777abf4254d2e435996cc87e2ef33db7",
+    "full_state_sha256": "c10db42ff9270558b916466f8282566159a684df5fc07523689ac7006224de58",
+    "measured_observation_sha256": "d9c1fd75ec605405f4489000a478013754b9f2ff15c68c0a77e61a2e84947d93",
+    "canonical_observation_sha256": "d9c1fd75ec605405f4489000a478013754b9f2ff15c68c0a77e61a2e84947d93",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:17:01.245811+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task34_original_init20_noise20265510__oldA_KL.npz",
+  "initial_sensors_sha256": "d58832903abd8314a1b71a73b1d62efc39b11b2fe54d65983c89fcfabd4985d6",
+  "events": "events\\libero_90_task34_original_init20_noise20265510__oldA_KL.jsonl",
+  "events_sha256": "4acb4fa92baa5b3b0b02a7b27f93fd811f3936f04e3e7ddc5f2ea87ce6159873",
+  "video": "videos\\libero_90_task34_original_init20_noise20265510__oldA_KL.mp4",
+  "video_sha256": "caa55c87c6e22fec40b4897fc19fa173130918c18753643aec5cda1b8053cd19",
+  "trace_sha256": "23be175ba9873880b408dd08758e24b5e4ed812247dae4739f864562cc62f82e",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

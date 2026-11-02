@@ -1,0 +1,591 @@
+{
+  "registration_source": "workspace:rsi_group_meeting/v40/state_coverage_kl_control/registration.json",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "not_redistributed": [
+    {
+      "logical_workspace_path": "envs/smolvla/Lib/site-packages/robosuite/controllers/base_controller.py",
+      "sha256": "61f99a2daeb4eb6e39bfb996d94c5a5689ef3bc771d030d070193ea56d6a8332",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "envs/smolvla/Lib/site-packages/robosuite/controllers/osc.py",
+      "sha256": "cfa62a0e719bc53ef0c701efa66f7b3e2272d4fca2150ec73c05bb145eba85cb",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "envs/smolvla/Lib/site-packages/robosuite/utils/control_utils.py",
+      "sha256": "1d0f1a063894b1e8289339e223665e14e8aec492c31e9e00f42edea8dc735f43",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/__init__.py",
+      "sha256": "614d6e4ba00125ea97827d92890bbd99d05544377feab6329bdbcaa10079e4a3",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/agem.py",
+      "sha256": "aba7f9783a1928959971e51f1625fdfad4f5073c5eef20dfeea0c896549be031",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/base.py",
+      "sha256": "aaaff5fc138c88a3f1a60f79b889918ab03e37575a6f1289d5a1ca9e9c3e76a4",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/dmpel.py",
+      "sha256": "ad43252bfe74a7d3961c57d3791c47a7f2527d41931e32b2f0e70e8cf956ac6c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/er.py",
+      "sha256": "32a342f3f9649ab09cb582c454fb05ceaf4db88b63175042e6c03409a19b21ac",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/ewc.py",
+      "sha256": "4bd99f7c687f29eaff8e36208f11d8ccb265453648e6c99b2fde9f56e86aadcd",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/iscil.py",
+      "sha256": "88b10dcb1f761cffc2b41032d5553538eaecc9a8a9eaa8d25699909223ce7f96",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/l2m.py",
+      "sha256": "e07a56025931a3def1b934754a9bf01e5c3718ae9949b7234fcaf8cab6c66411",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus.py",
+      "sha256": "7bfd332e33a400a56b648725d78bd5a5fcf4be69a2ad2866bffe29909064b526",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/configs/__init__.py",
+      "sha256": "b286f45c0e5f49eaf583fb27e797b784895fb569e6ad7641fb3859b0c7dd6deb",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/__init__.py",
+      "sha256": "8cc7e4c6e6239a54c425732ad374c7094fc479a34351b2cdd5397702e04bbb5f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/adapters.py",
+      "sha256": "7263ffc44b971efcc8579e155fe7e4869e029e51daa59a5f39fd7a44f02d430c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/augmentations.py",
+      "sha256": "464f8c4f8a3c73ef99d722d545065babb639d475ab5a5e3aaadfec8062226e37",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/collate.py",
+      "sha256": "4683a9a1171fc0c3a9c62043bd022a3611f9481f72c0bc32890f3d67a12cc216",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/__init__.py",
+      "sha256": "68fb3fc04fcd86219c1892e02a8df7b0ba65525ce5be8aeb2a0c32d5a98b47e8",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/decoders.py",
+      "sha256": "1c4a49f2c658edb7014c777aeccb25d7f76f8d73339ee476b3bb1b160f910473",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/extended.py",
+      "sha256": "b711aed97dc8f7d3b831c3b6044f6897e8aba4f5e4f34ae93802ec55d59727f9",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/image_net.py",
+      "sha256": "2e1dca700b315c3d960941d1151214bb5e1562e0f598d0e5e004084648db554c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/datasets/image_net_22k.py",
+      "sha256": "a5c6c6eff929d0f0995de5b2042553ac8dcff0b6a63e0b005c0176e60d92442c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/loaders.py",
+      "sha256": "8e6da598610836e1020fc7aee768770adc583820aa8f4eed81c21ca4f475c6ab",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/masking.py",
+      "sha256": "4939c796a76c5ad6aeaf5fd43e038ca2e5b32b348903df6bd1c7314b88ca20ce",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/samplers.py",
+      "sha256": "95f54a8685858b515590f4f2734aab4e6b9d97fc132e77e51e24a5c9621a0963",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/data/transforms.py",
+      "sha256": "cc541f3096e7df2f5c1d9fd5efd3b3c73291d189fe2cf9355d7a1417c38916a2",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/distributed/__init__.py",
+      "sha256": "1cb7a2209b77fea91429577de694f0fe2b1ef4984f4ba00d4f091f702c111049",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/__init__.py",
+      "sha256": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/knn.py",
+      "sha256": "cd388ac400bf4f447acb807052eec3062167bf2d47307b4446be4638c47e8964",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/linear.py",
+      "sha256": "7e19076ac2a2e01f5f05153819398fed86329947c94faec304e123dbc3a7c543",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/log_regression.py",
+      "sha256": "c04ec50448bbf38b1b471dc969be8bb9d5733d8dfadf5fdbd085356097595834",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/metrics.py",
+      "sha256": "aa7ecc80bad950d72c1bd1736e72de273f78f8af79718807a32e3740ec8c0b72",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/setup.py",
+      "sha256": "8c505baff96233ac33336b3d3cbac904b02d29c745f00439bc3327157cec03a1",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/eval/utils.py",
+      "sha256": "1b538bf3ae50fbb7c1127d43d779631eac9025b4539b2240ee370ff716b41626",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/fsdp/__init__.py",
+      "sha256": "b233d669cd4d60f42e2dea187b1f09a02d0d7c839f91845f3f3cb8215fe4fce2",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/__init__.py",
+      "sha256": "34312c0841b7ab254915b34b197072ade6984e28e2c718315793bdbaa34339bc",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/attention.py",
+      "sha256": "f7c67d57b0871fce8517dd50b55c02f33aa24c20493eff26971d3ec4cca0ec12",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/block.py",
+      "sha256": "a7218ff8350794efce37a010ac7d58d212e10a5b84b43a214a7b682cac656a62",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/dino_head.py",
+      "sha256": "5e1ca23565a0bcfd2ac1d79bfbe67c845e50582f4efe0bb1df2324bf4d4d98a8",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/drop_path.py",
+      "sha256": "27abed4dd9dafa14157c9c7717bdca15fedb62702066f627b314bc91c06a1d53",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/layer_scale.py",
+      "sha256": "a79f5b673c3f1fa60173b1905501ecfeb7fe77bed9b5e35881390c12baecbdfa",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/mlp.py",
+      "sha256": "9856d7274ca32428ff05dacf7adf8ad10fa81d7bb4e5d299ab57cf421dcc7620",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/patch_embed.py",
+      "sha256": "2d949ea0eff33185d829995373c963cac6eaebf77b4808478a72934d89587e42",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/layers/swiglu_ffn.py",
+      "sha256": "e1744aa9d29610c57d4fa153ec0aa545ef60da565d2aaac754d318fea0e30d7c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/logging/__init__.py",
+      "sha256": "8306fe87ec2bb9679ac8ebb6dbc73649aa7e591ddf320668564e0b948b70d4de",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/logging/helpers.py",
+      "sha256": "d5358d527dafbf2790b42437f547da4e0d55c18318b6ea3119ebe69c8db60fd1",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/__init__.py",
+      "sha256": "89baf73fa5af01f44e5c73fb29aad0a0b0664b6b097669db4804fde4d4d85c1c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/dino_clstoken_loss.py",
+      "sha256": "dd59ceb5af0fe2e77ef5169791a49016db00605e75d38c18a8824ddc40d1c83f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/ibot_patch_loss.py",
+      "sha256": "d9e17100964a27a340d952d645e8f4340e24fd6da7dea81037e6a8c0d311fa2b",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/loss/koleo_loss.py",
+      "sha256": "dbbb5d03d367cee5a94662c0b701f7ef4b9bdf27b48aea96225b1e4e8f3188c7",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/models/__init__.py",
+      "sha256": "ec928764b88a998c0fa2cd79e90564854c3f4c9d97f006bec7d8ee940fe07fe9",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/models/vision_transformer.py",
+      "sha256": "0ca8983d9d94e8a0dd0dac5c56488eee15178e0c9918a3d348c84acb44b89d5e",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/__init__.py",
+      "sha256": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/knn.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/linear.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/eval/log_regression.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/submit.py",
+      "sha256": "e78ed779883e0a05981f636b109dffeb0808e943ef70519594566da69b01cc0b",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/run/train/train.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/__init__.py",
+      "sha256": "25880f0b3b9905e8ed87bab4b8c172fc45f1a70ebddc1b14f326beea210a3477",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/ssl_meta_arch.py",
+      "sha256": "9b6bc39c1afde05061e22eedbff93499f937dec9f04b9585686fba484881ba40",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/train/train.py",
+      "sha256": "f73e5cf71ba8be7bb20b7ce97c7e6c46e12343d5c9fbb80426e483018b0b2524",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/__init__.py",
+      "sha256": "9b703c1e0053753a565a8ff09418b823b4aaa0953a1b661fd8403ebe6b8e3a8f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/cluster.py",
+      "sha256": "b663b0e03c538a24fc5f5681eb9de617a04157edbd7912ceee997eb47da24036",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/config.py",
+      "sha256": "7e542ebd9630f6ea05fd925b1de9e007271058a04fab4592723f0b74d25553a3",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/dtype.py",
+      "sha256": "52bb3af14fca5317b0985601c605d2370a74df0c45c7a0a345a10648cb73926f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/param_groups.py",
+      "sha256": "2df3c3136b5ee53c159db5c640d3571f6791baf95061f27e8ef1a7a6bb9b7a30",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/dinov2/utils/utils.py",
+      "sha256": "66aebebba15923e3b78a36bd9b8127e52efde7e8cc139cbfa3e51deb80510fe4",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/hubconf.py",
+      "sha256": "c43eb62ac4c67e79dd88baaca6b44cb58ac21b36e00e260f7048de81bb098b06",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/dinov2/setup.py",
+      "sha256": "0d1ba658d341ef5d4dca931af4b86773cb3ef6341a3cc9d195d37f795913ea20",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/args_utils.py",
+      "sha256": "b8b357a49de1ed9cdd986d0a3d3c27a38edc93b8143c8681418d8bdfa1766554",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/conf_utils.py",
+      "sha256": "ccf3dc1eb6e678f19d4f14d7ce537af095266d7928927db9b4c689ed32d1e8a7",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/model_utils.py",
+      "sha256": "27f40dd512fb59bef545e55560d4d49342f6efd30be6bd6234e7af8c17635474",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/resnet_model_utils.py",
+      "sha256": "0f65a4da6f5fddebdf5dd52e9af3b912021b985e6c87dcb08673357c66a9c139",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/models/torch_utils.py",
+      "sha256": "b7bb65400e12ae657a6201c558f46da1f9f49ce0388e8c04db00ce0797ad387c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/dinov2_repr.py",
+      "sha256": "d30ca73397a8676423698db6b6b6cab4a37d6b1b9f7d4a1cc7e5a874f3abd540",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/save_dinov2_repr.py",
+      "sha256": "4c4327ce78444a8e3aca434dd05cf9553a87316946e99fe31742a4c67f6d2531",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/multisensory_repr/train_multimodal.py",
+      "sha256": "6fdc7bea7dfb2a42fc784299a3263a1eec9023065a381da3175fb9a7aabf7a3b",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/agglomoration_script_dinov2.py",
+      "sha256": "e983db089a464c2a560bf991c406d9f473a40f98efed09d86daeb5e80b3eeb8d",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/generate_joint_representation.py",
+      "sha256": "413e9366ac665fadfc340f5e78f49a7afb837235d182f24f830de121be1a312f",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/hierarchical_agglomoration.py",
+      "sha256": "6e193818b363fe65ee10d8d730b32eb0bdf3f64ed713b2a32c4a7a8545a40f65",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/hierarchical_agglomoration_utils.py",
+      "sha256": "f284af46e1145ae662577f3e489556dd0d86f72f15f032f431a366003490f530",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/skill_discovery/init_path.py",
+      "sha256": "5395117d76688acf73ecc084c4431b60a227877fe622ac68db17c7bcf7537c62",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/lotus_skill_learning/utils.py",
+      "sha256": "157f85f302066390f76832afb2ea554eb8a3880352550d13e616860a800f344c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/multitask.py",
+      "sha256": "3c3dd8f712b4fbbfb8c065ee2dcc56fe8c3d45cc5fd7b91806831994e0db89ef",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/packnet.py",
+      "sha256": "c7f33fd0806a9ef7c4c644d399323ed9ba60b6d3f6c21bba333d8d3f401d2540",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/single_task.py",
+      "sha256": "e3d7956eeeddda7aab6b3ecb10c5603fb3d2f78cbc1dc8739a7fdcb455c06a63",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/algos/tail.py",
+      "sha256": "86207b2b01bc956e40ba233a67d546111861a505366ada02ca18eee252e7a6fb",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/datasets.py",
+      "sha256": "1985bbdf570ac443196b802a3cfb4598d278e19c46a2f714aa472f2dcc4b2ba3",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/init_path.py",
+      "sha256": "112e7800e0c6d933efe40d26ddba671e4baa8e584d6989d5c1c2c423e3260e29",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/main.py",
+      "sha256": "9fa17533c97690674b07c5bd4eb8ff75d9cebb0ddade7edb6dc8a210559b9c2e",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/metric.py",
+      "sha256": "a77ec7bae6902a11dce1a3b11e9b00cd2f13badb9a81745d756848da62d74b3c",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/__init__.py",
+      "sha256": "b3ead6e9d9cb75a42354da5777b85e25e08c0ca0e41eddc7cd92aceb0beee484",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/base_policy.py",
+      "sha256": "2ebbab842d313c2101dad412791bf296c44289ad95fbb7c9b6a1b782c1d6a04d",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_foundation_dmpel_policy.py",
+      "sha256": "61080e61fbe91a5554913971d1746e4cb03cc8725155462182220639c296bad4",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_foundation_iscil_policy.py",
+      "sha256": "dc1420e17fce1d2790343895c09f84330a8a83eb29534a948efd85e32d5c2395",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_foundation_l2m_policy.py",
+      "sha256": "7d5798aa41f0355267b6f33d63c2173e5f945a4504bf7fdfb130cc6f715d2204",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_foundation_tail_policy.py",
+      "sha256": "974036f9773ad03a0cf4a945da0afd21ca535d9a153fa197df6ecc3d877afc48",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_hierarchical_policy/bc_transformer_skill_policy.py",
+      "sha256": "7d8b21262206877e7503a6ac21c07e87d70edf66f7ffac6d899104702186b6de",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_hierarchical_policy/cvae_policy.py",
+      "sha256": "2e28370c9416e22c2992911ee1d4bf9019febfe7f6d41354b7d191f660e0b874",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_rnn_policy.py",
+      "sha256": "2b90728c93daf7b7486532d44b0b3b8f228c6f00816c8f22bbb1509528cd17f6",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_transformer_policy.py",
+      "sha256": "498ed8da2f5db58282ffa7baf308e1b497af21a313fa3bed8ea62374f82579ff",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/bc_vilt_policy.py",
+      "sha256": "769a3cf4358cd989d00672bff35a9da99a9def8c238219b2ff57423780c2a111",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/modules/adapter.py",
+      "sha256": "c1d5de922e6850b56e04e953d9323a6771d3f49b4e5f42ffa8c8087f960e2293",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/modules/data_augmentation.py",
+      "sha256": "6bc51173776688e28b4dc0b5377793ef35ad6b8ce615df3b9737bef452662d3d",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/modules/language_modules.py",
+      "sha256": "3f081b79a6e0e74743dc590de7bdd5e2af27fc7103bbb69b4ece466ed793fbbd",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/modules/rgb_modules.py",
+      "sha256": "f455f71166e1ab60d794de3a63d9b4e65fb9c0a8bd2ded6d7db103660af60d47",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/modules/transformer_modules.py",
+      "sha256": "759bb9edfb043a191b99948ebaddad8ec8ea2febd15724e459f9e83d1c6d8194",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/models/policy_head.py",
+      "sha256": "a1e2ca999d68fec9cc76645f782b1369830bdd85dbc4a921164fae33b33a9648",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "external/DMPEL/libero/lifelong/utils.py",
+      "sha256": "61495ddfc456b9e9e05013f4389cc6292e296c1915c776715bf4b705c296cce7",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "data/models/dmpel_author_source90/asset_receipt.json",
+      "sha256": "d4b820bbdbce6e40af5074ed0a481153f6c4270c0deef53935203066623611a5",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "data/models/dmpel_clip_config_tokenizer/asset_receipt.json",
+      "sha256": "23a8acecb634b1a67f786dda32b4f48645c9f9fcf0c5781d28885a7ef1684f09",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    },
+    {
+      "logical_workspace_path": "data/models/dmpel_author_source90/config.json",
+      "sha256": "d2d7381c55c99806c70c2119b7bfb258eab318a49f6b0866fc714c4b35fa28ea",
+      "reason": "external, environment or model/dependency asset; bytes not redistributed"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "reviewed_utc": "2026-11-01T22:20:19.709668+00:00",
+  "reviewer": "root: actually inspected all12 native contact sheets via view_image",
+  "all_48_cases_in_registration_order_viewed": true,
+  "all12_sheet_hashes": [
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block01.png",
+      "sha256": "49a2b9a8b19ba4d875fc935989ab21863eb2a9e5df6adf8a41e65ec5e0c7ab6c"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block02.png",
+      "sha256": "2e8ede13578c16b888e0d2dc8c984304535241e397987d1bab5879cdc614b358"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block03.png",
+      "sha256": "2f8ff9a356d26ba29c3dbbfa4ad838591f397117964021f383e2bac4bec64ab0"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block04.png",
+      "sha256": "be1c3fcaeae9912ad09bff4649c563a7e838ba4567451b2a7b88046caccf2e8e"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block05.png",
+      "sha256": "e40adb2d3cacbd0f60c6ddcf257f896869a3e269b1567a6e6494d61a05d376bb"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block06.png",
+      "sha256": "71038503d1bfed431d7acf56a1f77b840ba3e096184a19e90ab07cc9c1d0e7bb"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block07.png",
+      "sha256": "f808833b0c8060f9f9f0aa7c9875e6a794945a534565b3fe7f6b5c25e1caa28f"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block08.png",
+      "sha256": "ee87127adb4609e3cc0302021d4bcd76caad18729ab81ad82cc959f27c60a90b"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block09.png",
+      "sha256": "23b752b30ea5e12467bddc06838e5dd59fcef6dfa87bd698b789df2c22a0906c"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block10.png",
+      "sha256": "4d5511500b40980918d31d1c9beeb417be1cc8c2e007d3ba53acab357b70b33c"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block11.png",
+      "sha256": "8a9e630787d0a7cac9b65b42ab9eb878c09577c61eb9d1bd5cbbaa8eb72b9d89"
+    },
+    {
+      "file": "F:\\robot\\rsi_group_meeting\\v40\\root_visual_review\\all48_block12.png",
+      "sha256": "3a317e8e20ade88378a0ef48292cb10b4ee67988b39286b1d538e64bb60bc385"
+    }
+  ],
+  "frame_slots_actually_viewed": 288,
+  "unique_source_positions_in_slots": 192,
+  "all48_streams_CPU_decoded": true,
+  "full_video_frames_decoded": 18117,
+  "all_video_frames_actually_visually_watched": false,
+  "frame_index_semantics": "v40 initial video frame0; post-action t is video index t. t0 PNG is exact saved sensor RGB, not asserted pixel-equal to compressed MP4.",
+  "source_manifest_sha256": "8af725b7161c2dbc4c90eb9d84693a0b637ee2fc1f6d1c599d0ce70d892897b1",
+  "observations": [
+    "Sheets01-03: task8/29/35 complete native goals align with recorded end frames; task13 oldA misses nativepredicate while parent/coverage complete.",
+    "Sheets04-06: task48/86/87 successes visually consistent; both task67 heads fail with gripper/camera-view drift and no goal hit by520, unlike parent. These images do not isolate the cause.",
+    "Sheets07-09: source9 all succeed; source34/init21 oldA remains nativepredicate0 while parent/coverage complete; source34/init20 all succeed.",
+    "Sheets10-12: Long remains incomplete at520 for all actors; partial nativepredicate vectors differ between parent and heads, without implying ordered skills. OldA task7/init21 completes at720 with native11; all other Long cap results remain incomplete.",
+    "Initial paired views and source cameras are recognizable; later occlusion/large object views reflect recorded robot motion rather than blank/corrupt extraction. Captions stay outside original frame cells."
+  ],
+  "limitations": [
+    "Six deterministic slots percase, with explicit repeats; this is not continuous human viewing of all frames.",
+    "Native predicate order is not skill order; no unique causal failure explanation inferred from selected frames.",
+    "No robot benefit, new samples, model queries, GPU rendering, or manual retiming created by review."
+  ],
+  "CPU_visual_preparation_pipeline_wall_seconds": 34.08712100000048,
+  "decode_wall_sum_already_inside_preparation_wall": 16.685513000000356,
+  "human_or_full_project_wall_seconds": null,
+  "new_model_gradient_encoder_simulator_or_GPU_render_calls": 0
+}

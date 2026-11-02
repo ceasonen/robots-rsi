@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:04:45.435483+00:00",
+  "episode": {
+    "key": "libero_90_task67_original_init20_noise20265510__parent",
+    "context": {
+      "context_id": "libero_90_task67_original_init20_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 67,
+        "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate",
+        "perturbation": "original",
+        "language": "put the white mug on the left plate",
+        "bddl_language": "put the white mug on the left plate",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate.bddl",
+        "bddl_sha256": "d343d903c72b8bb2b368eaa4a452a13e42158978b2fbc0e42c047be22101f552",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate.pruned_init",
+        "init_sha256": "03c0f7be3461ee38735945d6de8aa890bf9f9d01e2005494c31431058a2e4a82",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 20,
+      "partition": "old_A",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "parent"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "parent",
+    "actor": "parent",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "logical_parent_file_not_loaded_into_head_layout": true
+  },
+  "actor_file_sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 103,
+  "attempted_physics_steps": 103,
+  "policy_queries": 103,
+  "action_samples_completed": 103,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 8.64546220000193,
+  "wall_seconds": 28.672449000001507,
+  "paired_observation": {
+    "model_sha256": "bad91ba3a8e639691041ef2325eb5380caafd190b30830691c5284687629c3fb",
+    "full_state_sha256": "17c82f42d687714ac003b03f1e8402affd3f272471f279a9a02c5c6fe4c25210",
+    "measured_observation_sha256": "758fde4d5013dbf557d3db71f3d818f138bc08b7235a1d256129b13b7e567f33",
+    "canonical_observation_sha256": "758fde4d5013dbf557d3db71f3d818f138bc08b7235a1d256129b13b7e567f33",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:04:24.458714+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task67_original_init20_noise20265510__parent.npz",
+  "initial_sensors_sha256": "86a957c5420cb890c77b5a3877556f23be79e5fd368ef18df6e66ee4ef98d5e8",
+  "events": "events\\libero_90_task67_original_init20_noise20265510__parent.jsonl",
+  "events_sha256": "fe2e327ed19fa6e9261ebb04b4320620262dc49eaa02c2c0afc64e3de4ef6d5c",
+  "video": "videos\\libero_90_task67_original_init20_noise20265510__parent.mp4",
+  "video_sha256": "7603ca20ef1a20d8e6bac113689b0fb5d48ded81c63bae29c31b415d34966de6",
+  "trace_sha256": "dbc3e62ca3d6944c6d3a60e0380eaecf858625a5f72e58f669394fa97ef23fa1",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

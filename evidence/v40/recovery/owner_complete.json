@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-11-01T22:02:48.772502+00:00",
+  "all_four_recovery_commands_returned_zero": true,
+  "return_codes": {
+    "remaining_coverage_training": 0,
+    "truthful_two_arm_aggregation": 0,
+    "fixed48_evaluation": 0,
+    "frozen_analysis_once": 0
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "addendum_sha256": "776012ec5c66c8052265f9c6ab054cd7b9010bb59b25569bb62f826af220690c",
+  "original_owner_still_failed": true,
+  "original_failed_training_command_external_seconds": 3183.9016432999997,
+  "recovery_owner_observed_sequence_wall_seconds": 7184.6742042000005,
+  "definition": "Recovery owner internal interval includes its four phase command timers, excludes original failed attempt and audit gap. Original plus recovery timers are disjoint; none is wholeproject time.",
+  "whole_project_wall_seconds": null,
+  "independent_raw_cost_visual_review_still_required": true,
+  "work_demonstrated": false
+}

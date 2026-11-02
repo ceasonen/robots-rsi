@@ -1,0 +1,11 @@
+{
+  "closed": true,
+  "frozen_sha256": "3b7f20de90dd219b712d069d1a84c56b8d9111f99526ce2963efd7ae72a0d27e",
+  "actor": "coverage_KL",
+  "all_parameter_digest": "7281b8b74fb89e2b0c880396fe75f0003914596f9a4d9579bc9113a4c50aa769",
+  "actor_parameter_digests": {
+    "parent": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "oldA_KL": "8ff42a2bcd308bdaa148c594f488c9c980b84d6d3f76859a6d2d7f1e649c41d0",
+    "coverage_KL": "7281b8b74fb89e2b0c880396fe75f0003914596f9a4d9579bc9113a4c50aa769"
+  }
+}

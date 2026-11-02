@@ -1,0 +1,7 @@
+{
+  "completed_utc": "2026-11-01T22:00:13.201803+00:00",
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "physical_episodes": 48,
+  "settling_controls": 480,
+  "within_attempt_elapsed_seconds": 4075.4211854999994
+}

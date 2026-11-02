@@ -1,0 +1,250 @@
+{
+  "written_utc": "2026-11-02T06:31:05.212349+00:00",
+  "status": "author_checks_complete_root_final_acceptance_pending",
+  "pdf": {
+    "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\机器人自改进研究_完整对照结果与方向判断_20261102.pdf",
+    "sha256": "9399f2da4a56f0d391c5a6b38ef19023940e0d0e7cdcab99c08d33d5a1b2681b",
+    "pages": 21
+  },
+  "build_pdf": {
+    "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\main.pdf",
+    "sha256": "9399f2da4a56f0d391c5a6b38ef19023940e0d0e7cdcab99c08d33d5a1b2681b"
+  },
+  "editable_build_dependencies": [
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\main.tex",
+      "sha256": "cf5fd69db66d7a621ed2069c9adab7586226ac49335ac0e831d1a4c34217826f"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\refs.bib",
+      "sha256": "4f60486da8b6694c0a5aaec991e5f33bc6d0a52881e7d133a90d32372f529c33"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\images\\parent_Long90.pdf",
+      "sha256": "27ecf1f0e1679887c9f932bb9163f48770e0610603e058f7e42cff6e5c84e92f"
+    }
+  ],
+  "evidence_sources_count": 92,
+  "all_evidence_source_sha256_reverified": true,
+  "text_checks": {
+    "required_values_and_boundaries": [
+      "2537",
+      "1004079",
+      "25370",
+      "18069",
+      "256000",
+      "50150",
+      "18117",
+      "3162",
+      "3163",
+      "720",
+      "未注册",
+      "24",
+      "null",
+      "3183.9016433",
+      "7184.6742042",
+      "175.8049008"
+    ],
+    "passed": true
+  },
+  "layout_compile": {
+    "missing_glyphs": 0,
+    "overfull_boxes": 0,
+    "undefined_references_or_citations": 0,
+    "latex_warnings": 0,
+    "all_fonts_embedded": true
+  },
+  "author_visual_review": {
+    "actually_viewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "method": "Each final 100-dpi PNG individually opened with view_image; full page read for layout, figures, table numbers, captions and paragraph flow. No contact sheet substituted.",
+    "blocking_findings": [],
+    "human_elapsed_seconds": null
+  },
+  "root_visual_review": {
+    "reported_all_21_pages_viewed": true,
+    "receipt_external_to_author": true,
+    "final_acceptance_pending": true
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-01.png",
+      "sha256": "ce5afe213b9ee7c36b9abf71a9a244ca97bdfcd50f50b98d128e8e868ecb762d"
+    },
+    {
+      "page": 2,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-02.png",
+      "sha256": "ce8e94e8280d1341586773ee782482179c2155f543e9afd6f3d5a2805abeb823"
+    },
+    {
+      "page": 3,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-03.png",
+      "sha256": "2274ba63b91dd5afc98da867269e905d33511e4be2982dca15b17fee93dd1857"
+    },
+    {
+      "page": 4,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-04.png",
+      "sha256": "faacedddda4bc480418277b22bf9971dbc7a3fb5a942e4a877e7045e5f92b732"
+    },
+    {
+      "page": 5,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-05.png",
+      "sha256": "ac804c2f881245e5bf48e004a0a6a2115d12c7ae3469ece30037c99c8e325c74"
+    },
+    {
+      "page": 6,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-06.png",
+      "sha256": "16239838fc1171f9d2a59f0c301dd5b09d23ecd139075b80284cdff4ae58ca38"
+    },
+    {
+      "page": 7,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-07.png",
+      "sha256": "46cb67c9830b3a4db7ea6045a46899bfbaedea0c79470db3851e0ace3c9df757"
+    },
+    {
+      "page": 8,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-08.png",
+      "sha256": "c76b31bf9f20454701d44db4989b3a91d01f97b8535992a073bf8c09b539f621"
+    },
+    {
+      "page": 9,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-09.png",
+      "sha256": "b37199a1a33f8b17edbbfe76d7de1863be89aefdc11096d0e8eb3aa93441983f"
+    },
+    {
+      "page": 10,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-10.png",
+      "sha256": "3e226d3bce92241da952c48e14059cd9ef0816050d5832cda5dbaae20e297686"
+    },
+    {
+      "page": 11,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-11.png",
+      "sha256": "f33e6554491de996928075c0df193f7f5011292c0305bfb91e5d153c6e4bffaf"
+    },
+    {
+      "page": 12,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-12.png",
+      "sha256": "261c30a251b5a8a63212d0aef5ac6dc32c74ba807c4535617a40cd9c0086cedd"
+    },
+    {
+      "page": 13,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-13.png",
+      "sha256": "725115eb83fed1007a61c301b86f3b664f593e1dc13eb5164fd9a113a7890b17"
+    },
+    {
+      "page": 14,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-14.png",
+      "sha256": "cc3f08ef6c507ef5041f60c7854d3d3ec631c26df7279b7450b10a63b652fa1f"
+    },
+    {
+      "page": 15,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-15.png",
+      "sha256": "86686c9cad312b254ffd5c08bbf57a86cafaa5d6227a5816b6f13bc49099d932"
+    },
+    {
+      "page": 16,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-16.png",
+      "sha256": "b0c86522423ffbb69ff1944d787985ee00a47789de768d9d315c3636c03a428d"
+    },
+    {
+      "page": 17,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-17.png",
+      "sha256": "67ad6ef050d4b3abbfe5a937536e965e718647ea60b21a23f1c9c1c25fb64e4b"
+    },
+    {
+      "page": 18,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-18.png",
+      "sha256": "dce01bb86387cb01412d80fc220d01f133dc270f3d29759583db6dbdc2edd41c"
+    },
+    {
+      "page": 19,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-19.png",
+      "sha256": "22d5c5bf78a2c7c825c674a642befb49c543a4af7f0283195bbad94782316f95"
+    },
+    {
+      "page": 20,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-20.png",
+      "sha256": "31c8337c955319c0cbf0910a5a13857e80935b817ab9a1706048db275126e7f8"
+    },
+    {
+      "page": 21,
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\page-21.png",
+      "sha256": "bef990a3e2308afced9ccddea39bd83b22d020b1f21fc75c0e410d3be9ffffad"
+    }
+  ],
+  "scope": {
+    "new_model_or_simulation_calls": 0,
+    "new_scientific_analysis_runs": 0,
+    "F_drive_writes": 0,
+    "network_calls": 0,
+    "v40_complete_results": true,
+    "proposed_24_trials_registered_or_executed": false,
+    "full_project_wall_seconds": null
+  },
+  "cpu_final_check_seconds": 0.7432449999978417,
+  "scientific_peer_receipt": {
+    "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\independent_scientific_review_receipt.json",
+    "sha256": "82dcb53711a717614cff6353362e90e851a7fa5466c35bc43856be062bfe53d7",
+    "scope": "Independent incremental scientific text review; not PDF visual or full raw-data reanalysis"
+  },
+  "supporting_files": [
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\BUILD.txt",
+      "sha256": "38d17b2ed340d4688d74c619813ad714ce7c0b95e1f315328932f3ca2847aa21"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\README.txt",
+      "sha256": "67dfebe3b7cd3f9d08dabcbb043e8a1bd661a5daeb20d811ce371ec0e2956246"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\build.log",
+      "sha256": "f048b846caa3534864e65688c1f1077eda74244a0c10389f83c1c9f020ecfbbc"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\main.log",
+      "sha256": "53a9dddad741ca446c6ee69bec464208dbbf9278662ca194975b06bc67df5726"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\fonts.txt",
+      "sha256": "ed6e3218ab87319f154583881298aab49f476b230d51a662902dfe91ebe201b7"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\evidence_manifest.json",
+      "sha256": "2da62cb563586d35eb10ffa44f44f071e6d1331b35dab7601354e4410a6fdad9"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\evidence_snapshot.json",
+      "sha256": "34060dbd38a6528fb5c65b21993aa5c683ba024efcb85e9e057dca63637c82cd"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\qa\\extracted_pages.json",
+      "sha256": "5a214444fc8071724a78b48e4eb08d89a5ca10970aabc548438afdf3cc0f5480"
+    },
+    {
+      "path": "C:\\Users\\c312_\\.codex\\visualizations\\2026\\10\\14\\01a138a6-cbdb-7480-aa7c-23a07b672490\\teacher_report_v42_20261102\\check_document.py",
+      "sha256": "067e64ecf0f7dc95fb673c5f5f514672ddf6ee988c46c4c45d7f4eef4f41fe09"
+    }
+  ]
+}

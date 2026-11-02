@@ -1,0 +1,18 @@
+[
+  {
+    "file": "registration.json",
+    "sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e"
+  },
+  {
+    "file": "fixed_training_membership.json",
+    "sha256": "a38fa738a801593c77537b2df134cc4a652b726f41944e12859a69e393ebbe86"
+  },
+  {
+    "file": "fixed_training_sampling.json",
+    "sha256": "895c5716b62c9da56e805e7897f86be4d1ad2725da9e0aeb20586fb7edd04728"
+  },
+  {
+    "file": "fixed_training_coverage.json",
+    "sha256": "0f5ef9925f35080625f0c47dfd256161091c9f231247a32b3aa5b7aa388f80f3"
+  }
+]

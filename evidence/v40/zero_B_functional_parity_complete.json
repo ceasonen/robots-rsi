@@ -1,0 +1,40 @@
+{
+  "completed_utc": "2026-11-01T20:51:50.638605+00:00",
+  "arms": {
+    "oldA_KL": {
+      "completed_utc": "2026-11-01T18:41:53.276690+00:00",
+      "arm": "oldA_KL",
+      "total_queries": 8,
+      "total_encoders": 8,
+      "total_action_samples": 8,
+      "physical_controls": 0,
+      "plain_queries": 4,
+      "head_zero_queries": 4,
+      "all_GMM_action_feature_first_linear_values_and_dtype_exact": true,
+      "initial_all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+      "author_named_parameter_sha256": "3b7f20de90dd219b712d069d1a84c56b8d9111f99526ce2963efd7ae72a0d27e",
+      "legacy_logp_abs_tolerance": 1e-05
+    },
+    "coverage_KL": {
+      "completed_utc": "2026-11-01T20:03:57.692351+00:00",
+      "arm": "coverage_KL",
+      "total_queries": 8,
+      "total_encoders": 8,
+      "total_action_samples": 8,
+      "physical_controls": 0,
+      "plain_queries": 4,
+      "head_zero_queries": 4,
+      "all_GMM_action_feature_first_linear_values_and_dtype_exact": true,
+      "initial_all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+      "author_named_parameter_sha256": "3b7f20de90dd219b712d069d1a84c56b8d9111f99526ce2963efd7ae72a0d27e",
+      "legacy_logp_abs_tolerance": 1e-05
+    }
+  },
+  "total_queries": 16,
+  "total_encoders": 16,
+  "total_action_samples": 16,
+  "physical_controls": 0,
+  "initial_all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+  "both_initial_layout_parameter_digests_equal": true,
+  "cross_arm_identity_evidence": "Same fixed named layout/shape/dtype and all-parameter byte digests, plus each arm actual4plain+4zeroB functional parity. Original same-process cross-arm torch.equal was not executed across these two attempts."
+}

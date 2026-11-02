@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-11-01T16:20:57.065765+00:00",
+  "registration_sha256": "b5b7403e5dd7654cb73f221815043ce46145bf37b4e4f17bb08fd252066525d1",
+  "new_training_runs": 1,
+  "optimizer_steps": 2000,
+  "loss_presentations": 64000,
+  "training_distribution_forwards": 128000,
+  "parity_queries": 8,
+  "within_attempt_elapsed_seconds": 5475.4599339,
+  "precise_end_to_end_command_wall_seconds": null
+}

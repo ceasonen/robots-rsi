@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:15:36.047774+00:00",
+  "episode": {
+    "key": "libero_90_task9_original_init21_noise20265510__parent",
+    "context": {
+      "context_id": "libero_90_task9_original_init21_noise20265510",
+      "suite": "libero_90",
+      "setting": {
+        "suite": "libero_90",
+        "task_id": 9,
+        "task_name": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate",
+        "perturbation": "original",
+        "language": "put the black bowl on the plate",
+        "bddl_language": "put the black bowl on the plate",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.bddl",
+        "bddl_sha256": "70d59f7b23002f12b9a4412a64ca747015929421df2b6bf688a2cd7dae160d54",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_90/KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.pruned_init",
+        "init_sha256": "b6b60752f4529555abb51155b0475197560fdb94e23e2e880945576ad58ba1ed",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 21,
+      "partition": "source_coverage",
+      "policy_seed": 20265510,
+      "max_task_controls": 520
+    },
+    "actor": "parent"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "parent",
+    "actor": "parent",
+    "sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+    "all_parameter_digest": "90fd44d0931e906df4c3b16207e118a5678730c273440446855ca433f5c990c9",
+    "logical_parent_file_not_loaded_into_head_layout": true
+  },
+  "actor_file_sha256": "a1a6eb73d78bf6491cba6ee5aa7ffa5d69cc74def709858b096c64daf17eaadb",
+  "success_by520": true,
+  "success_by900": null,
+  "success_by_cap": true,
+  "executed_physics_steps": 218,
+  "attempted_physics_steps": 218,
+  "policy_queries": 218,
+  "action_samples_completed": 218,
+  "maximum_task_controls": 520,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": true,
+  "inference_seconds": 17.77518559999953,
+  "wall_seconds": 45.33076559999972,
+  "paired_observation": {
+    "model_sha256": "87ed7539c9042392fe2b330834e07ae17f768d3498c5945c291cd905a2da35fc",
+    "full_state_sha256": "bef6730ae712d8cca241d2db4e73b4cc3753c6a7c7ea8ec3d161b9f29013b46f",
+    "measured_observation_sha256": "9e21a9c954ebdd2f27570a0c0c49942969434b3f94c8142caf2449581ca943bb",
+    "canonical_observation_sha256": "9e21a9c954ebdd2f27570a0c0c49942969434b3f94c8142caf2449581ca943bb",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:14:54.822147+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_90_task9_original_init21_noise20265510__parent.npz",
+  "initial_sensors_sha256": "7096098556e813f63d7b3cea84a5d3b708460639a1039ca2961f9ee0c7bab49c",
+  "events": "events\\libero_90_task9_original_init21_noise20265510__parent.jsonl",
+  "events_sha256": "0a50bd415d2aaf78754144eb04aa80a2ee5726be6a9a4bf162409176a12de59a",
+  "video": "videos\\libero_90_task9_original_init21_noise20265510__parent.mp4",
+  "video_sha256": "cac5b719694c11b7d5cbc879eb79d919e881ff83e9c92d9111337872a79cdbca",
+  "trace_sha256": "39125f9b82334b73875dc0fe54a7c182dab1acadfc265654b8de02ac6ee2ce4d",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}

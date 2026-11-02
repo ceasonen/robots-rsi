@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-11-01T21:38:24.177669+00:00",
+  "episode": {
+    "key": "libero_10_task0_original_init21_noise20265510__oldA_KL",
+    "context": {
+      "context_id": "libero_10_task0_original_init21_noise20265510",
+      "suite": "libero_10",
+      "setting": {
+        "suite": "libero_10",
+        "task_id": 0,
+        "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+        "perturbation": "original",
+        "language": "put both the alphabet soup and the tomato sauce in the basket",
+        "bddl_language": "put both the alphabet soup and the tomato sauce in the basket",
+        "bddl": "external/LIBERO-PRO/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+        "bddl_sha256": "ff5550f078d5d12ef3453029087e06522937563cc0aaad67300f2251d1477e74",
+        "init_file": "external/LIBERO-PRO/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+        "init_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+        "n_saved_states": 50,
+        "max_steps": 520
+      },
+      "state_index": 21,
+      "partition": "Long",
+      "policy_seed": 20265510,
+      "max_task_controls": 900
+    },
+    "actor": "oldA_KL"
+  },
+  "registration_sha256": "e72b0d1d33729ff4c846aa20541efeddbbd2fc78bd9e2b4696b2c4601004940e",
+  "actor_load_receipt": {
+    "loaded": "oldA_KL",
+    "actor": "oldA_KL",
+    "sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+    "all_parameter_digest": "8ff42a2bcd308bdaa148c594f488c9c980b84d6d3f76859a6d2d7f1e649c41d0",
+    "logical_parent_file_not_loaded_into_head_layout": false
+  },
+  "actor_file_sha256": "953958bb31a0c8b5cde73978426c95ccaa88ec20ac06a40ac867885fc4b33111",
+  "success_by520": false,
+  "success_by900": false,
+  "success_by_cap": false,
+  "executed_physics_steps": 900,
+  "attempted_physics_steps": 900,
+  "policy_queries": 900,
+  "action_samples_completed": 900,
+  "maximum_task_controls": 900,
+  "settling_controls": 10,
+  "instability_terminated": false,
+  "physics_instability_terminated": false,
+  "policy_numerical_failure": false,
+  "terminal_query_failure": null,
+  "terminal_done": false,
+  "inference_seconds": 88.219472400011,
+  "wall_seconds": 206.5841158000003,
+  "paired_observation": {
+    "model_sha256": "ff5664c54fc8bbd68356cd4443d979a37a3f8582e0c999e8ed6710b681ae34c2",
+    "full_state_sha256": "0e8d2e79e1ce56eca209639b0ba125e95492fe39b44fd95fa38ba6446bafed23",
+    "measured_observation_sha256": "71913fcdc9c37e0539c0ba4140664348d86b0dc9c5ce5ed5b41e9375752de9c2",
+    "canonical_observation_sha256": "71913fcdc9c37e0539c0ba4140664348d86b0dc9c5ce5ed5b41e9375752de9c2",
+    "render_rounding_difference": {
+      "maximum_channel_difference": 0,
+      "changed_channels": 0
+    },
+    "snapshot_created_utc": "2026-11-01T21:31:54.186086+00:00"
+  },
+  "initial_sensors": "initial_sensors\\libero_10_task0_original_init21_noise20265510__oldA_KL.npz",
+  "initial_sensors_sha256": "a1bfa70c33488807b5cd708b0b984a8c9dfddf170f20d7c18c9f8e7cb3644895",
+  "events": "events\\libero_10_task0_original_init21_noise20265510__oldA_KL.jsonl",
+  "events_sha256": "a6e332a75f5dded13b3c9a7988b5b2d20a0f51b70493bc0ea496a7e6b38dfaa2",
+  "video": "videos\\libero_10_task0_original_init21_noise20265510__oldA_KL.mp4",
+  "video_sha256": "8cbbe2f6e8c17a476818d2cfa7007a14a8d050cd59462d7aa3a9de23073f0aee",
+  "trace_sha256": "4919190c08e0b6974143dd0a7636ab13ee3a8adc260eed5d354ed863ffa8a7bc",
+  "physical_episodes": 1,
+  "privileged_controller": false,
+  "original_joint_instruction": true,
+  "initial_all_goals_true": false
+}
