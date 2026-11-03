@@ -49,3 +49,38 @@ cd research/continuous_control
 python -m unittest discover -s tests -v
 python -m teachlab.run --seeds 103,107,109,113,127 --budget 200 --eval 60 --out results/pd43_exploratory.json
 ```
+
+
+## Additional frozen-parent gate diagnostic (exploratory)
+
+Run `python -m teachlab.gated_probe` from `research/continuous_control`.
+This uses different experiment seeds (503, 509, 521, 523, 541),
+60 source and 60 target trials per seed per task, and 200 teacher
+transitions per trained BC student. The parent remains unchanged by the
+gate, and all phase decisions use observable features (not the shock value).
+The gate is defined as phase=1 and velocity norm > threshold (0.35 or 0.60).
+No feedback learning or automatic gate optimization takes place.
+
+| Task / target success out of 300 | Parent | Global aggressive BC | Aggressive gate 0.60 | Damped gate 0.60 |
+|---|---:|---:|---:|---:|
+| Impulsive | 300 | 133 | 209 | 295 |
+| Sluggish | 108 | 30 | 51 | 56 |
+| Precision | 300 | 107 | 165 | 253 |
+
+| Task / source success out of 300 | Parent | Global aggressive BC | Aggressive gate 0.60 | Damped gate 0.60 |
+|---|---:|---:|---:|---:|
+| Impulsive | 300 | 233 | 291 | 300 |
+| Sluggish | 42 | 74 | 32 | 0 |
+| Precision | 300 | 226 | 241 | 272 |
+
+**Negative outcome:** Restricting intervention can reduce destructive
+global replacement, but NONE of the tested gates consistently exceeds
+the parent in target success. The sluggish target parent has 108/300
+versus 51/300 for the aggressive gate 0.60; the impulsive target parent
+has 300/300 versus 209/300 for that gate. This is not a demonstrated
+repair algorithm, nor a learned gate. Gate thresholds are preliminary
+ablation choices. The task families are small synthetic abstractions.
+
+The next evidence gate requires failure-conditioned **local** correction
+data and a parent that demonstrably succeeds on a nonzero fraction of
+source conditions, before any new self-improvement claim.
