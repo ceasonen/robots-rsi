@@ -11,9 +11,12 @@ TASKS={
  "precision":Task("precision",1.1,.16,.65,1.8)}
 class PointMassEnv:
  def __init__(self,task): self.task=task; self.reset(0)
- def reset(self,seed):
+ def reset(self,seed,split="target"):
+  if split not in ("source","target"): raise ValueError(split)
   rng=np.random.default_rng(int(seed)); self.p=rng.uniform(-.12,.12,2); self.v=np.zeros(2)
-  self.phase=0; self.t=0; self.shock=rng.uniform(-self.task.impulse,self.task.impulse,2)
+  self.phase=0; self.t=0
+  sampled=rng.uniform(-self.task.impulse,self.task.impulse,2)
+  self.shock=sampled if split=="target" else np.zeros(2)
   self.done=False; self.success=False; return self.obs()
  @property
  def goal(self): return np.array([.55,-.25]) if self.phase==0 else np.array([-.55,.35])

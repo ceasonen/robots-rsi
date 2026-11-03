@@ -12,15 +12,15 @@ def collect_exact(task,style,seeds,budget):
    obs,_,done,info=env.step(a);steps+=1
   successes+=int(info["success"]);episodes+=1;si+=1
  return rows,{"steps":steps,"episodes":episodes,"teacher_successes":successes}
-def eval_policy(task,policy,seeds):
+def eval_policy(task,policy,seeds,split="target"):
  env=PointMassEnv(task);out=[]
  for seed in seeds:
-  obs=env.reset(int(seed));done=False
+  obs=env.reset(int(seed),split=split);done=False
   while not done: obs,_,done,info=env.step(policy(obs))
   out.append(int(info["success"]))
  return np.asarray(out,dtype=int)
 def run_one(task_name,seed,budget=200,n_eval=30):
- task=TASKS[task_name];rng=np.random.default_rng(seed);seeds=rng.integers(1,2**31-1,size=1000)
+ task=TASKS[task_name];rng=np.random.default_rng(seed);seeds=rng.choice(np.arange(1,2**20),size=1000,replace=False)
  train=seeds[:300];val=seeds[300:300+n_eval];src=seeds[300+n_eval:300+2*n_eval];tgt=seeds[300+2*n_eval:300+3*n_eval]
  pilot_budget=budget//5;rem=budget-pilot_budget;pilot={};receipts={};scores={}
  for style in STYLES:
@@ -32,7 +32,7 @@ def run_one(task_name,seed,budget=200,n_eval=30):
   return pilot["aggressive"]+pilot["damped"]+more,receipt
  selected_rows,selected_receipt=adaptive(selected);inverted_rows,inverted_receipt=adaptive(opposite)
  fixed={s:collect_exact(task,s,train,budget) for s in STYLES}
- pp=parent(PointMassEnv(task));ps=eval_policy(task,pp,src);pt=eval_policy(task,pp,tgt)
+ pp=parent(PointMassEnv(task));ps=eval_policy(task,pp,src,split="source");pt=eval_policy(task,pp,tgt,split="target")
  arms={"fixed_aggressive":fixed["aggressive"][0],"fixed_damped":fixed["damped"][0],
        "feedback_selected":selected_rows,"feedback_inverted":inverted_rows}
  results={}
